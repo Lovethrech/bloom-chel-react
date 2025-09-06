@@ -36,16 +36,16 @@ const NavHeader=()=>{
         <div className="nav-header-main-ctn">
             <NavLogo/>
             <div className="nav-header-main-ctn-nav">
-            {NavHeaderDetails.map(NavHeaderDetail=>{
-                <NavLink
-                    className="desktop-nav"
-                    key={NavHeaderDetail.id}
-                    name={NavHeaderDetail.name}
-                    link={NavHeaderDetail.link}
-                    color={navLinkColor}
-                    fontSize={navLinkFontSize}
-                />
-            })}
+                {NavHeaderDetails.map(NavHeaderDetail=>{
+                    <NavLink
+                        key={NavHeaderDetail.id}
+                        className="desktop-nav"
+                        name={NavHeaderDetail.name}
+                        link={NavHeaderDetail.link}
+                        color={navLinkColor}
+                        fontSize={navLinkFontSize}
+                    />
+                })}
             </div>
         </div>
     )
