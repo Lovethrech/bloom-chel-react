@@ -1,6 +1,6 @@
 const HomeHeroMainDescParagraphMainCtn=()=>{
     return(
-        <div className="home-hero">
+        <div className="home-hero-main-desc-paragraph-main-ctn-main-ctn">
         
         </div>
     )
