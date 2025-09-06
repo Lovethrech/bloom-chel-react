@@ -1,4 +1,4 @@
-const HomeHeroMainDesc=()=>{
+const HomeHero=()=>{
     return(
         <div className="home-hero">
         
@@ -6,4 +6,4 @@ const HomeHeroMainDesc=()=>{
     )
 };
 
-export default HomeHeroMainDesc;
+export default HomeHero;
