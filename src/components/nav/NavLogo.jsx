@@ -4,7 +4,7 @@ const NavLogo=()=>{
     return(
         <div className="nav-logo-img-ctn">
             <Link to="/">
-                <img src=".../assets/bloom.svg" alt="Bloom Desktop Logo" className="nav-logo-desktop-logo"/>
+                <img src="/bloom.svg" alt="Bloom Desktop Logo" className="nav-logo-desktop-logo"/>
                 <img src="@/assets/bloom-M-colored.svg" alt="Bloom Mobile Logo" className="nav-logo-mobile-logo"/>
             </Link>
         </div>
