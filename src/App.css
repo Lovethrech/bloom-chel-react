@@ -1,0 +1,12 @@
+img{
+  width:100%;
+  height: 100%;
+  list-style: none;
+  outline: none;
+}
+.link{
+  text-decoration: none;
+}
+.link:hover{
+  cursor:pointer;
+}
