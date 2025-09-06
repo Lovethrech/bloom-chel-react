@@ -1,5 +1,6 @@
 import NavLogo from "./NavLogo";
 import NavLink from "./NavLink";
+import TryFreeBtn from "../TryFreeBtn";
 
 const NavHeaderDetails=[
     {
@@ -37,15 +38,20 @@ const NavHeader=()=>{
             <NavLogo/>
             <div className="nav-header-main-ctn-nav">
                 {NavHeaderDetails.map(NavHeaderDetail=>{
-                    <NavLink
-                        key={NavHeaderDetail.id}
-                        className="desktop-nav"
-                        name={NavHeaderDetail.name}
-                        link={NavHeaderDetail.link}
-                        color={navLinkColor}
-                        fontSize={navLinkFontSize}
-                    />
+                    return(
+                        <NavLink
+                            key={NavHeaderDetail.id}
+                            className="desktop-nav"
+                            name={NavHeaderDetail.name}
+                            link={NavHeaderDetail.link}
+                            color={navLinkColor}
+                            fontSize={navLinkFontSize}
+                        />
+                    )
                 })}
+                <TryFreeBtn
+                    
+                />
             </div>
         </div>
     )
