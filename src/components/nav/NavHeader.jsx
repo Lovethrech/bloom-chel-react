@@ -35,7 +35,6 @@ const tryFreeBtnColor="#A54dea";
 const displayNavMenuMobileListCtn="none";
 const navMenuActiveIcon="<i class='ri-menu-4-line'></i>";
 
-console.log(displayNavMenuMobileListCtn);
 const navMenuDisplayMenu=()=>{
     if (navMenuActiveIcon==="<i class='ri-menu-4-line'></i>"){
         navMenuActiveIcon.value="<i class='ri-close-large-line'></i>";

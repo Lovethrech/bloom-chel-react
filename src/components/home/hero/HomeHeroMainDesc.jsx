@@ -1,7 +1,9 @@
 const HomeHeroMainDesc=()=>{
     return(
-        <div className="home-hero">
-        
+        <div className="home-hero-main-desc-main-ctn">
+            <div className="home-hero-main-desc-main-ctn">
+                
+            </div>
         </div>
     )
 };
