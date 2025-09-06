@@ -108,3 +108,23 @@ img{
         display: none;
     }
 }
+
+/* HOME-HERO-MAIN-DESC-PARAGRAPH-ARROW AND PRICING-HERO-MAIN-DESC-ARROW */
+.home-hero-main-desc-paragraph-arrow-main-ctn i{
+    margin: auto 0;
+}
+.home-hero-main-desc-paragraph-arrow-main-ctn i{
+    font-size: 5vw;
+    color:#fff;
+}
+.home-hero-main-desc-paragraph-arrow-main-ctn:hover{
+    cursor:pointer;
+    will-change: transform;
+    transform: scaleY(1.3);
+    transition: all .8s ease;
+}
+@media screen and (max-width:850px) {
+    .home-hero-main-desc-paragraph-arrow-main-ctn{
+        display:none;
+    }
+}
