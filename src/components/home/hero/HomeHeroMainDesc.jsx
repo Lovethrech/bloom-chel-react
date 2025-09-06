@@ -1,3 +1,4 @@
+import HomeHeroMainDescParagraphMainCtn from "./HomeHeroMainDescParagraphMainCtn";
 import HomeHeroMainDescTitleText from "./HomeHeroMainDescTitleText";
 
 const HomeHeroMainDesc=()=>{
@@ -5,6 +6,7 @@ const HomeHeroMainDesc=()=>{
         <div className="home-hero-main-desc-main-ctn">
             <div className="home-hero-main-desc-main-ctn">
                 <HomeHeroMainDescTitleText/>
+                <HomeHeroMainDescParagraphMainCtn/>
             </div>
         </div>
     )
