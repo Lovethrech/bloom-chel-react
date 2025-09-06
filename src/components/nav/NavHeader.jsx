@@ -1,4 +1,3 @@
-// import { useState } from "react";
 import NavLogo from "./NavLogo";
 import NavLink from "./NavLink";
 
@@ -25,7 +24,7 @@ const NavHeaderDetails=[
     }
 ]
 
-const navLinkColor=useState("#ffffff");
+const navLinkColor="#ffffff";
 // const navLinkFontSize=useState("1.8vh");
 // const tryFreeBtnBgColor=useState("#ffffff");
 // const tryFreeBtnColor=useState("#A54dea");
@@ -41,7 +40,7 @@ const NavHeader=()=>{
                     className="desktop-nav"
                     name="NavHeaderDetails[0].name"
                     link="NavHeaderDetails[0].link"
-                    color=
+                    color="navLinkColor"
                 />
             </div>
         </div>
