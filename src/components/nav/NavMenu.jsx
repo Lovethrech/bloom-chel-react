@@ -1,6 +1,6 @@
-const NavMenu=()=>{
+const NavMenu=({navMenuActiveIcon})=>{
     return(
-        <div className="nav-menu-img-ctn"></div>
+        <div className="nav-menu-img-ctn" dangerouslySetInnerHTML={{ __html: navMenuActiveIcon }}></div>
     )
 };
 
