@@ -25,7 +25,7 @@ const NavHeaderDetails=[
 ]
 
 const navLinkColor="#ffffff";
-// const navLinkFontSize=useState("1.8vh");
+const navLinkFontSize="1.8vh";
 // const tryFreeBtnBgColor=useState("#ffffff");
 // const tryFreeBtnColor=useState("#A54dea");
 // const displayNavMenuMobileListCtn=useState("none");
@@ -43,6 +43,7 @@ const NavHeader=()=>{
                     name={NavHeaderDetail.name}
                     link={NavHeaderDetail.link}
                     color={navLinkColor}
+                    fontSize={navLinkFontSize}
                 />
             })}
             </div>
