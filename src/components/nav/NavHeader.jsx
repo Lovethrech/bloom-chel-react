@@ -36,12 +36,13 @@ const NavHeader=()=>{
         <div className="nav-header-main-ctn">
             <NavLogo/>
             <div className="nav-header-main-ctn-nav">
-                <NavLink
-                    className="desktop-nav"
-                    name="NavHeaderDetails[0].name"
-                    link="NavHeaderDetails[0].link"
-                    color="navLinkColor"
-                />
+            {NavHeaderDetails.map()}
+                // <NavLink
+                //     className="desktop-nav"
+                //     name=`${NavHeaderDetails[0].name}`
+                //     link="NavHeaderDetails[0].link"
+                //     color="navLinkColor"
+                // />
             </div>
         </div>
     )
