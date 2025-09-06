@@ -35,3 +35,13 @@
 .nav-link-main-ctn-desc{
     text-transform: capitalize;
 }
+
+
+/* NAVMENU  */
+.nav-menu-img-ctn{
+    margin:auto 0;
+}
+.nav-menu-img-ctn{
+    font-size: 26px;
+    color: #594edc;
+}
