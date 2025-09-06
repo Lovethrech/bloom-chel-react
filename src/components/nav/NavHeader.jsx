@@ -48,7 +48,7 @@ const navMenuDisplayMenu=()=>{
 
 const NavHeader=()=>{
     return(
-        <div className="nav-header-main-ctn">
+        <header className="nav-header-main-ctn">
             <NavLogo/>
             <div className="nav-header-main-ctn-nav">
                 {NavHeaderDetails.map(NavHeaderDetail=>{
@@ -78,7 +78,7 @@ const NavHeader=()=>{
                     style={{display:displayNavMenuMobileListCtn}}
                 />
             </div>
-        </div>
+        </header>
     )
 };
 
