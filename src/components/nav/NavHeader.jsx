@@ -1,14 +1,36 @@
-import { useState } from "react";
-import NavHeaderDetails from "src/data/nav-header-details.json";
+// import { useState } from "react";
 import NavLogo from "./NavLogo";
 import NavLink from "./NavLink";
 
-const navLinkColor=useState("#ffffff");
-const navLinkFontSize=useState("1.8vh");
-const tryFreeBtnBgColor=useState("#ffffff");
-const tryFreeBtnColor=useState("#A54dea");
-const displayNavMenuMobileListCtn=useState("none");
-const navMenuActiveIcon=useState("<i class='ri-menu-4-line'></i>");
+const NavHeaderDetails=[
+    {
+        "id":"1",
+        "name":"about",
+        "link":"/"
+    },
+    {
+        "id":"2",
+        "name":"blog",
+        "link":"/"
+    },
+    {
+        "id":"3",
+        "name":"contact",
+        "link":"/"
+    },
+    {
+        "id":"4",
+        "name":"pricing",
+        "link":"/pricing"
+    }
+]
+
+// const navLinkColor=useState("#ffffff");
+// const navLinkFontSize=useState("1.8vh");
+// const tryFreeBtnBgColor=useState("#ffffff");
+// const tryFreeBtnColor=useState("#A54dea");
+// const displayNavMenuMobileListCtn=useState("none");
+// const navMenuActiveIcon=useState("<i class='ri-menu-4-line'></i>");
 
 const NavHeader=()=>{
     return(
@@ -17,7 +39,7 @@ const NavHeader=()=>{
             <div className="nav-header-main-ctn-nav">
                 <NavLink
                     className="desktop-nav"
-
+                    name="NavHeaderDetails[0].name"
                 />
             </div>
         </div>
