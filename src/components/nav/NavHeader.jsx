@@ -1,3 +1,4 @@
+import './Nav.css';
 import NavLogo from "./NavLogo";
 import NavLink from "./NavLink";
 import TryFreeBtn from "../TryFreeBtn";
