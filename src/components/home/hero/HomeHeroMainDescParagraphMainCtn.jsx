@@ -1,3 +1,5 @@
+import '../Home.css';
+
 import TryFreeBtn from '../../TryFreeBtn';
 import HomeHeroMainDescParagraph from './HomeHeroMainDescParagraph.jsx';
 import HomeHeroMainParagraphArrow from './HomeHeroMainParagraphArrow.jsx';
