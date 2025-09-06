@@ -1,5 +1,6 @@
 import HomeHeroMainDescParagraphMainCtn from "./HomeHeroMainDescParagraphMainCtn";
 import HomeHeroMainDescTitleText from "./HomeHeroMainDescTitleText";
+import '../Home.css'
 
 const HomeHeroMainDesc=()=>{
     return(
