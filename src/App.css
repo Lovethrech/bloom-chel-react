@@ -11,6 +11,36 @@ img{
   cursor:pointer;
 }
 
+/* TRY-FOR-FREE BUTTON  */
+.try-for-free-btn{  
+  font-size: 1.8vh;
+  padding: 0.9vh 2.3vh;
+  border-radius: 2vh;
+  border: 0;
+}
+.try-for-free-btn:hover{
+  cursor:pointer;
+  transform: scaleX(0.96);
+  transition: all .4s;
+}
+@media screen and (max-width:950px) and  (min-height: 1000px) {
+  .try-for-free-btn{
+    font-size: 1.2vh;
+    padding:1vh 3vw;
+    border-radius: 8vw;
+  }
+}
+@media screen and (max-width:900px) {
+  .try-for-free-btn{
+    font-size: 12px;
+    padding:10px 20px;
+    border-radius: 20px;
+  }
+}
+
+
+
+
 /* HOME-HERO AND PRICING-HERO  */
 .home-hero-main-ctn, .pricing-hero-main-ctn{
   width:100%;
