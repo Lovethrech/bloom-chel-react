@@ -25,7 +25,7 @@ const NavHeaderDetails=[
     }
 ]
 
-// const navLinkColor=useState("#ffffff");
+const navLinkColor=useState("#ffffff");
 // const navLinkFontSize=useState("1.8vh");
 // const tryFreeBtnBgColor=useState("#ffffff");
 // const tryFreeBtnColor=useState("#A54dea");
@@ -40,6 +40,8 @@ const NavHeader=()=>{
                 <NavLink
                     className="desktop-nav"
                     name="NavHeaderDetails[0].name"
+                    link="NavHeaderDetails[0].link"
+                    color=
                 />
             </div>
         </div>
