@@ -1,4 +1,4 @@
-const NavHeader=()=>{
+const TryFreeBtn=()=>{
     return(
         <div className="nav-header-main-ctn">
             
@@ -6,4 +6,4 @@ const NavHeader=()=>{
     )
 };
 
-export default NavHeader;
+export default TryFreeBtn;
