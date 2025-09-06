@@ -71,7 +71,7 @@ const NavHeader=()=>{
                 <NavMenu
                     className="mobile-nav-menu"
                     navMenuActiveIcon={navMenuActiveIcon}
-                    onClick={this.navMenuDisplayMenu}
+                    onClick={navMenuDisplayMenu}
                 />
                 <NavMenuMobileListCtn
                     className="mobile-nav" 
