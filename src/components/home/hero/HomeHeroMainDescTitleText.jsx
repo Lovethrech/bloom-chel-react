@@ -5,7 +5,7 @@ const HomeHeroMainDescTitleText=()=>{
                 Your medical <br/> practice made easy
             </h1>
         </div>
-    )
+    );
 };
 
 export default HomeHeroMainDescTitleText;
