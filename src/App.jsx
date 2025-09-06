@@ -5,9 +5,8 @@ import Home from "./components/home/Home";
 const App=()=>{
   return(
     <Router>
-      <Navigation />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home/>} />
       </Routes>
     </Router>
   )
