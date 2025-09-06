@@ -1,0 +1,30 @@
+[
+    {
+        "id":"1",
+        "name":"name",
+        "placeholder":"Enter full name",
+        "nameFor":"name",
+        "nameType":"text"
+    },
+    {
+        "id":"2",
+        "name":"client name",
+        "placeholder":"Enter Client Name",
+        "nameFor":"clientName",
+        "nameType":"text"
+    },
+    {
+        "id":"3",
+        "name":"email",
+        "placeholder":"Enter email address",
+        "nameFor":"email",
+        "nameType":"email"
+    },
+    {
+        "id":"4",
+        "name":"phone",
+        "placeholder":"Enter phone number",
+        "nameFor":"phoneNumber",
+        "nameType":"tel"
+    }
+]

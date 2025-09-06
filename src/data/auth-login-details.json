@@ -1,0 +1,16 @@
+[
+    {
+        "id":"1",
+        "name":"email",
+        "placeholder":"Enter email address",
+        "nameFor":"email",
+        "nameType":"email"
+    },
+    {
+        "id":"2",
+        "name":"password",
+        "placeholder":"Enter password",
+        "nameFor":"password",
+        "nameType":"password"
+    }
+]

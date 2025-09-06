@@ -1,0 +1,22 @@
+[
+    {
+        "id":"1",
+        "name":"about",
+        "link":"/"
+    },
+    {
+        "id":"2",
+        "name":"blog",
+        "link":"/"
+    },
+    {
+        "id":"3",
+        "name":"contact",
+        "link":"/"
+    },
+    {
+        "id":"4",
+        "name":"pricing",
+        "link":"/pricing"
+    }
+]

@@ -1,0 +1,158 @@
+[
+    {
+        "id": "1",
+        "name":"free",
+        "price":"0k",
+        "plans":[
+            {
+                "id":"1",
+                "mark":"<i class='bx bx-check' ></i>",
+                "markName":"Manage Patients Records(1k patients)"
+            },
+            {
+                "id":"2",
+                "mark":"<i class='bx bx-x' ></i>",
+                "markName":"Inventory Management"
+            },
+            {
+                "id":"3",
+                "mark":"<i class='bx bx-x' ></i>",
+                "markName":"Record Purchase Transactions"
+            },
+            {
+                "id":"4",
+                "mark":"<i class='bx bx-x' ></i>",
+                "markName":"Record Expenses"
+            },
+            {
+                "id":"5",
+                "mark":"<i class='bx bx-x' ></i>",
+                "markName":"Manage Suppliers"
+            },
+            {
+                "id":"6",
+                "mark":"<i class='bx bx-x' ></i>",
+                "markName":"Generate HMO monthly bills"
+            },
+            {
+                "id":"7",
+                "mark":"<i class='bx bx-x' ></i>",
+                "markName":"Record and Track HMo monthly bills"
+            },
+            {
+                "id":"8",
+                "mark":"<i class='bx bx-x' ></i>",
+                "markName":"Access report of business performance"
+            },
+            {
+                "id":"9",
+                "mark":"<i class='bx bx-x' ></i>",
+                "markName":"customization"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name":"basic",
+        "price":"100k",
+        "plans":[
+            {
+                "id":"1",
+                "mark":"<i class='bx bx-check' ></i>",
+                "markName":"Manage Patients Records(1k patients)"
+            },
+            {
+                "id":"2",
+                "mark":"<i class='bx bx-check' ></i>",
+                "markName":"Inventory Management"
+            },
+            {
+                "id":"3",
+                "mark":"<i class='bx bx-check' ></i>",
+                "markName":"Record Purchase Transactions"
+            },
+            {
+                "id":"4",
+                "mark":"<i class='bx bx-x' ></i>",
+                "markName":"Record Expenses"
+            },
+            {
+                "id":"5",
+                "mark":"<i class='bx bx-x' ></i>",
+                "markName":"Manage Suppliers"
+            },
+            {
+                "id":"6",
+                "mark":"<i class='bx bx-check' ></i>",
+                "markName":"Generate HMO monthly bills"
+            },
+            {
+                "id":"7",
+                "mark":"<i class='bx bx-x' ></i>",
+                "markName":"Record and Track HMo monthly bills"
+            },
+            {
+                "id":"8",
+                "mark":"<i class='bx bx-check' ></i>",
+                "markName":"Access report of business performance"
+            },
+            {
+                "id":"9",
+                "mark":"<i class='bx bx-x' ></i>",
+                "markName":"customization"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name":"professional",
+        "price":"170k",
+        "plans":[
+            {
+                "id":"1",
+                "mark":"<i class='bx bx-check' ></i>",
+                "markName":"Manage Patients Records(1k patients)"
+            },
+            {
+                "id":"2",
+                "mark":"<i class='bx bx-check' ></i>",
+                "markName":"Inventory Management"
+            },
+            {
+                "id":"3",
+                "mark":"<i class='bx bx-check' ></i>",
+                "markName":"Record Purchase Transactions"
+            },
+            {
+                "id":"4",
+                "mark":"<i class='bx bx-check' ></i>",
+                "markName":"Record Expenses"
+            },
+            {
+                "id":"5",
+                "mark":"<i class='bx bx-check' ></i>",
+                "markName":"Manage Suppliers"
+            },
+            {
+                "id":"6",
+                "mark":"<i class='bx bx-check' ></i>",
+                "markName":"Generate HMO monthly bills"
+            },
+            {
+                "id":"7",
+                "mark":"<i class='bx bx-check' ></i>",
+                "markName":"Record and Track HMo monthly bills"
+            },
+            {
+                "id":"8",
+                "mark":"<i class='bx bx-check' ></i>",
+                "markName":"Access report of business performance"
+            },
+            {
+                "id":"9",
+                "mark":"<i class='bx bx-check' ></i>",
+                "markName":"customization"
+            }
+        ]
+    }
+]

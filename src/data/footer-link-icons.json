@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "name":"<i class='bx bxl-instagram'></i>"
+    },
+    {
+        "id":2,
+        "name":"<i class='bx bxl-twitter' ></i>"
+    },
+    {
+        "id":3,
+        "name":"<i class='bx bxl-linkedin-square'></i>"
+    },
+    {
+        "id":4,
+        "name":"<i class='bx bxl-whatsapp' ></i>"
+    }
+]
