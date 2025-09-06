@@ -1,9 +1,9 @@
-import './Nav.css';
 import NavLogo from "./NavLogo";
 import NavLink from "./NavLink";
 import TryFreeBtn from "../TryFreeBtn";
 import NavMenu from './NavMenu';
 import NavMenuMobileListCtn from './NavMenuMobileListCtn';
+import './Nav.css';
 
 const NavHeaderDetails=[
     {
