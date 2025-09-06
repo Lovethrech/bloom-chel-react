@@ -32,13 +32,14 @@ const navLinkColor="#ffffff";
 const navLinkFontSize="1.8vh";
 const tryFreeBtnBgColor="#ffffff";
 const tryFreeBtnColor="#A54dea";
-var displayNavMenuMobileListCtn="none";
-var navMenuActiveIcon="<i class='ri-menu-4-line'></i>";
+const displayNavMenuMobileListCtn="none";
+const navMenuActiveIcon="<i class='ri-menu-4-line'></i>";
+
 console.log(displayNavMenuMobileListCtn);
 const navMenuDisplayMenu=()=>{
     if (navMenuActiveIcon==="<i class='ri-menu-4-line'></i>"){
-        navMenuActiveIcon="<i class='ri-close-large-line'></i>";
-        displayNavMenuMobileListCtn="block";
+        navMenuActiveIcon.value="<i class='ri-close-large-line'></i>";
+        displayNavMenuMobileListCtn.value="block";
     }
     else{
         navMenuActiveIcon.value="<i class='ri-menu-4-line'></i>";
