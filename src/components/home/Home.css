@@ -66,3 +66,25 @@
         display:block;
     }
 }
+
+
+/* HOME-HERO-MAIN-DESC-PARAGRAPH  */
+.home-hero-main-desc-paragraph-main-ctn{
+    margin:auto 0;
+}
+.home-hero-main-desc-paragraph-main-ctn p{
+    font-size: 1.6vh;
+    color: #fff;
+}
+.home-hero-main-desc-paragraph-main-ctn-name-mobile{
+    display: none;
+    text-transform: uppercase;
+}
+@media screen and (max-width:850px) {
+    .home-hero-main-desc-paragraph-main-ctn-name-desktop{
+        display: none;
+    }
+    .home-hero-main-desc-paragraph-main-ctn-name-mobile{
+        display: flex;
+    }
+}
