@@ -34,8 +34,9 @@ const tryFreeBtnBgColor="#ffffff";
 const tryFreeBtnColor="#A54dea";
 const displayNavMenuMobileListCtn="none";
 const navMenuActiveIcon="<i class='ri-menu-4-line'></i>";
+console.log(displayNavMenuMobileListCtn);
 const navMenuDisplayMenu=()=>{
-    if (navMenuActiveIcon.value==="<i class='ri-menu-4-line'></i>"){
+    if (navMenuActiveIcon==="<i class='ri-menu-4-line'></i>"){
         navMenuActiveIcon.value="<i class='ri-close-large-line'></i>";
         displayNavMenuMobileListCtn.value="block";
     }
@@ -43,7 +44,7 @@ const navMenuDisplayMenu=()=>{
         navMenuActiveIcon.value="<i class='ri-menu-4-line'></i>";
         displayNavMenuMobileListCtn.value="none";
     }
-}
+};
 
 const NavHeader=()=>{
     return(
