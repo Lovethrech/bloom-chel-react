@@ -6,7 +6,10 @@ const NavHeader=()=>{
         <div className="nav-header-main-ctn">
             <NavLogo/>
             <div className="nav-header-main-ctn-nav">
-                <NavLink/>
+                <NavLink
+                    className="desktop-nav"
+                    
+                />
             </div>
         </div>
     )
