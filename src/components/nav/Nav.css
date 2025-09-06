@@ -10,7 +10,7 @@
 .nav-header-main-ctn-nav{
     gap:1.4vw;
 }
-.mobile-nav-menu{
+.nav-menu-img-ctn{
     display:none;
 }
 @media screen and (max-width:850px) {
