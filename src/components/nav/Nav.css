@@ -1,0 +1,29 @@
+/* NAV-HEADER COMPONENTS  */
+.nav-header-main-ctn, .nav-header-main-ctn-nav{
+    display:flex;
+    flex-direction: row;
+}
+.nav-header-main-ctn{
+    width:100%;
+    justify-content: space-between;
+}
+.nav-header-main-ctn-nav{
+    gap:1.4vw;
+}
+.mobile-nav-menu{
+    display:none;
+}
+
+@media screen and (max-width:850px) {
+    .nav-header-main-ctn{
+        background-color: #fff;
+        padding: 0 4vw;
+        height:8vh
+    }
+    .desktop-nav, .nav-header-try-free{
+        display:none;
+    }
+    .mobile-nav-menu{
+        display:block;
+    }
+}

@@ -1,7 +1,7 @@
 const NavHeader=()=>{
     return(
-        <div className="nav-header">
-        
+        <div className="nav-header-main-ctn">
+            
         </div>
     )
 };
