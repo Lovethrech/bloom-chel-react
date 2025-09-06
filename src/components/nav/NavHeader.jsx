@@ -32,8 +32,8 @@ const navLinkColor="#ffffff";
 const navLinkFontSize="1.8vh";
 const tryFreeBtnBgColor="#ffffff";
 const tryFreeBtnColor="#A54dea";
-// const displayNavMenuMobileListCtn=useState("none");
-// const navMenuActiveIcon=useState("<i class='ri-menu-4-line'></i>");
+const displayNavMenuMobileListCtn="none";
+const navMenuActiveIcon="<i class='ri-menu-4-line'></i>";
 
 const NavHeader=()=>{
     return(
@@ -57,7 +57,12 @@ const NavHeader=()=>{
                     tryFreeBtnBgColor={tryFreeBtnBgColor}
                     tryFreeBtnColor={tryFreeBtnColor}
                 />
-                <NavMenu/>
+                <NavMenu
+                    className="mobile-nav-menu"
+                    navMenuActiveIcon={navMenuActiveIcon}
+                    onClick={navMenuDisplayMenu}
+                />
+                <NavMenuMobileListCtn/>
             </div>
         </div>
     )

@@ -1,9 +1,7 @@
-const NavHeader=()=>{
+const NavMenu=()=>{
     return(
-        <div className="nav-header">
-        
-        </div>
+        <div className="nav-menu-img-ctn"></div>
     )
 };
 
-export default NavHeader;
+export default NavMenu;
