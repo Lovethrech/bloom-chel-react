@@ -1,3 +1,5 @@
+import '../Home.css';
+
 const HomeHeroMainDescParagraph=()=>{
     return(
         <div className="home-hero-main-desc-paragraph-main-ctn">
