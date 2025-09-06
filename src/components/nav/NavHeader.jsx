@@ -34,6 +34,16 @@ const tryFreeBtnBgColor="#ffffff";
 const tryFreeBtnColor="#A54dea";
 const displayNavMenuMobileListCtn="none";
 const navMenuActiveIcon="<i class='ri-menu-4-line'></i>";
+const navMenuDisplayMenu=()=>{
+    if (navMenuActiveIcon.value==="<i class='ri-menu-4-line'></i>"){
+        navMenuActiveIcon.value="<i class='ri-close-large-line'></i>";
+        displayNavMenuMobileListCtn.value="block";
+    }
+    else{
+        navMenuActiveIcon.value="<i class='ri-menu-4-line'></i>";
+        displayNavMenuMobileListCtn.value="none";
+    }
+}
 
 const NavHeader=()=>{
     return(
@@ -62,7 +72,10 @@ const NavHeader=()=>{
                     navMenuActiveIcon={navMenuActiveIcon}
                     onClick={navMenuDisplayMenu}
                 />
-                <NavMenuMobileListCtn/>
+                <NavMenuMobileListCtn
+                    className="mobile-nav" 
+                    style={{display:displayNavMenuMobileListCtn}}
+                />
             </div>
         </div>
     )
