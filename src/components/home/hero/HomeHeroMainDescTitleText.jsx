@@ -1,4 +1,4 @@
-const HomeHero=()=>{
+const HomeHeroMainDescTitleText=()=>{
     return(
         <div className="home-hero">
         
@@ -6,4 +6,4 @@ const HomeHero=()=>{
     )
 };
 
-export default HomeHero;
+export default HomeHeroMainDescTitleText;
