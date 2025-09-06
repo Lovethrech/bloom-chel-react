@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import './Nav.css';
 
-const NavHeader=({name, link, color, fontSize})=>{
+const NavLink=({name, link, color, fontSize})=>{
     return(
         <div className="nav-link-main-ctn">
             <Link to={link}>
@@ -13,4 +13,4 @@ const NavHeader=({name, link, color, fontSize})=>{
     )
 };
 
-export default NavHeader;
+export default NavLink;
