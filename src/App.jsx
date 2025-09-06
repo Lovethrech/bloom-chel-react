@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import './App.css'
+import './App.css';
 import Home from "./components/home/Home";
 
 const App=()=>{
@@ -10,6 +10,6 @@ const App=()=>{
       </Routes>
     </Router>
   )
-}
+};
 
-export default App
+export default App;
