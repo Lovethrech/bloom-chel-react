@@ -2,6 +2,8 @@ import './Nav.css';
 import NavLogo from "./NavLogo";
 import NavLink from "./NavLink";
 import TryFreeBtn from "../TryFreeBtn";
+import NavMenu from './NavMenu';
+import NavMenuMobileListCtn from './NavMenuMobileListCtn';
 
 const NavHeaderDetails=[
     {
@@ -55,6 +57,7 @@ const NavHeader=()=>{
                     tryFreeBtnBgColor={tryFreeBtnBgColor}
                     tryFreeBtnColor={tryFreeBtnColor}
                 />
+                <NavMenu/>
             </div>
         </div>
     )
