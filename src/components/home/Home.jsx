@@ -1,11 +1,8 @@
-// import React from "react";
-
+import HomeHero from "./hero/HomeHero";
 const Home=()=>{
     return(
         <main>
-            <h1>
-                HomePage
-            </h1>
+            <HomeHero/>
         </main>
     )
 };
