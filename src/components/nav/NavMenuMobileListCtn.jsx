@@ -25,7 +25,9 @@ const NavHeader=()=>{
     return(
         <div className="nav-menu-mobile-list-ctn-main-ctn">
             <div className="nav-menu-mobile-list-ctn-mini-ctn">
-
+                <div className="nav-menu-mobile-list-ctn-mini-ctn-nav-link">
+                    
+                </div>
             </div>
         </div>
     )
