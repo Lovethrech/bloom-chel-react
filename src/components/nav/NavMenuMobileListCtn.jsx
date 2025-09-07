@@ -29,7 +29,7 @@ const navLinkFontSize="31px";
 const tryFreeBtnBgColor="linear-gradient(to bottom, #A54dea, #594edc)";
 const tryFreeBtnColor="#ffffff";
 
-const NavHeader=()=>{
+const NavHeader=({displayNavMenuMobileListCtn})=>{
     return(
         <div className="nav-menu-mobile-list-ctn-main-ctn">
             <div className="nav-menu-mobile-list-ctn-mini-ctn">
