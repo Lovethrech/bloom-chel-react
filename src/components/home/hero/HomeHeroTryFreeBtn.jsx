@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const TryFreeBtn=({tryFreeBtnBgColor, tryFreeBtnColor})=>{
+const HomeHeroTryFreeBtn=({tryFreeBtnBgColor,tryFreeBtnColor})=>{
     return(
         <div className="try-for-free-btn-main-ctn">
             <Link to="/">
@@ -15,4 +15,4 @@ const TryFreeBtn=({tryFreeBtnBgColor, tryFreeBtnColor})=>{
     )
 };
 
-export default TryFreeBtn;
+export default HomeHeroTryFreeBtn;
