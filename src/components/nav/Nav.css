@@ -44,12 +44,18 @@
 
 /* NAVMENU  */
 .nav-menu-img-ctn{
-    margin:auto 0;
+    display: none;
 }
-.nav-menu-img-ctn{
-    font-size: 26px;
-    color: #594edc;
+@media screen and (max-width:850px) {
+    .nav-menu-img-ctn{
+        margin:auto 0;
+    }
+    .nav-menu-img-ctn{
+        font-size: 26px;
+        color: #594edc;
+    }
 }
+
 
 /* NAV-TRY-FREE-BTN  */
 .try-for-free-btn-main-ctn#nav-try-for-free-btn-main-ctn{
