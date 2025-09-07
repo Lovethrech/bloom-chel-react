@@ -1,3 +1,6 @@
+import NavLink from "./NavLink";
+import NavTryFreeBtn from "./NavTryFreeBtn";
+
 const NavHeaderDetails=[
     {
         "id":"1",
