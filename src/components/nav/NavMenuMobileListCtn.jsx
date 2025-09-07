@@ -26,7 +26,17 @@ const NavHeader=()=>{
         <div className="nav-menu-mobile-list-ctn-main-ctn">
             <div className="nav-menu-mobile-list-ctn-mini-ctn">
                 <div className="nav-menu-mobile-list-ctn-mini-ctn-nav-link">
-                    
+                    {NavHeaderDetails.map(NavHeaderDetail=>{
+                        return(
+                            <NavLink
+                                key={NavHeaderDetail.id}
+                                name={NavHeaderDetail.name}
+                                link={NavHeaderDetail.link}
+                                color={navLinkColor}
+                                fontSize={navLinkFontSize}
+                            />
+                        )
+                    })}
                 </div>
             </div>
         </div>
