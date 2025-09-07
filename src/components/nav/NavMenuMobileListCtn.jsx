@@ -1,5 +1,6 @@
 import NavLink from "./NavLink";
 import NavTryFreeBtn from "./NavTryFreeBtn";
+import './Nav.css';
 
 const NavHeaderDetails=[
     {
