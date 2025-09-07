@@ -67,12 +67,10 @@ const NavHeader=()=>{
                     tryFreeBtnColor={tryFreeBtnColor}
                 />
                 <NavMenu
-                    className="mobile-nav-menu"
                     navMenuActiveIcon={navMenuActiveIcon}
                     onClick={navMenuDisplayMenu}
                 />
                 <NavMenuMobileListCtn
-                    className="mobile-nav" 
                     style={{display:displayNavMenuMobileListCtn}}
                 />
             </div>
