@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const HomeHeroTryFreeBtn=({tryFreeBtnBgColor,tryFreeBtnColor})=>{
     return(
-        <div className="try-for-free-btn-main-ctn">
+        <div className="try-for-free-btn-main-ctn" id="home-hero-try-for-free-btn-main-ctn">
             <Link to="/">
                 <button 
                     className="try-for-free-btn"

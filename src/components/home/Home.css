@@ -1,5 +1,12 @@
 /* HOME-HERO-TRY-FREE-BTN  */
-
+.try-for-free-btn-main-ctn#home-hero-try-for-free-btn-main-ctn{
+    display: none;
+}
+@media screen and (max-width:850px) {
+    .try-for-free-btn-main-ctn#home-hero-try-for-free-btn-main-ctn{
+        display:block;
+    }
+}
 
 
 /* HOME-HERO AND PRICING-HERO  */
