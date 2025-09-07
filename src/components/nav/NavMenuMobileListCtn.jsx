@@ -28,10 +28,10 @@ const navLinkColor="#000000";
 const navLinkFontSize="31px";
 const tryFreeBtnBgColor="linear-gradient(to bottom, #A54dea, #594edc)";
 const tryFreeBtnColor="#ffffff";
-
+// style={{display: displayNavMenuMobileListCtn}}
 const NavHeader=({displayNavMenuMobileListCtn})=>{
     return(
-        <div className="nav-menu-mobile-list-ctn-main-ctn" style={{display: displayNavMenuMobileListCtn}}>
+        <div className="nav-menu-mobile-list-ctn-main-ctn" >
             <div className="nav-menu-mobile-list-ctn-mini-ctn">
                 <div className="nav-menu-mobile-list-ctn-mini-ctn-nav-link">
                     {NavHeaderDetails.map(NavHeaderDetail=>{
