@@ -55,7 +55,6 @@ const NavHeader=()=>{
                     return(
                         <NavLink
                             key={NavHeaderDetail.id}
-                            className="desktop-nav"
                             name={NavHeaderDetail.name}
                             link={NavHeaderDetail.link}
                             color={navLinkColor}
@@ -64,7 +63,6 @@ const NavHeader=()=>{
                     )
                 })}
                 <NavTryFreeBtn
-                    className="nav-header-try-free"
                     tryFreeBtnBgColor={tryFreeBtnBgColor}
                     tryFreeBtnColor={tryFreeBtnColor}
                 />
