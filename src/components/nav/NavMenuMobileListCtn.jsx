@@ -41,6 +41,10 @@ const NavHeader=()=>{
                             />
                         )
                     })}
+                    <NavTryFreeBtn
+                        tryFreeBtnBgColor={tryFreeBtnBgColor}
+                        tryFreeBtnColor={tryFreeBtnColor}
+                    />
                 </div>
             </div>
         </div>
