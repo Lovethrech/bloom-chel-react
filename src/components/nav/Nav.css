@@ -45,3 +45,13 @@
     font-size: 26px;
     color: #594edc;
 }
+
+/* NAV-TRY-FREE-BTN  */
+.try-for-free-btn-main-ctn#nav-try-for-free-btn-main-ctn{
+    display: block;
+}
+@media screen and (max-width:850px) {
+    .try-for-free-btn-main-ctn#nav-try-for-free-btn-main-ctn{
+        display:none;
+    }
+}

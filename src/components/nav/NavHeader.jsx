@@ -1,6 +1,6 @@
 import NavLogo from "./NavLogo";
 import NavLink from "./NavLink";
-import TryFreeBtn from "../TryFreeBtn";
+import NavTryFreeBtn from "./NavTryFreeBtn";
 import NavMenu from './NavMenu';
 import NavMenuMobileListCtn from './NavMenuMobileListCtn';
 import './Nav.css';
@@ -63,7 +63,7 @@ const NavHeader=()=>{
                         />
                     )
                 })}
-                <TryFreeBtn
+                <NavTryFreeBtn
                     className="nav-header-try-free"
                     tryFreeBtnBgColor={tryFreeBtnBgColor}
                     tryFreeBtnColor={tryFreeBtnColor}
