@@ -1,6 +1,6 @@
 import '../Home.css';
 
-import TryFreeBtn from '../../TryFreeBtn';
+import HomeHeroTryFreeBtn from './HomeHeroTryFreeBtn';
 import HomeHeroMainDescParagraph from './HomeHeroMainDescParagraph.jsx';
 import HomeHeroMainParagraphArrow from './HomeHeroMainParagraphArrow.jsx';
 
@@ -11,7 +11,7 @@ const HomeHeroMainDescParagraphMainCtn=()=>{
             <HomeHeroMainParagraphArrow
                 className="home-hero-main-desc-paragraph-main-ctn-main-ctn-paragraph-arrow"
             />
-            <TryFreeBtn
+            <HomeHeroTryFreeBtn
                 className="home-hero-main-desc-paragraph-main-ctn-main-ctn-try-free"
             />
         </div>
