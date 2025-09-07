@@ -71,7 +71,7 @@ const NavHeader=()=>{
                     onClick={navMenuDisplayMenu}
                 />
                 <NavMenuMobileListCtn
-                    style={displayNavMenuMobileListCtn}
+                    displayNavMenuMobileListCtn={displayNavMenuMobileListCtn}
                 />
             </div>
         </header>
