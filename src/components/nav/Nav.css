@@ -35,6 +35,11 @@
 .nav-link-main-ctn-desc{
     text-transform: capitalize;
 }
+@media screen and (max-width: 850px) {
+    .nav-link-main-ctn{
+        display: none;
+    }
+}
 
 
 /* NAVMENU  */
