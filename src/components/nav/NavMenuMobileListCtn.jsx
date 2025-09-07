@@ -20,6 +20,10 @@ const NavHeaderDetails=[
         "link":"/pricing"
     }
 ]
+const navLinkColor="#000000";
+const navLinkFontSize="31px";
+const tryFreeBtnBgColor="linear-gradient(to bottom, #A54dea, #594edc)";
+const tryFreeBtnColor="#ffffff";
 
 const NavHeader=()=>{
     return(
