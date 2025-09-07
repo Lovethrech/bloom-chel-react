@@ -32,7 +32,6 @@
 .home-hero-main-desc-mini-ctn{
     margin-bottom: 40px;
 }
-
 @media screen and (max-width: 850px) {
     .home-hero-main-ctn, .pricing-hero-main-ctn{
         padding:3vh 6vw;
