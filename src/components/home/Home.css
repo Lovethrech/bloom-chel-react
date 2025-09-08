@@ -50,7 +50,8 @@
 .home-hero-main-desc-mini-ctn{
     margin-bottom: 40px;
 }
-.home-hero-main-desc-paragraph-main-ctn{
+.home-hero-main-desc-paragraph-main-ctn,
+.home-about-mini-ctn-desktop-view{
     margin:auto 0;
 }
 .home-hero-main-desc-paragraph-main-ctn p{
@@ -76,6 +77,15 @@
     padding:4vh 6vw;
     justify-content: center;
     place-items: center;
+}
+.home-about-mini-ctn{
+    gap:10vw;
+    height: 100%;
+}
+.home-about-mini-ctn-desktop-view{
+    width:50%;
+    flex-direction: column;
+    gap: 1vw;
 }
 @media screen and (max-width: 850px) {
     .home-hero-main-ctn{
