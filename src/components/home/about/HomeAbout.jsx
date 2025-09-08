@@ -1,6 +1,7 @@
 import HomeAboutTitle from "./HomeAboutTitle";
 import "./HomeAbout.css";
 import HomeAboutDesc from "./HomeAboutDesc";
+import HomeAboutImg from "./HomeAboutImg";
 const HomeAbout=()=>{
     return(
         <section id="about" className="home-about-main-ctn">
@@ -12,6 +13,7 @@ const HomeAbout=()=>{
                 </div>
                 <HomeAboutTitle/>
                 <HomeAboutDesc/>
+                <HomeAboutImg/>
             </div>
         </section>
     )
