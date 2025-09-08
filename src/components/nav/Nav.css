@@ -29,6 +29,11 @@
 .nav-logo-img-ctn{
     width: 9.7vh;
 }
+@media screen and (max-width:1110px) and (min-width:851px) {
+    .nav-logo-img-ctn{
+        width:70px;
+    }
+}
 @media screen and (max-width:850px) {
     .nav-header-main-ctn{
         background-color: #fff;
@@ -38,7 +43,8 @@
     .nav-link-main-ctn{
         display:none;
     }
-    .mobile-nav-menu{
+    .mobile-nav-menu,
+    .nav-logo-mobile-logo{
         display:block;
     }
 }
@@ -47,18 +53,11 @@
 
 
 
-@media screen and (max-width:1110px) and (min-width:851px) {
-    .nav-logo-img-ctn{
-        width:70px;
-    }
-}
+
 @media screen and (max-width:850px) {
     .nav-logo-img-ctn{
         width:26px;
         height: 26px;
-    }
-    .nav-logo-mobile-logo{
-        display: block;
     }
     .nav-logo-desktop-logo{
         display: none;
