@@ -50,11 +50,8 @@ const tryFreeBtnColor="#A54dea";
 const NavHeader=()=>{
     const [displayNavMenuMobileListCtn, setDisplayNavMenuMobileListCtn]=useState('none');
     const [navMenuActiveIcon, setNavMenuActiveIcon]=useState("<i class='ri-menu-4-line'></i>");
-    const navMenuDisplayMenu=()=>{
-        if(navMenuActiveIcon.type==="<i class='ri-menu-4-line'></i>"){
-            
-        }
-    }
+
+    console.log(navMenuActiveIcon)
 
     return(
         <header className="nav-header-main-ctn">
@@ -77,7 +74,7 @@ const NavHeader=()=>{
                 />
                 <NavMenu
                     navMenuActiveIcon={navMenuActiveIcon}
-                    
+                    setNavMenuActiveIcon={setNavMenuActiveIcon}
                 />
                 <NavMenuMobileListCtn
                     displayNavMenuMobileListCtn={displayNavMenuMobileListCtn}
