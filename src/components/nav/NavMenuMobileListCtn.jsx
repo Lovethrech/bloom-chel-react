@@ -28,7 +28,8 @@ const navLinkColor="#000000";
 const navLinkFontSize="31px";
 const tryFreeBtnBgColor="linear-gradient(to bottom, #A54dea, #594edc)";
 const tryFreeBtnColor="#ffffff";
-const NavHeader=({displayNavMenuMobileListCtn})=>{
+
+const NavMenuMobileListCtn=({displayNavMenuMobileListCtn})=>{
     return(
         <div 
             className="nav-menu-mobile-list-ctn-main-ctn" 
@@ -61,4 +62,4 @@ const NavHeader=({displayNavMenuMobileListCtn})=>{
     );
 };
 
-export default NavHeader;
+export default NavMenuMobileListCtn;
