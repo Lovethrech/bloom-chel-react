@@ -23,7 +23,8 @@
     gap:1.4vw;
 }
 #nav-menu-img-ctn,
-#nav-logo-mobile-logo{
+#nav-logo-mobile-logo,
+.try-for-free-btn-main-ctn#nav-menu-mobile-list-ctn-try-for-free-btn-main-ctn{
     display:none;
 }
 .nav-link-main-ctn,
