@@ -58,7 +58,7 @@ const NavHeader=({displayNavMenuMobileListCtn})=>{
                 </div>
             </div>
         </div>
-    )
+    );
 };
 
 export default NavHeader;
