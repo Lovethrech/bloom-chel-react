@@ -3,7 +3,10 @@ import './Nav.css';
 
 const NavMenuMobileListCtnLink=({name, link, color, fontSize})=>{
     return(
-        <div className="nav-link-main-ctn" id="nav-menu-mobile-list-ctn-link-main-ctn">
+        <div 
+            className="nav-link-main-ctn" 
+            id="nav-menu-mobile-list-ctn-link-main-ctn"
+        >
             <Link 
                 to={link} 
                 className="link"
@@ -16,7 +19,7 @@ const NavMenuMobileListCtnLink=({name, link, color, fontSize})=>{
                 </p>
             </Link>
         </div>
-    )
+    );
 };
 
 export default NavMenuMobileListCtnLink;
