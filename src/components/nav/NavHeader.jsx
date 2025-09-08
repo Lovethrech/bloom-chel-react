@@ -28,24 +28,10 @@ const NavHeaderDetails=[
         "link":"/pricing"
     }
 ]
-
 const navLinkColor="#ffffff";
 const navLinkFontSize="1.8vh";
 const tryFreeBtnBgColor="#ffffff";
 const tryFreeBtnColor="#A54dea";
-
-// const navMenuDisplayMenu=()=>{
-//     if (navMenuActiveIcon==="<i class='ri-menu-4-line'></i>"){
-//         navMenuActiveIcon.value="<i class='ri-close-large-line'></i>";
-//         displayNavMenuMobileListCtn.value="block";
-//     }
-//     else{
-//         navMenuActiveIcon.value="<i class='ri-menu-4-line'></i>";
-//         displayNavMenuMobileListCtn.value="none";
-//     }
-                
-
-// };
 
 const NavHeader=()=>{
     const [displayNavMenuMobileListCtn, setDisplayNavMenuMobileListCtn]=useState('none');
