@@ -5,6 +5,8 @@
 }
 .nav-header-main-ctn{
     width:100%;
+}
+.nav-header-main-ctn{
     justify-content: space-between;
 }
 .nav-header-main-ctn-nav{
