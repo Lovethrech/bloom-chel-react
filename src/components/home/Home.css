@@ -17,7 +17,9 @@
 .home-hero-main-desc-paragraph-main-ctn-main-ctn{
     width:100%;
 }
-.home-hero-mini-ctn, .home-hero-main-desc-main-ctn, .home-hero-main-desc-mini-ctn{
+.home-hero-mini-ctn, 
+.home-hero-main-desc-main-ctn, 
+.home-hero-main-desc-mini-ctn{
     display:flex;
 }
 .home-hero-main-ctn{
