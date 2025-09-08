@@ -33,7 +33,6 @@ const navLinkColor="#ffffff";
 const navLinkFontSize="1.8vh";
 const tryFreeBtnBgColor="#ffffff";
 const tryFreeBtnColor="#A54dea";
-const [displayNavMenuMobileListCtn, setDisplayNavMenuMobileListCtn]=useState('none');
 const navMenuActiveIcon="<i class='ri-menu-4-line'></i>";
 
 // const navMenuDisplayMenu=()=>{
@@ -50,6 +49,9 @@ const navMenuActiveIcon="<i class='ri-menu-4-line'></i>";
 // };
 
 const NavHeader=()=>{
+    const [displayNavMenuMobileListCtn, setDisplayNavMenuMobileListCtn]=useState('none');
+    const 
+
     return(
         <header className="nav-header-main-ctn">
             <NavLogo/>
