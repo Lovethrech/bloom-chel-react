@@ -41,11 +41,11 @@
         height:8vh
     }
     .nav-link-main-ctn,
-    .nav-logo-desktop-logo{
+    #nav-logo-desktop-logo{
         display:none;
     }
     .mobile-nav-menu,
-    .nav-logo-mobile-logo{
+    #nav-logo-mobile-logo{
         display:block;
     }
     .nav-logo-img-ctn{
