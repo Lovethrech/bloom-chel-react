@@ -66,7 +66,7 @@ img{
     height:80vh;
     place-items: end;
 }
-.home-hero-main-desc-mini-ctn, .pricing-hero-main-desc-mini-ctn{
+.pricing-hero-main-desc-mini-ctn{
     margin-bottom: 40px;
 }
 @media screen and (max-width:850px) {
