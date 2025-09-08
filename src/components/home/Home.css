@@ -11,7 +11,7 @@
 }
 
 
-/* HOME-HERO */
+/* HOME-HERO START */
 .home-hero-main-ctn, 
 .home-hero-mini-ctn, 
 .home-hero-main-desc-main-ctn, 
@@ -82,3 +82,4 @@
         font-size:40px;
     }
 }
+/* HOME-HERO END */
