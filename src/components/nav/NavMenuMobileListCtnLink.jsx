@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import './Nav.css';
 
-const NavLink=({name, link, color, fontSize})=>{
+const NavMenuMobileListCtnLink=({name, link, color, fontSize})=>{
     return(
         <div className="nav-link-main-ctn" id="nav-link-main-ctn">
             <Link to={link} className="link">
@@ -13,4 +13,4 @@ const NavLink=({name, link, color, fontSize})=>{
     )
 };
 
-export default NavLink;
+export default NavMenuMobileListCtnLink;
