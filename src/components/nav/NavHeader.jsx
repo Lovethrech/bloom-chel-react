@@ -78,6 +78,7 @@ const NavHeader=()=>{
                 />
                 <NavMenuMobileListCtn
                     displayNavMenuMobileListCtn={displayNavMenuMobileListCtn}
+                    setDisplayNavMenuMobileListCtn={setDisplayNavMenuMobileListCtn}
                 />
             </div>
         </header>
