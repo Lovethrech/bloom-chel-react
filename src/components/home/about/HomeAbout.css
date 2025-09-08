@@ -11,14 +11,14 @@
 .home-about-mini-ctn-desktop-view{
     display:none;
 }
-.home-about-title, .home-about-desc, .try-free-btn{
+#.home-about-title, .home-about-desc, .try-free-btn{
     display:flex;
 }
-.home-about-title{
+#home-about-title{
     grid-column: 1;
     grid-row:1;
 }
-.home-about-img{
+#home-about-img{
     grid-column: 1;
     grid-row: 2;
 }

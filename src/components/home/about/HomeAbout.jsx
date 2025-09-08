@@ -11,9 +11,9 @@ const HomeAbout=()=>{
                     <HomeAboutDesc/>
                     <br/>
                 </div>
-                <HomeAboutTitle className="home-about-title"/>
+                <HomeAboutTitle id="home-about-title"/>
                 <HomeAboutDesc className="home-about-desc"/>
-                <HomeAboutImg className="home-about-img"/>
+                <HomeAboutImg id="home-about-img"/>
             </div>
         </section>
     )
