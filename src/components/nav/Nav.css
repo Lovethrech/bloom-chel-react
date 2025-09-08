@@ -12,19 +12,19 @@
 .nav-header-main-ctn-nav{
     gap:1.4vw;
 }
-.nav-menu-img-ctn,
+#nav-menu-img-ctn,
 #nav-logo-mobile-logo{
     display:none;
 }
 .nav-link-main-ctn,
-.nav-menu-img-ctn,
+#nav-menu-img-ctn,
 .nav-logo-img-ctn{
     margin:auto 0;
 }
 .nav-link-main-ctn-desc{
     text-transform: capitalize;
 }
-.nav-menu-img-ctn{
+#nav-menu-img-ctn{
     font-size: 26px;
     color: #594edc;
 }
