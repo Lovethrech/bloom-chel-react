@@ -39,7 +39,6 @@
     place-items: end;
 }
 .home-hero-main-desc-mini-ctn{
-    flex-direction: column;
     margin-bottom: 40px;
 }
 @media screen and (max-width: 850px) {
@@ -48,11 +47,11 @@
     }
 
     /* HOME-HERO-MAIN-DESC-PARAGRAPH START */
-    .home-hero-main-desc-paragraph-main-ctn-name-desktop,
+    #home-hero-main-desc-paragraph-main-ctn-name-desktop,
     .home-hero-main-desc-paragraph-main-ctn-main-ctn-paragraph-arrow{
         display: none;
     }
-    .home-hero-main-desc-paragraph-main-ctn-name-mobile,
+    #home-hero-main-desc-paragraph-main-ctn-name-mobile,
     .home-hero-main-desc-paragraph-main-ctn-main-ctn-try-free{
         display: flex;
     }
@@ -69,7 +68,7 @@
     font-size: 1.6vh;
     color: #fff;
 }
-.home-hero-main-desc-paragraph-main-ctn-name-mobile{
+#home-hero-main-desc-paragraph-main-ctn-name-mobile{
     display: none;
     text-transform: uppercase;
 }
