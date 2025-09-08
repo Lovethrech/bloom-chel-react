@@ -1,6 +1,12 @@
 /* NAV-HEADER COMPONENTS  */
-.nav-header-main-ctn, .nav-header-main-ctn-nav{
+.nav-header-main-ctn, 
+.nav-header-main-ctn-nav,
+.nav-menu-mobile-list-ctn-mini-ctn, 
+.nav-menu-mobile-list-ctn-mini-ctn-nav-link{
     display:flex;
+}
+.nav-header-main-ctn, 
+.nav-header-main-ctn-nav{
     flex-direction: row;
 }
 .nav-header-main-ctn,
