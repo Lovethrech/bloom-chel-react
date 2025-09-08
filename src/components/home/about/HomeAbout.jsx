@@ -8,7 +8,10 @@ const HomeAbout=()=>{
                 <div className='home-about-mini-ctn-desktop-view'>
                     <HomeAboutTitle/>
                     <HomeAboutDesc/>
+                    <br/>
                 </div>
+                <HomeAboutTitle/>
+                <HomeAboutDesc/>
             </div>
         </section>
     )
