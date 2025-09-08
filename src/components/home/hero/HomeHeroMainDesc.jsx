@@ -4,8 +4,12 @@ import '../Home.css'
 
 const HomeHeroMainDesc=()=>{
     return(
-        <div className="home-hero-main-desc-main-ctn">
-            <div className="home-hero-main-desc-mini-ctn">
+        <div 
+            className="home-hero-main-desc-main-ctn"
+        >
+            <div 
+                className="home-hero-main-desc-mini-ctn"
+            >
                 <HomeHeroMainDescTitleText/>
                 <HomeHeroMainDescParagraphMainCtn/>
             </div>
