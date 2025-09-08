@@ -51,8 +51,6 @@ const NavHeader=()=>{
     const [displayNavMenuMobileListCtn, setDisplayNavMenuMobileListCtn]=useState('none');
     const [navMenuActiveIcon, setNavMenuActiveIcon]=useState("<i class='ri-menu-4-line'></i>");
 
-    console.log(navMenuActiveIcon, displayNavMenuMobileListCtn)
-
     return(
         <header className="nav-header-main-ctn">
             <NavLogo/>
