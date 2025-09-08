@@ -29,6 +29,9 @@
 .nav-logo-img-ctn{
     width: 9.7vh;
 }
+.try-for-free-btn-main-ctn#nav-try-for-free-btn-main-ctn{
+    display: block;
+}
 @media screen and (max-width:1110px) and (min-width:851px) {
     .nav-logo-img-ctn{
         width:70px;
@@ -41,7 +44,8 @@
         height:8vh
     }
     .nav-link-main-ctn,
-    #nav-logo-desktop-logo{
+    #nav-logo-desktop-logo,
+    .try-for-free-btn-main-ctn#nav-try-for-free-btn-main-ctn{
         display:none;
     }
     .mobile-nav-menu,
@@ -64,18 +68,6 @@
 
 
 
-
-
-
-/* NAV-TRY-FREE-BTN  */
-.try-for-free-btn-main-ctn#nav-try-for-free-btn-main-ctn{
-    display: block;
-}
-@media screen and (max-width:850px) {
-    .try-for-free-btn-main-ctn#nav-try-for-free-btn-main-ctn{
-        display:none;
-    }
-}
 
 /* NAV-MENU-MOBILE-LIST-CTN  */
 .nav-menu-mobile-list-ctn-main-ctn{
