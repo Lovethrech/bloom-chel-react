@@ -1,5 +1,5 @@
 import NavLink from "./NavLink";
-import NavTryFreeBtn from "./NavTryFreeBtn";
+import NavMenuMobileListCtnTryFreeBtn from "./NavMenuMobileListCtnTryFreeBtn";
 import './Nav.css';
 
 const NavHeaderDetails=[
@@ -45,7 +45,7 @@ const NavHeader=({displayNavMenuMobileListCtn})=>{
                             />
                         )
                     })}
-                    <NavTryFreeBtn
+                    <NavMenuMobileListCtnTryFreeBtn
                         tryFreeBtnBgColor={tryFreeBtnBgColor}
                         tryFreeBtnColor={tryFreeBtnColor}
                     />
