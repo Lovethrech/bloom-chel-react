@@ -2,13 +2,14 @@ import "./HomeAboutDesc.css";
 
 const HomeAboutDesc=()=>{
     return(
-        <section id="about" className="home-about-main-ctn">
-            <div className="home-about-mini-ctn">
-                <div className='home-about-mini-ctn-desktop-view'>
-                    
-                </div>
-            </div>
-        </section>
+        <div className="home-about-desc-main-ctn">
+            <p class="home-about-desc-main-ctn-name">
+                Access all important documents in one place, Run 
+                your business from anywhere in the world, Manage 
+                all income and expenditure in one place, Connect 
+                with the broader medical community
+            </p>
+        </div>
     )
 };
 
