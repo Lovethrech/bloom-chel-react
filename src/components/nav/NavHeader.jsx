@@ -33,7 +33,6 @@ const navLinkColor="#ffffff";
 const navLinkFontSize="1.8vh";
 const tryFreeBtnBgColor="#ffffff";
 const tryFreeBtnColor="#A54dea";
-const navMenuActiveIcon="<i class='ri-menu-4-line'></i>";
 
 // const navMenuDisplayMenu=()=>{
 //     if (navMenuActiveIcon==="<i class='ri-menu-4-line'></i>"){
@@ -50,7 +49,7 @@ const navMenuActiveIcon="<i class='ri-menu-4-line'></i>";
 
 const NavHeader=()=>{
     const [displayNavMenuMobileListCtn, setDisplayNavMenuMobileListCtn]=useState('none');
-    const 
+    const [navMenuActiveIcon, setNavMenuActiveIcon]=useState("<i class='ri-menu-4-line'></i>")
 
     return(
         <header className="nav-header-main-ctn">
