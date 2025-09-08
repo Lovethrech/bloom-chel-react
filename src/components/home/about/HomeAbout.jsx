@@ -1,10 +1,10 @@
-import './Home.css';
+import '../Home.css';
 
 const HomeAbout=()=>{
     return(
-        <div className="home-hero-main-ctn">
+        <section id="about" className="home-about-main-ctn">
             
-        </div>
+        </section>
     )
 };
 
