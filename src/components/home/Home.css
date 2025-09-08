@@ -55,7 +55,6 @@
         font-size:40px;
     }
 }
-/* HOME-HERO-MAIN-DESC-PARAGRAPH  */
 .home-hero-main-desc-paragraph-main-ctn{
     margin:auto 0;
 }
@@ -67,11 +66,7 @@
     display: none;
     text-transform: uppercase;
 }
-
-
-/* HOME-HERO-MAIN-DESC-PARAGRAPH-MAIN-CTN  */
 .home-hero-main-desc-paragraph-main-ctn-main-ctn{
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
