@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const NavTryFreeBtn=({tryFreeBtnBgColor,tryFreeBtnColor})=>{
+const NavMenuMobileListCtnTryFreeBtn=({tryFreeBtnBgColor,tryFreeBtnColor})=>{
     return(
         <div 
             className="try-for-free-btn-main-ctn" 
@@ -21,4 +21,4 @@ const NavTryFreeBtn=({tryFreeBtnBgColor,tryFreeBtnColor})=>{
     );
 };
 
-export default NavTryFreeBtn;
+export default NavMenuMobileListCtnTryFreeBtn;
