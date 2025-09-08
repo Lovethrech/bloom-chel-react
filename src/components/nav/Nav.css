@@ -3,7 +3,11 @@
     display:flex;
     flex-direction: row;
 }
-.nav-header-main-ctn{
+.nav-header-main-ctn,
+.nav-menu-mobile-list-ctn-main-ctn, 
+.nav-menu-mobile-list-ctn-mini-ctn, 
+.nav-menu-mobile-list-ctn-mini-ctn-nav-link
+{
     width:100%;
 }
 .nav-header-main-ctn{
@@ -80,10 +84,6 @@
 
 
 /* NAV-MENU-MOBILE-LIST-CTN  */
-
-.nav-menu-mobile-list-ctn-main-ctn, .nav-menu-mobile-list-ctn-mini-ctn, .nav-menu-mobile-list-ctn-mini-ctn-nav-link{
-    width:100%;
-}
 .nav-menu-mobile-list-ctn-mini-ctn, .nav-menu-mobile-list-ctn-mini-ctn-nav-link{
     display:flex;
 }
