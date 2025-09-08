@@ -1,3 +1,4 @@
+import React, {useState} from 'react';
 import NavLogo from "./NavLogo";
 import NavLink from "./NavLink";
 import NavTryFreeBtn from "./NavTryFreeBtn";
@@ -32,7 +33,7 @@ const navLinkColor="#ffffff";
 const navLinkFontSize="1.8vh";
 const tryFreeBtnBgColor="#ffffff";
 const tryFreeBtnColor="#A54dea";
-const displayNavMenuMobileListCtn="none";
+const [displayNavMenuMobileListCtn, setDisplayNavMenuMobileListCtn]=useState("none");
 const navMenuActiveIcon="<i class='ri-menu-4-line'></i>";
 
 // const navMenuDisplayMenu=()=>{
