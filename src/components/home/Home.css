@@ -32,7 +32,14 @@
 .home-hero-main-desc-mini-ctn{
     margin-bottom: 40px;
 }
-
+@media screen and (max-width: 850px) {
+    .home-hero-main-ctn{
+        padding:3vh 6vw;
+    }
+    .home-hero-main-desc-title-text-main-ctn-name{
+        font-size:40px;
+    }
+}
 
 
 
@@ -46,21 +53,6 @@
     font-size: 4vw;
     font-weight: 500;
     text-transform: uppercase;
-}
-
-
-@media screen and (max-width: 850px) {
-    .home-hero-main-ctn, .pricing-hero-main-ctn{
-        padding:3vh 6vw;
-    }
-    .home-hero-main-desc-title-text-main-ctn-name{
-        font-size:40px;
-    }
-}
-
-/* HOME-HERO-MAIN-DESC  */
-.home-hero-main-desc-mini-ctn{
-    flex-direction: column;
 }
 
 /* HOME-HERO-MAIN-DESC-PARAGRAPH-MAIN-CTN  */
