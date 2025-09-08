@@ -30,8 +30,11 @@
 .home-about-mini-ctn-desktop-view{
     display:flex;
 }
-.home-hero-main-ctn{
+.home-hero-main-ctn,
+.home-about-main-ctn{
     height:100vh;
+} 
+.home-hero-main-ctn{
     background: linear-gradient(to bottom, #A54dea, #594edc);
     padding: 2vh 6vw;
 }  
@@ -66,6 +69,11 @@
     font-size: 4vw;
     font-weight: 500;
     text-transform: uppercase;
+}
+.home-about-main-ctn{
+    padding:4vh 6vw;
+    justify-content: center;
+    place-items: center;
 }
 @media screen and (max-width: 850px) {
     .home-hero-main-ctn{
