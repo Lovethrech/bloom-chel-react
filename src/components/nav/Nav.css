@@ -40,7 +40,8 @@
         padding: 0 4vw;
         height:8vh
     }
-    .nav-link-main-ctn{
+    .nav-link-main-ctn,
+    .nav-logo-desktop-logo{
         display:none;
     }
     .mobile-nav-menu,
@@ -59,9 +60,7 @@
         width:26px;
         height: 26px;
     }
-    .nav-logo-desktop-logo{
-        display: none;
-    }
+    
 }
 
 
