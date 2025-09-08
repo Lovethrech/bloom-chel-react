@@ -13,13 +13,19 @@
 .nav-menu-img-ctn{
     display:none;
 }
+.nav-link-main-ctn{
+    margin:auto 0;
+}
+.nav-link-main-ctn-desc{
+    text-transform: capitalize;
+}
 @media screen and (max-width:850px) {
     .nav-header-main-ctn{
         background-color: #fff;
         padding: 0 4vw;
         height:8vh
     }
-    .desktop-nav, .nav-header-try-free{
+    .nav-link-main-ctn{
         display:none;
     }
     .mobile-nav-menu{
@@ -28,18 +34,13 @@
 }
 
 
-/* NAVLINK COMPONENT */
-.nav-link-main-ctn{
-    margin:auto 0;
-}
-.nav-link-main-ctn-desc{
-    text-transform: capitalize;
-}
-@media screen and (max-width: 850px) {
-    .nav-link-main-ctn{
-        display: none;
-    }
-}
+
+
+
+
+
+
+
 
 
 /* NAVMENU  */

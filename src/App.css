@@ -70,14 +70,14 @@ img{
     margin-bottom: 40px;
 }
 @media screen and (max-width:850px) {
-    .pricing-hero-main-desc-title-text-main-ctn-name, .home-hero-main-desc-title-text-main-ctn-name{
+    .pricing-hero-main-desc-title-text-main-ctn-name{
         font-size:40px;
     }
 }
 @media screen and (max-width: 850px) {
-    .home-hero-main-ctn, .pricing-hero-main-ctn{
-        padding:3vh 6vw;
-    }
+  .pricing-hero-main-ctn{
+      padding:3vh 6vw;
+  }
 }
 
 
