@@ -34,6 +34,14 @@
 .try-for-free-btn-main-ctn#nav-try-for-free-btn-main-ctn{
     display: block;
 }
+.nav-menu-mobile-list-ctn-main-ctn{
+    position:absolute;
+    top:10vh;
+    right:0;
+    padding: 0 6vw;
+    background-color: transparent;
+    height:80vh;
+}
 @media screen and (max-width:1110px) and (min-width:851px) {
     .nav-logo-img-ctn{
         width:70px;
@@ -72,14 +80,7 @@
 
 
 /* NAV-MENU-MOBILE-LIST-CTN  */
-.nav-menu-mobile-list-ctn-main-ctn{
-    position:absolute;
-    top:10vh;
-    right:0;
-    padding: 0 6vw;
-    background-color: transparent;
-    height:80vh;
-}
+
 .nav-menu-mobile-list-ctn-main-ctn, .nav-menu-mobile-list-ctn-mini-ctn, .nav-menu-mobile-list-ctn-mini-ctn-nav-link{
     width:100%;
 }

@@ -44,9 +44,7 @@ const navMenuActiveIcon="<i class='ri-menu-4-line'></i>";
 //         navMenuActiveIcon.value="<i class='ri-menu-4-line'></i>";
 //         displayNavMenuMobileListCtn.value="none";
 //     }
-                // <NavMenuMobileListCtn
-                //     displayNavMenuMobileListCtn={displayNavMenuMobileListCtn}
-                // />
+                
 
 // };
 
@@ -73,6 +71,9 @@ const NavHeader=()=>{
                 <NavMenu
                     navMenuActiveIcon={navMenuActiveIcon}
                     
+                />
+                <NavMenuMobileListCtn
+                    displayNavMenuMobileListCtn={displayNavMenuMobileListCtn}
                 />
             </div>
         </header>
