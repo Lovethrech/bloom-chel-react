@@ -35,16 +35,16 @@ const tryFreeBtnColor="#A54dea";
 const displayNavMenuMobileListCtn="none";
 const navMenuActiveIcon="<i class='ri-menu-4-line'></i>";
 
-const navMenuDisplayMenu=()=>{
-    if (navMenuActiveIcon==="<i class='ri-menu-4-line'></i>"){
-        navMenuActiveIcon.value="<i class='ri-close-large-line'></i>";
-        displayNavMenuMobileListCtn.value="block";
-    }
-    else{
-        navMenuActiveIcon.value="<i class='ri-menu-4-line'></i>";
-        displayNavMenuMobileListCtn.value="none";
-    }
-};
+// const navMenuDisplayMenu=()=>{
+//     if (navMenuActiveIcon==="<i class='ri-menu-4-line'></i>"){
+//         navMenuActiveIcon.value="<i class='ri-close-large-line'></i>";
+//         displayNavMenuMobileListCtn.value="block";
+//     }
+//     else{
+//         navMenuActiveIcon.value="<i class='ri-menu-4-line'></i>";
+//         displayNavMenuMobileListCtn.value="none";
+//     }
+// };
 
 const NavHeader=()=>{
     return(
@@ -68,7 +68,7 @@ const NavHeader=()=>{
                 />
                 <NavMenu
                     navMenuActiveIcon={navMenuActiveIcon}
-                    onClick={navMenuDisplayMenu}
+                    
                 />
                 <NavMenuMobileListCtn
                     displayNavMenuMobileListCtn={displayNavMenuMobileListCtn}
