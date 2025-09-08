@@ -1,6 +1,7 @@
 /* HOME-HERO-TRY-FREE-BTN  */
 .try-for-free-btn-main-ctn#home-hero-try-for-free-btn-main-ctn, 
-.home-hero-main-desc-paragraph-main-ctn-main-ctn-try-free{
+.home-hero-main-desc-paragraph-main-ctn-main-ctn-try-free,
+#home-hero-main-desc-paragraph-main-ctn-name-mobile{
     display: none;
 }
 @media screen and (max-width:850px) {
@@ -41,6 +42,7 @@
 .home-hero-main-desc-mini-ctn{
     margin-bottom: 40px;
 }
+
 @media screen and (max-width: 850px) {
     .home-hero-main-ctn{
         padding:3vh 6vw;
