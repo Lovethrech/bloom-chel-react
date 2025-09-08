@@ -1,5 +1,6 @@
 /* HOME-HERO-TRY-FREE-BTN  */
-.try-for-free-btn-main-ctn#home-hero-try-for-free-btn-main-ctn{
+.try-for-free-btn-main-ctn#home-hero-try-for-free-btn-main-ctn, 
+.home-hero-main-desc-paragraph-main-ctn-main-ctn-try-free{
     display: none;
 }
 @media screen and (max-width:850px) {
@@ -69,9 +70,6 @@
 .home-hero-main-desc-paragraph-main-ctn-main-ctn{
     flex-direction: row;
     justify-content: space-between;
-}
-.home-hero-main-desc-paragraph-main-ctn-main-ctn-try-free{
-    display:none;
 }
 @media screen and (max-width: 850px) {
     .home-hero-main-desc-paragraph-main-ctn-main-ctn{
