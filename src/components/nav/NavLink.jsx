@@ -18,7 +18,7 @@ const NavLink=({name, link, color, fontSize})=>{
                 </p>
             </Link>
         </div>
-    )
+    );
 };
 
 export default NavLink;
