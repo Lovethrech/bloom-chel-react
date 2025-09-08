@@ -1,6 +1,5 @@
-import "./HomeAbout.css";
 import HomeAboutTitle from "./HomeAboutTitle";
-
+import "./HomeAbout.css";
 const HomeAbout=()=>{
     return(
         <section id="about" className="home-about-main-ctn">
