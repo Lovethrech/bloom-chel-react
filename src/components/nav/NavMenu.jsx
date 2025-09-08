@@ -1,6 +1,6 @@
 import './Nav.css';
 
-const NavMenu=({navMenuActiveIcon, setNavMenuActiveIcon})=>{
+const NavMenu=({navMenuActiveIcon, setNavMenuActiveIcon, setDisplayNavMenuMobileListCtn})=>{
     return(
         <div 
             id="nav-menu-img-ctn" 
@@ -8,9 +8,11 @@ const NavMenu=({navMenuActiveIcon, setNavMenuActiveIcon})=>{
             onClick={()=>{
                 if(navMenuActiveIcon==="<i class='ri-menu-4-line'></i>"){
                     setNavMenuActiveIcon("<i class='ri-close-large-line'></i>");
+                    setDisplayNavMenuMobileListCtn("flex");
                 }
                 else{
                     setNavMenuActiveIcon("<i class='ri-menu-4-line'></i>");
+                    setDisplayNavMenuMobileListCtn("none");
                 }
             }}
         >
