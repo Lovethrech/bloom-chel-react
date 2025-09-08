@@ -10,23 +10,23 @@
 
 
 /* HOME-HERO */
-.home-hero-main-ctn, 
-.home-hero-main-ctn{
+.home-hero-main-ctn, .home-hero-mini-ctn, .home-hero-main-desc-main-ctn, .home-hero-main-desc-mini-ctn{
     width:100%;
+}
+.home-hero-mini-ctn, .home-hero-main-desc-main-ctn, .home-hero-main-desc-mini-ctn{
+    display:flex;
+}
+.home-hero-main-ctn{
     height:100vh;
     background: linear-gradient(to bottom, #A54dea, #594edc);
     padding: 2vh 6vw;
 }  
 .home-hero-mini-ctn{
-    width:inherit;
     display:flex;
     flex-direction: column;
     gap:20px;
 }
-.home-hero-main-desc-main-ctn, .home-hero-main-desc-mini-ctn{
-    width:100%;
-    display:flex;
-}
+
 .home-hero-main-desc-main-ctn{
     height:80vh;
     place-items: end;
