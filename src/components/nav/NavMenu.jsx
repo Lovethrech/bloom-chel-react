@@ -6,8 +6,11 @@ const NavMenu=({navMenuActiveIcon, setNavMenuActiveIcon})=>{
             id="nav-menu-img-ctn" 
             dangerouslySetInnerHTML={{ __html: navMenuActiveIcon }}
             onClick={()=>{
-                if(navMenuActiveIcon.type==="<i class='ri-menu-4-line'></i>"){
+                if(navMenuActiveIcon==="<i class='ri-menu-4-line'></i>"){
                     setNavMenuActiveIcon("<i class='ri-close-large-line'></i>");
+                }
+                else{
+                    setNavMenuActiveIcon("<i class='ri-menu-4-line'></i>");
                 }
             }}
         >
