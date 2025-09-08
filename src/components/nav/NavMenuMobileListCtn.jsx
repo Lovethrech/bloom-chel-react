@@ -1,4 +1,4 @@
-import NavLink from "./NavLink";
+import NavMenuMobileListCtnLink from "./NavMenuMobileListCtnLink";
 import NavMenuMobileListCtnTryFreeBtn from "./NavMenuMobileListCtnTryFreeBtn";
 import './Nav.css';
 
@@ -28,15 +28,15 @@ const navLinkColor="#000000";
 const navLinkFontSize="31px";
 const tryFreeBtnBgColor="linear-gradient(to bottom, #A54dea, #594edc)";
 const tryFreeBtnColor="#ffffff";
-// style={{display: displayNavMenuMobileListCtn}}
 const NavHeader=({displayNavMenuMobileListCtn})=>{
     return(
-        <div className="nav-menu-mobile-list-ctn-main-ctn" >
+        <div className="nav-menu-mobile-list-ctn-main-ctn" style={{display: displayNavMenuMobileListCtn}}
+>
             <div className="nav-menu-mobile-list-ctn-mini-ctn">
                 <div className="nav-menu-mobile-list-ctn-mini-ctn-nav-link">
                     {NavHeaderDetails.map(NavHeaderDetail=>{
                         return(
-                            <NavLink
+                            <NavMenuMobileListCtnLink 
                                 key={NavHeaderDetail.id}
                                 name={NavHeaderDetail.name}
                                 link={NavHeaderDetail.link}
