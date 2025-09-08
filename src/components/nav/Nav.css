@@ -11,7 +11,7 @@
     gap:1.4vw;
 }
 .nav-menu-img-ctn,
-.nav-logo-mobile-logo{
+#nav-logo-mobile-logo{
     display:none;
 }
 .nav-link-main-ctn,
