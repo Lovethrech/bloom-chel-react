@@ -84,12 +84,17 @@
         display:none;
     }
     .mobile-nav-menu,
-    #nav-menu-img-ctn,
+    
     #nav-logo-mobile-logo,
     .try-for-free-btn-main-ctn#nav-menu-mobile-list-ctn-try-for-free-btn-main-ctn,
     .nav-link-main-ctn#nav-menu-mobile-list-ctn-link-main-ctn
     {
         display:block;
+    }
+    #nav-menu-img-ctn{
+        display:flex;
+        justify-content: center;
+        place-items:center;
     }
     .nav-logo-img-ctn{
         width:26px;
