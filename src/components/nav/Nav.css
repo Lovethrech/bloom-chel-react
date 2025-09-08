@@ -15,7 +15,8 @@
     display:none;
 }
 .nav-link-main-ctn,
-.nav-menu-img-ctn{
+.nav-menu-img-ctn,
+.nav-logo-img-ctn{
     margin:auto 0;
 }
 .nav-link-main-ctn-desc{
@@ -24,6 +25,9 @@
 .nav-menu-img-ctn{
     font-size: 26px;
     color: #594edc;
+}
+.nav-logo-img-ctn{
+    width: 9.7vh;
 }
 @media screen and (max-width:850px) {
     .nav-header-main-ctn{
@@ -40,13 +44,9 @@
 }
 
 
-.nav-logo-img-ctn{
-    width: 9.7vh;
-    margin: auto 0;
-}
-.nav-logo-mobile-logo{
-    display: none;
-}
+
+
+
 @media screen and (max-width:1110px) and (min-width:851px) {
     .nav-logo-img-ctn{
         width:70px;
