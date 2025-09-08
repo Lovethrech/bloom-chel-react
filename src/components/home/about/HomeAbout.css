@@ -8,9 +8,9 @@
     height: 100%;
     gap:3vh;
 }
-.home-about-mini-ctn-desktop-view{
+/* .home-about-mini-ctn-desktop-view{
     display:none;
-}
+} */
 .home-about-title, .home-about-desc, .try-free-btn{
     display:flex;
 }
