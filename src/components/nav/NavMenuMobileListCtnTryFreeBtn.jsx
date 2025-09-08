@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const NavTryFreeBtn=({tryFreeBtnBgColor,tryFreeBtnColor})=>{
     return(
-        <div className="try-for-free-btn-main-ctn" id="nav-menu-mobile-list-ctn-for-free-btn-main-ctn">
+        <div className="try-for-free-btn-main-ctn" id="nav-menu-mobile-list-ctn-try-for-free-btn-main-ctn">
             <Link to="/" className="link">
                 <button 
                     className="try-for-free-btn"

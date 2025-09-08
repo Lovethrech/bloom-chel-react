@@ -81,7 +81,8 @@
         display:none;
     }
     .mobile-nav-menu,
-    #nav-logo-mobile-logo{
+    #nav-logo-mobile-logo,
+    .try-for-free-btn-main-ctn#nav-menu-mobile-list-ctn-try-for-free-btn-main-ctn{
         display:block;
     }
     .nav-logo-img-ctn{
