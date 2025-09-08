@@ -22,11 +22,9 @@
     padding: 2vh 6vw;
 }  
 .home-hero-mini-ctn{
-    display:flex;
     flex-direction: column;
     gap:20px;
 }
-
 .home-hero-main-desc-main-ctn{
     height:80vh;
     place-items: end;
@@ -34,6 +32,9 @@
 .home-hero-main-desc-mini-ctn{
     margin-bottom: 40px;
 }
+
+
+
 
 
 
