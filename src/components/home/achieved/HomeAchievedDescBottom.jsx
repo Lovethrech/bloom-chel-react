@@ -1,8 +1,8 @@
 import "./HomeAchievedDescBottom.css";
 const HomeAchievedDescBottom=()=>{
     return(
-        <div className="home-achieved-main-ctn">
-            <div className="home-achieved-mini-ctn">
+        <div className="home-achieved-desc-bottom-main-ctn">
+            <div className="home-achieved-desc-bottom-mini-ctn">
                 
             </div>
         </div>
