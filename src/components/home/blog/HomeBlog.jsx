@@ -1,4 +1,4 @@
-
+import "./HomeBlog.css";
 const HomeBlog=()=>{
     return(
         <section className="home-about-main-ctn">
