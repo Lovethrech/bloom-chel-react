@@ -1,4 +1,4 @@
-import "./HomeBlogBoxOneImg.css";
+import "./HomeBlogBoxImg.css";
 const HomeBlogBoxOneImg=({bgImgSrc})=>{
     return(
         <div 
