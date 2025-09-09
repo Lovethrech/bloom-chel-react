@@ -1,11 +1,11 @@
 import "./HomeContactImg.css";
 const HomeContactImg=()=>{
     return(
-        <section className="home-contact-main-ctn">
+        <div className="home-contact-main-ctn">
             <div className="home-contact-mini-ctn">
                 
             </div>
-        </section>
+        </div>
     )
 };
 
