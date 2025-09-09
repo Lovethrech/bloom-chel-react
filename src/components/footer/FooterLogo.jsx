@@ -3,10 +3,8 @@ import "./FooterLogo.css";
 const FooterLogo=()=>{
 
     return(
-        <div className="footer-main-ctn">
-            <div className="footer-mini-ctn">
-            
-            </div>
+        <div className="footer-logo-main-ctn">
+            <img src="src/assets/bloom.svg" alt="Bloom Logo"/>
         </div>
     )
 };
