@@ -1,10 +1,10 @@
 import "./HomeContactMainContentDesc.css";
 const HomeContactMainContentDesc=()=>{
     return(
-        <div className="home-contact-main-ctn">
-            <div className="home-contact-mini-ctn">
-                
-            </div>
+        <div className="home-contact-main-content-desc-main-ctn">
+            <h4 className="home-contact-main-content-desc-main-ctn-name">
+                Seemless Service to transform your business
+            </h4>
         </div>
     )
 };
