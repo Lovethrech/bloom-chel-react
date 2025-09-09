@@ -1,13 +1,15 @@
 import HomeBlogBoxOneImg from './HomeBlogBoxOneImg.jsx';
 import HomeBlogBoxDesc from './HomeBlogBoxDesc.jsx';
 import "./HomeBlogBoxOne.css";
-const HomeBlogBoxOne=()=>{
+const HomeBlogBoxOne=({bgImgSrc, boxDesc})=>{
     return(
         <div className="home-blog-box-main-ctn">
             <div className="home-blog-box-mini-ctn">
-                <HomeBlogBoxOneImg/>
+                <HomeBlogBoxOneImg
+                    bgImgSrc={bgImgSrc}
+                />
                 <HomeBlogBoxDesc
-                    boxDesc={HomeBlogDetails[0].boxDesc}
+                    boxDesc={boxDesc}
                 />
             </div>
         </div>
