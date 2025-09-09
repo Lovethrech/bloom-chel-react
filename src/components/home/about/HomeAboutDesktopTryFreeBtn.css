@@ -3,3 +3,8 @@
         display: none;
     }
 }
+@media screen and (max-width: 900px) {
+    #desktop.try-for-free-btn-main-ctn{
+        display:none;
+    }
+}
