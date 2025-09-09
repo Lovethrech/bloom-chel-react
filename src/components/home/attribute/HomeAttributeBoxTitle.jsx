@@ -1,10 +1,10 @@
 import "./HomeAttributeBoxTitle.css";
-const HomeAttributeBoxTitle=()=>{
+const HomeAttributeBoxTitle=({name})=>{
     return(
-        <div className="home-about-main-ctn">
-            <div className="home-about-mini-ctn">
-                
-            </div>
+        <div className="home-attribute-box-title-main-ctn">
+            <p className="home-attribute-box-title-main-ctn-name">
+                {name}
+            </p>
         </div>
     )
 };
