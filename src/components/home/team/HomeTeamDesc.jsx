@@ -1,10 +1,10 @@
 import "./HomeTeamDesc.css";
 const HomeTeamDesc=()=>{
     return(
-        <div className="home-about-main-ctn">
-            <div className="home-about-mini-ctn">
-                
-            </div>
+        <div className="home-team-desc-main-ctn">
+            <p className="home-team-desc-main-ctn-name">
+                Hover on image to see details
+            </p>
         </div>
     )
 };
