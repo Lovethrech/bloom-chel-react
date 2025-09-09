@@ -1,6 +1,6 @@
 import HomeBlogBoxOneImg from './HomeBlogBoxImg.jsx';
 import HomeBlogBoxDesc from './HomeBlogBoxDesc.jsx';
-import "./HomeBlogBoxOne.css";
+import "./HomeBlogBox.css";
 const HomeBlogBoxOne=({bgImgSrc, boxDesc})=>{
     console.log(bgImgSrc)
     return(
