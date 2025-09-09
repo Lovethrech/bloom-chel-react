@@ -1,8 +1,8 @@
 
 const HomeAttribute=()=>{
     return(
-        <section className="home-about-main-ctn">
-            <div className="home-about-mini-ctn">
+        <section className="home-attribute-main-ctn">
+            <div className="home-attribute-mini-ctn">
                 
             </div>
         </section>
