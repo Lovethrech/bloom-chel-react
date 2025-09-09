@@ -1,10 +1,10 @@
 import "./HomeCustomerReviewTextCtnDetailsTitle.css";
 const HomeCustomerReviewTextCtnDetailsTitle=()=>{
     return(
-        <div className="home-about-main-ctn">
-            <div className="home-about-mini-ctn">
-                
-            </div>
+        <div className="home-customer-review-text-ctn-title-main-ctn">
+            <p class="home-customer-review-text-ctn-title-main-ctn-name">
+                CEO A&amp;B Pharma
+            </p>
         </div>
     )
 };
