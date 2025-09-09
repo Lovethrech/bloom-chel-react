@@ -1,0 +1,9 @@
+#mobile.home-about-desc-main-ctn{
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    #mobile.home-about-desc-main-ctn{
+        display: flex;
+    }
+}

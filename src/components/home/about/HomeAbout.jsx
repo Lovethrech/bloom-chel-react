@@ -1,6 +1,7 @@
 import HomeAboutTitle from "./HomeAboutTitle";
 import HomeAboutMobileTitle from "./HomeAboutMobileTitle";
 import HomeAboutDesc from "./HomeAboutDesc";
+import HomeAboutMobileDesc from "./HomeAboutMobileDesc";
 import HomeAboutImg from "./HomeAboutImg";
 import HomeAboutDesktopTryFreeBtn from "./HomeAboutDesktopTryFreeBtn";
 // <HomeAboutTitle id="home-about-title"/>
@@ -23,7 +24,7 @@ const HomeAbout=()=>{
                     />
                     <br/>
                 </div>
-                
+                <HomeAboutMobileDesc/>
                 <HomeAboutImg id="home-about-img"/>
             </div>
         </section>
