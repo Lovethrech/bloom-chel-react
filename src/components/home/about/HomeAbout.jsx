@@ -25,7 +25,10 @@ const HomeAbout=()=>{
                 </div>
                 <HomeAboutImg/>
                 <HomeAboutMobileDesc/>
-                <HomeAboutMobileTryFreeBtn/>
+                <HomeAboutMobileTryFreeBtn
+                    tryFreeBtnBgColor={tryFreeBtnBgColor}
+                    tryFreeBtnColor={tryFreeBtnColor}
+                />
             </div>
         </section>
     )
