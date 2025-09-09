@@ -1,5 +1,5 @@
 
-const HomeCustomer=()=>{
+const HomeCustomerReview=()=>{
     return(
         <section className="home-about-main-ctn">
             <div className="home-about-mini-ctn">
@@ -9,4 +9,4 @@ const HomeCustomer=()=>{
     )
 };
 
-export default HomeCustomer;
+export default HomeCustomerReview;
