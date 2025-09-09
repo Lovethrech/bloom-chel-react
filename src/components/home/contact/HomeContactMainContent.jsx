@@ -1,8 +1,8 @@
 import "./HomeContactMainContent.css";
 const HomeContactMainContent=()=>{
     return(
-        <section className="home-contact-main-ctn">
-            <div className="home-contact-mini-ctn">
+        <section className="home-contact-main-content-main-ctn">
+            <div className="home-contact-main-content-main-ctn-main">
                 
             </div>
         </section>
