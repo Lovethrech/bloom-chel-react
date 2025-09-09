@@ -2,7 +2,6 @@ import HomeBlogBoxOneImg from './HomeBlogBoxImg.jsx';
 import HomeBlogBoxDesc from './HomeBlogBoxDesc.jsx';
 import "./HomeBlogBox.css";
 const HomeBlogBoxOne=({bgImgSrc, boxDesc})=>{
-    console.log(bgImgSrc)
     return(
         <div className="home-blog-box-main-ctn">
             <div className="home-blog-box-mini-ctn">
