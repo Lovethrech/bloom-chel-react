@@ -1,10 +1,10 @@
 import "./HomeAttributeBoxDesc.css";
-const HomeAttributeBoxDesc=()=>{
+const HomeAttributeBoxDesc=({description})=>{
     return(
-        <div className="home-about-main-ctn">
-            <div className="home-about-mini-ctn">
-                
-            </div>
+        <div className="home-attribute-box-desc-main-ctn">
+            <p className="home-attribute-box-desc-main-ctn-name">
+                {description}
+            </p>
         </div>
     )
 };
