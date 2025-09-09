@@ -5,7 +5,7 @@ const HomeBlogVisitBtn=()=>{
         <div className="home-blog-visit-btn-main-ctn">
             <Link to="">
                 <button className="home-blog-visit-btn-main-ctn-button">
-                    
+                    visit blog
                 </button>
             </Link>
         </div>

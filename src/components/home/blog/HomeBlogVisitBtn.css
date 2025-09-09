@@ -1,0 +1,25 @@
+.home-blog-visit-btn-main-ctn{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.home-blog-visit-btn-main-ctn-button{
+    text-transform:capitalize;
+    background: linear-gradient(to bottom, #A54dea, #594edc);
+    color: #fff;
+    font-size: 0.8vw;
+    padding: 1vh 3vw;
+    border:0;
+}
+.home-blog-visit-btn-main-ctn-button:hover{
+    cursor:pointer;
+    transform: scaleX(0.98);
+    transition: all .6s;
+}
+
+@media screen and (max-width:900px) {
+    .home-blog-visit-btn-main-ctn-button{
+        font-size: 14px;
+        padding:10px 30px;
+    }
+}
