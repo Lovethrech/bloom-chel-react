@@ -14,7 +14,9 @@ const HomeBlogBoxOne=()=>{
         <div className="home-blog-box-main-ctn">
             <div className="home-blog-box-mini-ctn">
                 <HomeBlogBoxOneImg/>
-                <HomeBlogBoxDesc/>
+                <HomeBlogBoxDesc
+                    boxDesc={HomeBlogDetails[0].boxDesc}
+                />
             </div>
         </div>
     )
