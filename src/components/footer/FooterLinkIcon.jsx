@@ -1,9 +1,9 @@
 import "./FooterLinkIcon.css";
 
-const FooterLinkIcon=()=>{
+const FooterLinkIcon=({name})=>{
 
     return(
-        <div className="footer-link-icon-main-ctn">
+        <div className="footer-link-icon-main-ctn" dangerouslySetInnerHTML={{ __html: name }}>
         </div>
     )
 };
