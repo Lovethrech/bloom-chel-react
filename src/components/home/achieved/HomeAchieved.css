@@ -1,0 +1,23 @@
+.home-achieved-main-ctn, .home-achieved-mini-ctn{
+    width:100%;
+}
+.home-achieved-main-ctn{
+    height:100vh;
+    padding: 14vh 6vw;
+    background: url(src/assets/home-achieved-bg.svg) center/ auto no-repeat;
+    background-size: cover;
+}
+.home-achieved-mini-ctn{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:850px) {
+    .home-achieved-main-ctn{
+        background: url(src/assets/home-achieved-bg-mobile.svg) center/ auto no-repeat;
+        background-size: cover;
+        padding:10vh 6vw;
+    }
+}
