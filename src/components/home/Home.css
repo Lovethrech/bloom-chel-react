@@ -1,7 +1,5 @@
 /* HOME-HERO-TRY-FREE-BTN  */
-.try-for-free-btn-main-ctn#home-hero-try-for-free-btn-main-ctn, 
-.home-hero-main-desc-paragraph-main-ctn-main-ctn-try-free,
-#home-hero-main-desc-paragraph-main-ctn-name-mobile{
+.try-for-free-btn-main-ctn#home-hero-try-for-free-btn-main-ctn, .home-hero-main-desc-paragraph-main-ctn-main-ctn-try-free, #home-hero-main-desc-paragraph-main-ctn-name-mobile{
     display: none;
 }
 @media screen and (max-width:850px) {
@@ -9,20 +7,11 @@
         display:block;
     }
 }
-
-
 /* HOME-HERO START */
-.home-hero-main-ctn, 
-.home-hero-mini-ctn, 
-.home-hero-main-desc-main-ctn, 
-.home-hero-main-desc-mini-ctn, 
-.home-hero-main-desc-paragraph-main-ctn-main-ctn{
+.home-hero-main-ctn, .home-hero-mini-ctn, .home-hero-main-desc-main-ctn, .home-hero-main-desc-mini-ctn, .home-hero-main-desc-paragraph-main-ctn-main-ctn{
     width:100%;
 }
-.home-hero-mini-ctn, 
-.home-hero-main-desc-main-ctn, 
-.home-hero-main-desc-mini-ctn,
-.home-hero-main-desc-paragraph-main-ctn-main-ctn{
+.home-hero-mini-ctn, .home-hero-main-desc-main-ctn, .home-hero-main-desc-mini-ctn,.home-hero-main-desc-paragraph-main-ctn-main-ctn{
     display:flex;
 }
 .home-hero-main-ctn{
@@ -30,8 +19,7 @@
     background: linear-gradient(to bottom, #A54dea, #594edc);
     padding: 2vh 6vw;
 }  
-.home-hero-mini-ctn, 
-.home-hero-main-desc-mini-ctn{
+.home-hero-mini-ctn, .home-hero-main-desc-mini-ctn{
     flex-direction: column;
     gap:20px;
 }
@@ -66,12 +54,10 @@
     .home-hero-main-ctn{
         padding:3vh 6vw;
     }
-    #home-hero-main-desc-paragraph-main-ctn-name-desktop,
-    .home-hero-main-desc-paragraph-main-ctn-main-ctn-paragraph-arrow{
+    #home-hero-main-desc-paragraph-main-ctn-name-desktop, .home-hero-main-desc-paragraph-main-ctn-main-ctn-paragraph-arrow{
         display: none;
     }
-    #home-hero-main-desc-paragraph-main-ctn-name-mobile,
-    .home-hero-main-desc-paragraph-main-ctn-main-ctn-try-free{
+    #home-hero-main-desc-paragraph-main-ctn-name-mobile, .home-hero-main-desc-paragraph-main-ctn-main-ctn-try-free{
         display: flex;
     }
     .home-hero-main-desc-paragraph-main-ctn-main-ctn{
