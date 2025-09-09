@@ -1,6 +1,6 @@
-import HomeBlogBoxOne from './HomeBlogBoxOne.jsx';
-import HomeBlogBoxTwo from './HomeBlogBoxTwo.jsx';
-import HomeBlogBoxThree from './HomeBlogBoxThree.jsx';
+// import HomeBlogBoxOne from './HomeBlogBoxOne.jsx';
+// import HomeBlogBoxTwo from './HomeBlogBoxTwo.jsx';
+// import HomeBlogBoxThree from './HomeBlogBoxThree.jsx';
 import "./HomeBlogBoxMainCtn.css";
 
 const HomeBlogDetails=[
@@ -20,24 +20,23 @@ const HomeBlogDetails=[
         "boxDesc":"Check out our latest news and articles about the use of technology in the medical field"
     }
 ]
+// <HomeBlogBoxOne/>
+//                 <HomeBlogBoxTwo/>
+//                 <HomeBlogBoxThree/>
 const HomeBlogBoxMainCtn=()=>{
     return(
         <div className="home-bog-box-main-ctn-main-ctn">
             <div className="home-bog-box-main-ctn-mini-ctn">
                 {HomeBlogDetails.map(HomeBlogDetail=>{
                     return(
-                        <NavLink
+                        <HomeBlogDetail
                             key={HomeBlogDetail.id}
                             bgImgSrc={HomeBlogDetail.bgImgSrc}
                             boxDesc={HomeBlogDetail.boxDesc}
-                            color={navLinkColor}
-                            fontSize={navLinkFontSize}
                         />
                     )
                 })}
-                <HomeBlogBoxOne/>
-                <HomeBlogBoxTwo/>
-                <HomeBlogBoxThree/>
+                
             </div>
         </div>
     )
