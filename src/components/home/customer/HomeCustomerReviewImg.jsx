@@ -1,10 +1,8 @@
 import "./HomeCustomerReviewImg.css";
 const HomeCustomerReviewImg=()=>{
     return(
-        <div className="home-about-main-ctn">
-            <div className="home-about-mini-ctn">
-                
-            </div>
+        <div className="home-customer-review-img-main-ctn">
+            <img src="src/assets/home-customer-obayemi.png" alt="Customer Review Image"/>
         </div>
     )
 };
