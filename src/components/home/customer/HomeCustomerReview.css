@@ -1,0 +1,18 @@
+.home-customer-review-main-ctn{
+    min-height:50vh;
+    padding: 16vh 0;
+}
+.home-customer-review-mini-ctn, .home-customer-review-main-ctn{
+    width:100%;
+}
+.home-customer-review-mini-ctn-name{
+    text-transform: uppercase;
+    font-size: 3vw;
+    margin: 0 6vw;
+}
+
+@media screen and (max-width: 900px) {
+    .home-customer-review-mini-ctn-name{
+        font-size: 30px;
+    }
+}
