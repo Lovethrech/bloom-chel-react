@@ -1,0 +1,12 @@
+.footer-link-icon-ctn-main-ctn, .footer-link-icon-ctn-mini-ctn{
+    display:flex;
+}
+.footer-link-icon-ctn-main-ctn{
+    width: 100%;
+    justify-content: center;
+    place-items: center;
+}
+.footer-link-icon-ctn-mini-ctn{
+    flex-direction: row;
+    gap:1vw;
+}
