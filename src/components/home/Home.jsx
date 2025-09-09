@@ -6,8 +6,10 @@ import HomeAttribute from "./attribute/HomeAttribute";
 import HomeAchieved from "./achieved/HomeAchieved";
 import HomeCustomerReview from "./customer/HomeCustomerReview";
 import HomeBlog from "./blog/HomeBlog";
-import HomeTeam from "./team/HomeTeam";
-import HomePartner from "./partner/HomePartner";
+// import HomeTeam from "./team/HomeTeam";
+// import HomePartner from "./partner/HomePartner";
+// <HomeTeam/>
+//             <HomePartner/>
 const Home=()=>{
     return(
         <main>
@@ -18,8 +20,7 @@ const Home=()=>{
             <HomeAchieved/>
             <HomeCustomerReview/>
             <HomeBlog/>
-            <HomeTeam/>
-            <HomePartner/>
+            
         </main>
     )
 };

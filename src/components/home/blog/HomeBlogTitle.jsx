@@ -1,10 +1,10 @@
 import "./HomeBlogTitle.css";
 const HomeBlogTitle=()=>{
     return(
-        <div className="home-about-main-ctn">
-            <div className="home-about-mini-ctn">
-                
-            </div>
+        <div className="home-blog-title-main-ctn">
+            <p className="home-blog-title-main-ctn-name">
+                blog
+            </p>
         </div>
     )
 };
