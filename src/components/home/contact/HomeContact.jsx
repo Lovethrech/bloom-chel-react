@@ -1,4 +1,4 @@
-
+import "./HomeContact.css";
 const HomeContact=()=>{
     return(
         <section className="home-about-main-ctn">
