@@ -1,0 +1,20 @@
+.home-customer-review-text-ctn-details-main-ctn{
+    padding: 10vh 0;
+    width:40%;
+}
+.home-customer-review-text-ctn-details-mini-ctn{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:100%;
+}
+
+@media screen and (max-width: 900px) {
+    .home-customer-review-text-ctn-details-main-ctn{
+        width:100%;
+        padding:0 6vw 4vh;
+    }
+    .home-customer-review-text-ctn-details-mini-ctn{
+        gap:10vh;
+    }
+}
