@@ -1,10 +1,10 @@
 import "./HomeBlogBoxDesc.css";
-const HomeBlogBoxDesc=()=>{
+const HomeBlogBoxDesc=({boxDesc})=>{
     return(
-        <div className="home-about-main-ctn">
-            <div className="home-about-mini-ctn">
-                
-            </div>
+        <div className="home-blog-box-desc-main-ctn">
+            <p class="home-blog-box-desc-main-ctn-name">
+                {boxDesc}
+            </p>
         </div>
     )
 };
