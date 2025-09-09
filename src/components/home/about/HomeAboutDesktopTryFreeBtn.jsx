@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "./HomeAboutDesktopTryFreeBtn.css";
 
 const HomeAboutDesktopTryFreeBtn=({tryFreeBtnBgColor, tryFreeBtnColor})=>{
     return(

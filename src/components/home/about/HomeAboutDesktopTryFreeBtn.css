@@ -1,0 +1,5 @@
+@media screen and (max-width:950px) and (min-height: 1000px) {
+    #desktop.try-for-free-btn-main-ctn{
+        display: none;
+    }
+}
