@@ -1,4 +1,4 @@
-
+import "./HomeTeam.css";
 const HomeTeam=()=>{
     return(
         <section className="home-about-main-ctn">
