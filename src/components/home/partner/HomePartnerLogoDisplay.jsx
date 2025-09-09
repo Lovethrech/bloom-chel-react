@@ -29,10 +29,8 @@ const HomePartnerLogoDisplay=()=>{
                     return(
                         <NavLink
                             key={HomePartnerLogoDetail.id}
-                            name={HomePartnerLogoDetail.name}
-                            link={HomePartnerLogoDetail.link}
-                            color={navLinkColor}
-                            fontSize={navLinkFontSize}
+                            imgSrc={HomePartnerLogoDetail.imgSrc}
+                            imgName={HomePartnerLogoDetail.imgName}
                         />
                     )
                 })}
