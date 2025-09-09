@@ -77,29 +77,4 @@
     .home-about-mini-ctn-desktop-view{
         display:none;
     }
-    .home-about-title, .home-about-desc, .try-free-btn{
-        display:flex;
-    }
-    .home-about-title{
-        grid-column: 1;
-        grid-row:1;
-    }
-    .home-about-img{
-        grid-column: 1;
-        grid-row: 2;
-    }
-    .home-about-desc{
-        grid-column: 1;
-        grid-row: 3;
-    }
-    .try-free-btn{
-        grid-column: 1;
-        grid-row: 4;
-    }
-    .home-about-desc, .try-free-btn{
-        margin:0;
-    }
-    .home-about-title, .home-about-desc, .try-free-btn{
-        width:100%;
-    }
 }
