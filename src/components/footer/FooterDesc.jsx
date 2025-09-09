@@ -3,10 +3,10 @@ import "./FooterDesc.css";
 const FooterDesc=()=>{
 
     return(
-        <div className="footer-main-ctn">
-            <div className="footer-mini-ctn">
-            
-            </div>
+        <div className="footer-desc-main-ctn">
+            <p className="footer-desc-main-ctn-name">
+                Want to connect with us
+            </p>
         </div>
     )
 };
