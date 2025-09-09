@@ -1,14 +1,6 @@
 import HomeBlogBoxOneImg from './HomeBlogBoxOneImg.jsx';
 import HomeBlogBoxDesc from './HomeBlogBoxDesc.jsx';
 import "./HomeBlogBoxOne.css";
-
-const HomeBlogDetails=[
-    {
-        "id":"1",
-        "bgImgSrc":"@/assets/home-blog-img-one.svg",
-        "boxDesc":"Check out our latest news and articles about the use of technology in the medical field"
-    }
-]
 const HomeBlogBoxOne=()=>{
     return(
         <div className="home-blog-box-main-ctn">

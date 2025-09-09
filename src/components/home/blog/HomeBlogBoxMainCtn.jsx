@@ -29,7 +29,7 @@ const HomeBlogBoxMainCtn=()=>{
             <div className="home-bog-box-main-ctn-mini-ctn">
                 {HomeBlogDetails.map(HomeBlogDetail=>{
                     return(
-                        <HomeBlogDetail
+                        <HomeBlogBoxOne
                             key={HomeBlogDetail.id}
                             bgImgSrc={HomeBlogDetail.bgImgSrc}
                             boxDesc={HomeBlogDetail.boxDesc}
