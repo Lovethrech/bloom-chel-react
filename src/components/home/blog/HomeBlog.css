@@ -2,15 +2,9 @@
     width:100%;
 }
 .home-blog-main-ctn{
-    height: 100vh;
+    height: 100%;
     padding: 12vh 6vw;
     display:flex;
     justify-content: center;
     place-items: center;
-}
-
-@media screen and (max-width:900px) {
-    .home-blog-main-ctn{
-        height: 100%;
-    }
 }
