@@ -1,6 +1,6 @@
-import HomeBlogBoxOne from './HomeBlogBoxOne.css';
-import HomeBlogBoxTwo from './HomeBlogBoxTwo.css';
-import HomeBlogBoxThree from './HomeBlogBoxThree.css';
+import HomeBlogBoxOne from './HomeBlogBoxOne.jsx';
+import HomeBlogBoxTwo from './HomeBlogBoxTwo.jsx';
+import HomeBlogBoxThree from './HomeBlogBoxThree.jsx';
 import "./HomeBlogBoxMainCtn.css";
 const HomeBlogBoxMainCtn=()=>{
     return(
