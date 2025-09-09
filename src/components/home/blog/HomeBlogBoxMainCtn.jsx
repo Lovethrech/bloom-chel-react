@@ -6,17 +6,17 @@ import "./HomeBlogBoxMainCtn.css";
 const HomeBlogDetails=[
     {
         "id":"1",
-        "bgImgSrc":"@/assets/home-blog-img-one.svg",
+        "bgImgSrc":"<img src='src/assets/home-blog-img-one.svg' alt='Blog Image'/>",
         "boxDesc":"Check out our latest news and articles about the use of technology in the medical field"
     },
     {
         "id":"2",
-        "bgImgSrc":"@/assets/home-blog-img-two.svg",
+        "bgImgSrc":"<img src='src/assets/home-blog-img-two.svg' alt='Blog Image'/>",
         "boxDesc":"Check out our latest news and articles about the use of technology in the medical field"
     },
     {
         "id":"3",
-        "bgImgSrc":"@/assets/home-blog-img-three.svg",
+        "bgImgSrc":"<img src='src/assets/home-blog-img-three.svg' alt='Blog Image'/>",
         "boxDesc":"Check out our latest news and articles about the use of technology in the medical field"
     }
 ]
