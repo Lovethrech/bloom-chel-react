@@ -8,6 +8,7 @@ import HomeCustomerReview from "./customer/HomeCustomerReview";
 import HomeBlog from "./blog/HomeBlog";
 import HomeTeam from "./team/HomeTeam";
 import HomePartner from "./partner/HomePartner";
+import Footer from "../footer/Footer";
 const Home=()=>{
     return(
         <main>
@@ -20,6 +21,7 @@ const Home=()=>{
             <HomeBlog/>
             <HomeTeam/>
             <HomePartner/>
+            <Footer/>
         </main>
     )
 };
