@@ -1,9 +1,12 @@
+import HomeBlogBoxOne from 'src/components/home/blog/HomeBlogBoxOne.css';
+import HomeBlogBoxTwo from 'src/components/home/blog/HomeBlogBoxTwo.css';
+import HomeBlogBoxThree from 'src/components/home/blog/HomeBlogBoxThree.css';
 import "./HomeBlogBoxMainCtn.css";
 const HomeBlogBoxMainCtn=()=>{
     return(
-        <div className="home-about-main-ctn">
-            <div className="home-about-mini-ctn">
-                
+        <div className="home-bog-box-main-ctn-main-ctn">
+            <div className="home-bog-box-main-ctn-mini-ctn">
+                <HomeBlogBoxOne/>
             </div>
         </div>
     )
