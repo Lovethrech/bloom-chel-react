@@ -1,0 +1,22 @@
+.home-contact-img-main-ctn{
+    width: 40vw;
+    height:30vw;
+}
+@media screen and (max-width:1380px) and (min-width: 851px){
+    .home-contact-img-main-ctn{
+        width:800px;
+    }
+}
+@media screen and (max-width:950px) and (min-height: 1000px) {
+    .home-contact-img-main-ctn{
+        width: 400px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 850px) {
+    .home-contact-img-main-ctn{
+        margin: 0 auto;
+        width: 80vw;
+        height:30vh;
+    }
+}
