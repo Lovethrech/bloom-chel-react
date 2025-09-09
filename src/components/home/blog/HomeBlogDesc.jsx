@@ -1,10 +1,12 @@
 import "./HomeBlogBoxDesc.css";
 const HomeBlogDesc=()=>{
     return(
-        <div className="home-about-main-ctn">
-            <div className="home-about-mini-ctn">
-                
-            </div>
+        <div className="home-blog-desc-main-ctn">
+            <p className="home-blog-desc-main-ctn-name">
+                Check out our latest news and articles about the use
+                <br/>
+                of technology in the medical field
+            </p>
         </div>
     )
 };
