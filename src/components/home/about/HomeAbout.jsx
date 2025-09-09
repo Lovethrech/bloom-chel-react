@@ -1,6 +1,7 @@
 import HomeAboutTitle from "./HomeAboutTitle";
 import HomeAboutDesc from "./HomeAboutDesc";
 import HomeAboutImg from "./HomeAboutImg";
+import HomeAboutDesktopTryFreeBtn from "./HomeAboutDesktopTryFreeBtn";
 // <HomeAboutTitle id="home-about-title"/>
 //                 <HomeAboutDesc className="home-about-desc"/>
 import "./HomeAbout.css";
@@ -11,6 +12,7 @@ const HomeAbout=()=>{
                 <div className='home-about-mini-ctn-desktop-view'>
                     <HomeAboutTitle/>
                     <HomeAboutDesc/>
+                    <HomeAboutDesktopTryFreeBtn/>
                     <br/>
                 </div>
                 
