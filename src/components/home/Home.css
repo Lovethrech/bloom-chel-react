@@ -69,3 +69,13 @@
     }
 }
 /* HOME-HERO END */
+
+/* HOME-CUSTOMER-REVIEW  */
+.home-customer-review-text-ctn-speech-main-ctn-name, .home-customer-review-text-ctn-title-main-ctn-name, .home-customer-review-text-ctn-details-name-main-ctn-name, .home-customer-review-text-ctn-details-year-main-ctn-name{
+    color: #fff;
+}
+@media screen and (max-width: 900px) {
+    .home-customer-review-text-ctn-speech-main-ctn-name, .home-customer-review-text-ctn-title-main-ctn-name, .home-customer-review-text-ctn-details-name-main-ctn-name, .home-customer-review-text-ctn-details-year-main-ctn-name{
+        text-align: center;
+    }
+}
