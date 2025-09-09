@@ -1,5 +1,5 @@
-import "./HomePartnerLogoBoxcsscss.css";
-const HomePartnerLogoBoxcsscss=()=>{
+import "./HomePartnerLogoBox.css";
+const HomePartnerLogoBox=()=>{
     return(
         <div className="home-about-main-ctn">
             <div className="home-about-mini-ctn">
@@ -9,4 +9,4 @@ const HomePartnerLogoBoxcsscss=()=>{
     )
 };
 
-export default HomePartnerLogoBoxcsscss;
+export default HomePartnerLogoBox;
