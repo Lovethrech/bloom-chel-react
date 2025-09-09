@@ -1,6 +1,5 @@
-section.home-about-main-ctn{
-    padding-top: 4vh;
-    padding-bottom: 5vh;
+.home-about-main-ctn{
+    padding: 4vh 6vw 5vh;
     height:100%;
 }
 .home-about-mini-ctn{
