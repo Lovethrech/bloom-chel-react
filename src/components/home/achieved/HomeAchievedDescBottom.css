@@ -1,0 +1,49 @@
+.home-achieved-desc-bottom-main-ctn, .home-achieved-desc-bottom-mini-ctn{
+    display:flex;
+}
+.home-achieved-desc-bottom-main-ctn{
+    justify-content: end;
+}
+.home-achieved-desc-bottom-mini-ctn{
+    flex-direction: row;
+    gap:4vw;
+}
+.home-achieved-desc-bottom-mini-ctn-name-patients, .home-achieved-desc-bottom-mini-ctn-name-business{
+    color:#fff;
+    font-size: 2vh;
+}
+.home-achieved-desc-bottom-mini-ctn-name-patients-count, .home-achieved-desc-bottom-mini-ctn-name-business-count{
+    font-size:16vw;
+}
+
+@media screen and (min-width:1500px) {
+    .home-achieved-desc-bottom-mini-ctn-name-patients, .home-achieved-desc-bottom-mini-ctn-name-business{
+        font-size: 2vh;
+    }
+    .home-achieved-desc-bottom-mini-ctn-name-patients-count, .home-achieved-desc-bottom-mini-ctn-name-business-count{
+        font-size:16vh;
+    }
+}
+
+@media screen and (max-width:850px){
+    .home-achieved-desc-bottom-main-ctn{
+        justify-content: left;
+    }
+    .home-achieved-desc-bottom-mini-ctn{
+        flex-direction: column;
+    }
+    .home-achieved-desc-bottom-mini-ctn-name-patients, .home-achieved-desc-bottom-mini-ctn-name-business{
+        font-size: 20px;
+    }
+    .home-achieved-desc-bottom-mini-ctn-name-patients-count, .home-achieved-desc-bottom-mini-ctn-name-business-count{
+        font-size:100px;
+    }
+}
+@media screen and (max-width:400px) {
+    .home-achieved-desc-bottom-mini-ctn-name-patients, .home-achieved-desc-bottom-mini-ctn-name-business{
+        font-size: 14px;
+    }
+    .home-achieved-desc-bottom-mini-ctn-name-patients-count, .home-achieved-desc-bottom-mini-ctn-name-business-count{
+        font-size:70px;
+    }
+}
