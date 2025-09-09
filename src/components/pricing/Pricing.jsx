@@ -1,4 +1,3 @@
-
 import "./Pricing.css";
 import PricingHero from './hero/PricingHero';
 import PricingPackage from './package/PricingPackage';
