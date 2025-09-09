@@ -1,3 +1,4 @@
+import FooterLinkIcon from './FooterLinkIcon';
 import "./FooterLinkIconCtn.css";
 const FooterLinkIcons=[
     {
@@ -25,7 +26,7 @@ const FooterLinkIconCtn=()=>{
             <div className="footer-link-icon-ctn-mini-ctn">
                 {FooterLinkIcons.map(FooterLinkIcon=>{
                     return(
-                        <NavLink
+                        <FooterLinkIcon
                             key={FooterLinkIcon.id}
                             name={FooterLinkIcon.name}
                         />
