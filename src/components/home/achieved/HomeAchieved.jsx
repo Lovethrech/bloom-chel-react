@@ -1,5 +1,5 @@
 import "./HomeAchieved.css";
-const HomeArchieved=()=>{
+const HomeAchieved=()=>{
     return(
         <section className="home-achieved-main-ctn">
             <div className="home-achieved-mini-ctn">
@@ -9,4 +9,4 @@ const HomeArchieved=()=>{
     )
 };
 
-export default HomeArchieved;
+export default HomeAchieved;
