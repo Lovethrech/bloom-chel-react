@@ -24,7 +24,16 @@ const HomeAttribute=()=>{
     return(
         <section className="home-attribute-main-ctn">
             <div className="home-attribute-mini-ctn">
-                
+                {HomeAttributeDetails.map(HomeAttributeDetail=>{
+                    return(
+                        <NavLink
+                            key={HomeAttributeDetail.id}
+                            name={HomeAttributeDetail.name}
+                            imgSrc={HomeAttributeDetail.imgSrc}
+                            description={HomeAttributeDetail.description}
+                        />
+                    )
+                })}
             </div>
         </section>
     )
