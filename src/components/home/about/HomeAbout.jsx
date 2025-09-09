@@ -22,7 +22,7 @@ const HomeAbout=()=>{
                     />
                     <br/>
                 </div>
-                <HomeAboutImg id="home-about-img"/>
+                <HomeAboutImg/>
                 <HomeAboutMobileDesc/>
             </div>
         </section>
