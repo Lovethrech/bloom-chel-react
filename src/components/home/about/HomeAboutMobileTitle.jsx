@@ -1,6 +1,6 @@
-import "./HomeAboutTitle.css";
+import "./HomeAboutMobileTitle.css";
 
-const HomeAboutTitle=()=>{
+const HomeAboutMobileTitle=()=>{
     return(
         <div id="mobile" className="home-about-title-main-ctn">
             <h2 className="home-about-title-main-ctn-name">
@@ -11,4 +11,4 @@ const HomeAboutTitle=()=>{
     )
 };
 
-export default HomeAboutTitle;
+export default HomeAboutMobileTitle;

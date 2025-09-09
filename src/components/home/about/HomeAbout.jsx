@@ -1,4 +1,5 @@
 import HomeAboutTitle from "./HomeAboutTitle";
+import HomeAboutMobileTitle from "./HomeAboutMobileTitle";
 import HomeAboutDesc from "./HomeAboutDesc";
 import HomeAboutImg from "./HomeAboutImg";
 import HomeAboutDesktopTryFreeBtn from "./HomeAboutDesktopTryFreeBtn";
@@ -12,6 +13,7 @@ const HomeAbout=()=>{
     return(
         <section id="about" className="home-about-main-ctn">
             <div className="home-about-mini-ctn">
+                <HomeAboutMobileTitle/>
                 <div className='home-about-mini-ctn-desktop-view'>
                     <HomeAboutTitle/>
                     <HomeAboutDesc/>
