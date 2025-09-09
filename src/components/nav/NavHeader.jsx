@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 import NavLogo from "./NavLogo";
 import NavLink from "./NavLink";
 import NavTryFreeBtn from "./NavTryFreeBtn";
