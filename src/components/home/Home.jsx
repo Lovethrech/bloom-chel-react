@@ -6,6 +6,7 @@ const Home=()=>{
         <main>
             <HomeHero/>
             <HomeAbout/>
+            <HomeContact/>
         </main>
     )
 };
