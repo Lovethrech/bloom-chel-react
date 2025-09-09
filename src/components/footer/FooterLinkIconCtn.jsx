@@ -1,6 +1,6 @@
-import FooterLinkIcon from './FooterLinkIcon';
 import "./FooterLinkIconCtn.css";
-const FooterLinkIcons=[
+import FooterLinkIcon from './FooterLinkIcon';
+const FooterLinkIconDetails=[
     {
         "id":1,
         "name":"<i class='bx bxl-instagram'></i>"
@@ -23,11 +23,11 @@ const FooterLinkIconCtn=()=>{
     return(
         <div className="footer-link-icon-ctn-main-ctn">
             <div className="footer-link-icon-ctn-mini-ctn">
-                {FooterLinkIcons.map(FooterLinkIcon=>{
+                {FooterLinkIconDetails.map(FooterLinkIconDetail=>{
                     return(
                         <FooterLinkIcon
-                            key={FooterLinkIcon.id}
-                            name={FooterLinkIcon.name}
+                            key={FooterLinkIconDetail.id}
+                            name={FooterLinkIconDetail.name}
                         />
                     )
                 })}
