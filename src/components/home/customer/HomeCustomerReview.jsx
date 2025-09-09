@@ -1,4 +1,4 @@
-
+import "./HomeCustomerReview.css";
 const HomeCustomerReview=()=>{
     return(
         <section className="home-about-main-ctn">
