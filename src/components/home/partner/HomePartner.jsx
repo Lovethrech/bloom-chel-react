@@ -1,9 +1,14 @@
 import "./HomePartner.css";
+import HomePartnerDesc from "./HomePartnerDesc";
+import HomePartnerLogoDisplay from "./HomePartnerLogoDisplay";
+import HomePartnerTitle from "./HomePartnerTitle";
 const HomePartner=()=>{
     return(
-        <section className="home-about-main-ctn">
-            <div className="home-about-mini-ctn">
-                
+        <section className="home-partner-main-ctn">
+            <div className="home-partner-mini-ctn">
+                <HomePartnerTitle/>
+                <HomePartnerDesc/>
+                <HomePartnerLogoDisplay/>
             </div>
         </section>
     )
