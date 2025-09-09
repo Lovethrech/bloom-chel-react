@@ -1,4 +1,5 @@
 import "./HomeAttribute.css";
+import HomeAttributeBox from "./HomeAttributeBox";
 
 const HomeAttributeDetails=[
     {
@@ -26,7 +27,7 @@ const HomeAttribute=()=>{
             <div className="home-attribute-mini-ctn">
                 {HomeAttributeDetails.map(HomeAttributeDetail=>{
                     return(
-                        <NavLink
+                        <HomeAttributeBox
                             key={HomeAttributeDetail.id}
                             name={HomeAttributeDetail.name}
                             imgSrc={HomeAttributeDetail.imgSrc}
