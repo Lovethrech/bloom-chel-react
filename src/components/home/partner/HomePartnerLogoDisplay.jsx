@@ -1,3 +1,4 @@
+import HomePartnerLogoBox from './HomePartnerLogoBox.jsx';
 import "./HomePartnerLogoDisplay.css";
 const HomePartnerLogoDetails=[
     {
@@ -27,7 +28,7 @@ const HomePartnerLogoDisplay=()=>{
             <div className="home-partner-logo-display-mini-ctn">
                 {HomePartnerLogoDetails.map(HomePartnerLogoDetail=>{
                     return(
-                        <NavLink
+                        <HomePartnerLogoBox
                             key={HomePartnerLogoDetail.id}
                             imgSrc={HomePartnerLogoDetail.imgSrc}
                             imgName={HomePartnerLogoDetail.imgName}
