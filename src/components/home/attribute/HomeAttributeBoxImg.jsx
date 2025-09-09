@@ -1,10 +1,10 @@
 import "./HomeAttributeBoxImg.css";
-const HomeAttributeBoxImg=()=>{
+const HomeAttributeBoxImg=({imgSrc})=>{
     return(
-        <div className="home-about-main-ctn">
-            <div className="home-about-mini-ctn">
-                
-            </div>
+        <div 
+            className="home-attribute-box-img-main-ctn" 
+            dangerouslySetInnerHTML={{ __html: imgSrc }}
+        >
         </div>
     )
 };
