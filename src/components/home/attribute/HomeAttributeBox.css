@@ -1,0 +1,16 @@
+.home-attribute-box-main-ctn{
+    background-color: #ffffff;
+    padding:4vh 4vw;
+    box-shadow: 0.2vw 0.2vh 20px 20px #cdcbcd2c;
+}
+.home-attribute-box-mini-ctn{
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+}
+
+@media screen and (max-width: 850px) {
+    .home-attribute-box-main-ctn{
+        box-shadow: 0px 7px 10px 10px #cdcbcd4f;
+    }
+}
