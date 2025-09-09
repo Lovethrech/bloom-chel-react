@@ -1,5 +1,5 @@
 #mobile.try-for-free-btn-main-ctn{
-    display: flex;
+    display: none;
 }
 @media screen and (max-width:950px) and (min-height: 1000px) {
     #mobile.try-for-free-btn-main-ctn{
