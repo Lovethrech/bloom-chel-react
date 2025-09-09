@@ -1,6 +1,6 @@
 import "./Footer.css";
 
-const NavHeader=()=>{
+const Footer=()=>{
 
     return(
         <footer className="footer-main-ctn">
@@ -11,4 +11,4 @@ const NavHeader=()=>{
     )
 };
 
-export default NavHeader;
+export default Footer;
