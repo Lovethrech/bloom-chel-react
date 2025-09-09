@@ -3,7 +3,7 @@ import "./Pricing.css";
 import Footer from "../footer/Footer";
 
 
-const Home=()=>{
+const Pricing=()=>{
     return(
         <main>
             
@@ -12,4 +12,4 @@ const Home=()=>{
     )
 };
 
-export default Home;
+export default Pricing;
