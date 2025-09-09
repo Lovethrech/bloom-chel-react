@@ -1,10 +1,8 @@
 import "./HomeContactImg.css";
 const HomeContactImg=()=>{
     return(
-        <div className="home-contact-main-ctn">
-            <div className="home-contact-mini-ctn">
-                
-            </div>
+        <div className="home-contact-img-main-ctn">
+            <img src="src/assets/home-contact-img.svg" alt="Home Contact Image">
         </div>
     )
 };
