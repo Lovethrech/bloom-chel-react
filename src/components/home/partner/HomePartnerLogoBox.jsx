@@ -1,10 +1,8 @@
 import "./HomePartnerLogoBox.css";
-const HomePartnerLogoBox=()=>{
+const HomePartnerLogoBox=({imgSrc, imgName})=>{
     return(
-        <div className="home-about-main-ctn">
-            <div className="home-about-mini-ctn">
-                
-            </div>
+        <div className="home-partner-logo-box-main-ctn">
+            <img src={imgSrc} alt={imgName}/>
         </div>
     )
 };
