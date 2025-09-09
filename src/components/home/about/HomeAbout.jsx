@@ -4,8 +4,6 @@ import HomeAboutDesc from "./HomeAboutDesc";
 import HomeAboutMobileDesc from "./HomeAboutMobileDesc";
 import HomeAboutImg from "./HomeAboutImg";
 import HomeAboutDesktopTryFreeBtn from "./HomeAboutDesktopTryFreeBtn";
-// <HomeAboutTitle id="home-about-title"/>
-//                 <HomeAboutDesc className="home-about-desc"/>
 import "./HomeAbout.css";
 
 const tryFreeBtnBgColor="linear-gradient(to bottom, #A54dea, #594edc)";
@@ -24,8 +22,8 @@ const HomeAbout=()=>{
                     />
                     <br/>
                 </div>
-                <HomeAboutMobileDesc/>
                 <HomeAboutImg id="home-about-img"/>
+                <HomeAboutMobileDesc/>
             </div>
         </section>
     )

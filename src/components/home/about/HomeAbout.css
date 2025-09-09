@@ -25,10 +25,6 @@
     grid-column: 2;
     grid-row: 1;
 }
-.home-about-title, .home-about-desc, .try-free-btn{
-    display:none;
-    width:80%;
-}
 
 @media screen and (max-width:950px) and (min-height: 1000px) {
     .home-about-main-ctn{
