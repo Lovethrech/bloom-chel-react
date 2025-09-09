@@ -4,6 +4,8 @@ import HomeContact from "./contact/HomeContact";
 import "./Home.css";
 import HomeAttribute from "./attribute/HomeAttribute";
 import HomeAchieved from "./achieved/HomeAchieved";
+import HomeCustomerReview from "./customer/HomeCustomerReview";
+import HomeBlog from "./blog/HomeBlog";
 const Home=()=>{
     return(
         <main>
@@ -12,6 +14,9 @@ const Home=()=>{
             <HomeContact/>
             <HomeAttribute/>
             <HomeAchieved/>
+            <HomeCustomerReview/>
+            <HomeBlog/>
+            
         </main>
     )
 };
