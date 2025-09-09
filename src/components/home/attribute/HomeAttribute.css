@@ -1,0 +1,27 @@
+.home-attribute-main-ctn, .home-attribute-mini-ctn{
+    display:flex;
+}
+.home-attribute-main-ctn{
+    min-height: 70vh;
+    padding:10vh 6vw;
+    place-items: center;
+    text-align: center;
+}
+.home-attribute-mini-ctn{
+    flex-direction: row;
+    justify-content: space-between;
+    gap:3vw;
+}
+
+@media screen and (max-width:950px) and (min-height: 1000px) {
+    .home-attribute-mini-ctn{
+        flex-direction: column;
+        gap:8vh;
+    }
+}
+@media screen and (max-width: 850px) {
+    .home-attribute-mini-ctn{
+        flex-direction: column;
+        gap:8vh;
+    }
+}

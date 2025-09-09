@@ -1,4 +1,4 @@
-
+import "./HomeAttribute.css";
 const HomeAttribute=()=>{
     return(
         <section className="home-attribute-main-ctn">
