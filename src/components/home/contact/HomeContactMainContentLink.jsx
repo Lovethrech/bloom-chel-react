@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom";
 import "./HomeContactMainContentLink.css";
 const HomeContactMainContentLink=()=>{
     return(
-        <div className="home-contact-main-ctn">
-            <div className="home-contact-mini-ctn">
-                
-            </div>
+        <div className="hhome-contact-main-content-link-main-ctn">
+            <Link to="" className="link">
+            
+            </Link>
         </div>
     )
 };
