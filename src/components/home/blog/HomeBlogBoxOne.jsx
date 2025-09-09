@@ -1,4 +1,4 @@
-import HomeBlogBoxOneImg from './HomeBlogBoxOneImg.css';
+import HomeBlogBoxOneImg from './HomeBlogBoxOneImg.jsx';
 import HomeBlogBoxDesc from './HomeBlogBoxDesc.jsx';
 import "./HomeBlogBoxOne.css";
 
