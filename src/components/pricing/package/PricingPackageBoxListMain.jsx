@@ -1,6 +1,20 @@
 import './PricingPackageBoxListMain.css';
 import PricingPackageBoxList from "./PricingPackageBoxList";
 
+// <div className='pricing-package-box-list-main-mini-ctn-list-content'>
+//                     <div className='pricing-package-box-list-main-mini-ctn-list-content-mini-ctn'>
+//                         {plans.map(plan=>{
+//                         return(
+//                             <PricingPackageBoxList
+//                                 key={plan.id}
+//                                 mark={plan.mark}
+//                                 markName={plan.markName}
+//                             />
+//                         )
+//                     })}
+//                     </div>
+//                 </div>
+
 const PricingPackageBoxListMain=({plans})=>{
     return(
         <div 
@@ -13,19 +27,8 @@ const PricingPackageBoxListMain=({plans})=>{
                     plan includes:
                 </p>
                 <br/>
-                <div className='pricing-package-box-list-main-mini-ctn-list-content'>
-                    <div className='pricing-package-box-list-main-mini-ctn-list-content-mini-ctn'>
-                        {plans.map(plan=>{
-                        return(
-                            <PricingPackageBoxList
-                                key={plan.id}
-                                mark={plan.mark}
-                                markName={plan.markName}
-                            />
-                        )
-                    })}
-                    </div>
-                </div>
+                
+                
             </div>
         </div>
     );
