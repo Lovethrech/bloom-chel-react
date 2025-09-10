@@ -1,11 +1,11 @@
 import "./AuthRegisterBtn.css";
 
-const AuthRegisterBtn=()=>{
+const AuthRegisterBtn=({displayRegisterBtn, setDisplayLoginBtn, setDisplayLoginBtnDetails, setDisplayRegisterBtn, setDisplayRegisterBtnDetails})=>{
     return(
         <div 
             className="auth-login-ctn-main-ctn"
             onClick={()=>{
-                if(displayLoginBtn==="block"){
+                if(displayRegisterBtn==="none"){
                     setDisplayLoginBtn("none");
                     setDisplayLoginBtnDetails("block");
                     setDisplayRegisterBtn("block");
