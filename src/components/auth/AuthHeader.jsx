@@ -1,4 +1,4 @@
-import { useState } from "react";
+import {useState} from "react";
 import "./AuthHeader.css";
 import AuthLogo from "./AuthLogo";
 import AuthLoginBtn from "./AuthLoginBtn";
