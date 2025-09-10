@@ -12,6 +12,9 @@ const PricingPackageBoxList=({mark, markName})=>{
                     className='pricing-package-box-list-mini-ctn-mark-ctn'
                 >
                 </div>
+                <div className='pricing-package-box-list-mini-ctn-mark-name-ctn'>
+                
+                </div>
             </div>
         </div>
     );
