@@ -1,5 +1,5 @@
 import './PricingHero.css';
-import NavHeader from 'src/components/nav/NavHeader.jsx';
+import NavHeader from '.../'
 import PricingHeroMainDesc from './PricingHeroMainDesc';
 
 const PricingHero=()=>{
