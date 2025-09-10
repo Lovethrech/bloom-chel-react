@@ -21,7 +21,7 @@ const AuthLoginDetailsCtn=()=>{
                         placeholder={AuthLoginDetails[0].placeholder}
                         nameFor={AuthLoginDetails[0].nameFor}
                         nameType={AuthLoginDetails[0].nameType}
-                        email={email}
+                        value={email}
                     />
                     <AuthRegisterDetailsFormInput
                         inputBoxBorder={inputBoxBorder}
@@ -29,7 +29,7 @@ const AuthLoginDetailsCtn=()=>{
                         placeholder={AuthLoginDetails[1].placeholder}
                         nameFor={AuthLoginDetails[1].nameFor}
                         nameType={AuthLoginDetails[1].nameType}
-                        email={email}
+                        value={password}
                     />
                     <div className="auth-register-details-ctn-mini-ctn-form-forget-password-ctn">
                         <p className="auth-register-details-ctn-mini-ctn-form-forget-password">
