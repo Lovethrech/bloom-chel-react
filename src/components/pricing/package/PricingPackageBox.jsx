@@ -1,14 +1,23 @@
 import './PricingPackageBox.css';
+import PricingPackageBoxStatus from "./PricingPackageBoxStatus";
+import PricingPackageBoxStatusDesc from "./PricingPackageBoxStatusDesc";
+import PricingPackageBoxPrice from "./PricingPackageBoxPrice";
+import PricingPackageBoxBuyBtn from "./PricingPackageBoxBuyBtn";
 
 const PricingPackageBox=()=>{
     return(
         <div 
-            className="nav-link-main-ctn"
+            className="pricing-package-box-main-ctn"
         >
             <div 
-                className="nav-link-main-ctn"
+                className="pricing-package-box-mini-ctn"
             >
-                
+                <PricingPackageBoxStatus/>
+                <PricingPackageBoxStatusDesc/>
+                <br/>
+                <PricingPackageBoxPrice/>
+                <br/>
+                <PricingPackageBoxBuyBtn/>
             </div>
         </div>
     );
