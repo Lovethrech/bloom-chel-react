@@ -8,6 +8,8 @@ import AuthLoginAndRegisterBookBtn from "./AuthLoginAndRegisterBookBtn";
 
 const AuthLoginDetailsCtn=()=>{
     const [inputBoxBorder, setInputBoxBorder]=useState("0");
+    const [email, setEmail]=useState("");
+    const [password, setPassword]=useState("");
     return(
         <div className="auth-register-details-ctn-main-ctn">
             <div className="auth-register-details-ctn-mini-ctn">
@@ -19,6 +21,7 @@ const AuthLoginDetailsCtn=()=>{
                         placeholder={AuthLoginDetails[0].placeholder}
                         nameFor={AuthLoginDetails[0].nameFor}
                         nameType={AuthLoginDetails[0].nameType}
+                        email={email}
                     />
                     <AuthRegisterDetailsFormInput
                         inputBoxBorder={inputBoxBorder}
@@ -26,6 +29,7 @@ const AuthLoginDetailsCtn=()=>{
                         placeholder={AuthLoginDetails[1].placeholder}
                         nameFor={AuthLoginDetails[1].nameFor}
                         nameType={AuthLoginDetails[1].nameType}
+                        email={email}
                     />
                     <div className="auth-register-details-ctn-mini-ctn-form-forget-password-ctn">
                         <p className="auth-register-details-ctn-mini-ctn-form-forget-password">
