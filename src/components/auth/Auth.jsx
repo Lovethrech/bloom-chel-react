@@ -3,9 +3,9 @@ import "./Auth.css";
 const Auth=()=>{
 
     return(
-        <div className="footer-desc-main-ctn">
+        <section className="footer-desc-main-ctn">
             
-        </div>
+        </section>
     )
 };
 
