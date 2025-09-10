@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
-import "./AuthLogo.css";
 
 const AuthLogo=()=>{
-
     return(
         <div className="nav-logo-img-ctn">
             <Link to="/" className="link">
