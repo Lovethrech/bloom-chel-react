@@ -6,10 +6,10 @@ import AuthLoginAndRegisterHeader from "./AuthLoginAndRegisterHeader";
 import AuthRegisterDetailsFormInput from "./AuthRegisterDetailsFormInput";
 import AuthLoginAndRegisterBookBtn  from "./AuthLoginAndRegisterBookBtn";
 
-const AuthRegisterDetailsCtn=()=>{
+const AuthRegisterDetailsCtn=({displayRegisterBtnDetails})=>{
     const [inputBoxBorder, setInputBoxBorder]=useState("0");
     return(
-        <div className="auth-register-details-ctn-main-ctn">
+        <div className="auth-register-details-ctn-main-ctn" style={{display:displayRegisterBtnDetails}}>
             <div className="auth-register-details-ctn-mini-ctn">
                 <AuthLoginAndRegisterHeader/>
                 <form action="" className="auth-register-details-ctn-mini-ctn-form">

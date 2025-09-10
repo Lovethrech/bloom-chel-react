@@ -6,12 +6,12 @@ import AuthLoginAndRegisterHeader from "./AuthLoginAndRegisterHeader";
 import AuthRegisterDetailsFormInput from "./AuthRegisterDetailsFormInput";
 import AuthLoginAndRegisterBookBtn from "./AuthLoginAndRegisterBookBtn";
 
-const AuthLoginDetailsCtn=()=>{
+const AuthLoginDetailsCtn=({displayLoginBtnDetails})=>{
     const [inputBoxBorder, setInputBoxBorder]=useState("0");
     const [email, setEmail]=useState("");
     const [password, setPassword]=useState("");
     return(
-        <div className="auth-register-details-ctn-main-ctn">
+        <div className="auth-register-details-ctn-main-ctn" style={{display: displayLoginBtnDetails}}>
             <div className="auth-register-details-ctn-mini-ctn">
                 <AuthLoginAndRegisterHeader/>
                 <form action="" className="auth-register-details-ctn-mini-ctn-form">
