@@ -3,13 +3,13 @@ import './PricingPackageDesc.css';
 const PricingPackageDesc=()=>{
     return(
         <div 
-            className="nav-link-main-ctn"
+            className="pricing-package-desc-main-ctn"
         >
-            <div 
-                className="nav-link-main-ctn"
-            >
-                
-            </div>
+            <p className="pricing-package-desc-main-ctn-name">
+                Explore our packages 
+                and choose which one is best 
+                for your business
+            </p>
         </div>
     );
 };
