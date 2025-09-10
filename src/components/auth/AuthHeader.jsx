@@ -1,9 +1,15 @@
+import { useState } from "react";
 import "./AuthHeader.css";
 import AuthLogo from "./AuthLogo";
 import AuthLoginBtn from "./AuthLoginBtn";
 import AuthRegisterBtn from "./AuthRegisterBtn";
 import AuthLoginDetailsCtn from "./AuthLoginDetailsCtn";
 import AuthRegisterDetailsCtn from "./AuthRegisterDetailsCtn";
+
+const [displayLoginBtn, setDisplayLoginBtn]=useState("block");
+const [displayLoginBtn, setDisplayLoginBtn]=useState("block");
+const [displayLoginBtn, setDisplayLoginBtn]=useState("block");
+const [displayLoginBtn, setDisplayLoginBtn]=useState("block");
 
 const AuthHeader=()=>{
 
