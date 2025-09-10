@@ -3,10 +3,10 @@ import './PricingPackageBoxList.css';
 const PricingPackageBoxList=()=>{
     return(
         <div 
-            className="nav-link-main-ctn"
+            className="pricing-package-box-list-main-ctn"
         >
             <div 
-                className="nav-link-main-ctn"
+                className="pricing-package-box-list-mini-ctn"
             >
                 
             </div>
