@@ -37,7 +37,9 @@ const AuthRegisterDetailsCtn=()=>{
                         nameType={AuthRegisterDetails[3].nameType}
                     />
                     <br/>
-                    <AuthLoginAndRegisterBookBtn/>
+                    <AuthLoginAndRegisterBookBtn
+                        btnDesc={AuthBookAndSignDetails[0].name}
+                    />
                 </form>
             </div>
         </div>
