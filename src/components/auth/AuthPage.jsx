@@ -1,8 +1,8 @@
-import "./Auth.css";
+import "./AuthPage.css";
 import Footer from "../footer/Footer";
 
 
-const Auth=()=>{
+const AuthPage=()=>{
     return(
         <main>
             <Footer/>
@@ -10,4 +10,4 @@ const Auth=()=>{
     )
 };
 
-export default Auth;
+export default AuthPage;
