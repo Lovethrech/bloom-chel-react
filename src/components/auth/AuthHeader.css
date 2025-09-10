@@ -7,7 +7,7 @@
 }
 .auth-header-mini-ctn{
     height:48vh;
-    background:  url(@/assets/auth-pattern.svg) bottom/ 100% no-repeat;
+    background:  url(src/assets/auth-pattern.svg) bottom/ 100% no-repeat;
 }
 .auth-header-mini-ctn-header, .auth-header-mini-ctn-auth-content-ctn{
     display:flex;
