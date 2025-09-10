@@ -1,10 +1,11 @@
 import "./AuthRegisterBtn.css";
 
 const AuthRegisterBtn=()=>{
-
     return(
-        <div className="footer-desc-main-ctn">
-            
+        <div className="auth-login-ctn-main-ctn">
+            <p className="auth-login-ctn-main-ctn-name">
+                Register
+            </p>
         </div>
     )
 };
