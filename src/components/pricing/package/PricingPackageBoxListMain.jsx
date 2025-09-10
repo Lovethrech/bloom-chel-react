@@ -1,4 +1,5 @@
 import './PricingPackageBoxListMain.css';
+import PricingPackageBoxList from "./PricingPackageBoxList";
 
 const PricingPackageBoxListMain=()=>{
     return(
