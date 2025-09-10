@@ -14,8 +14,8 @@ import PricingPackageBoxList from "./PricingPackageBoxList";
 //                     })}
 //                     </div>
 //                 </div>
-
-const PricingPackageBoxListMain=({plans})=>{
+// {plans}
+const PricingPackageBoxListMain=()=>{
     return(
         <div 
             className="pricing-package-box-list-main-main-ctn"
