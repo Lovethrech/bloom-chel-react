@@ -6,12 +6,11 @@ import AuthRegisterBtn from "./AuthRegisterBtn";
 import AuthLoginDetailsCtn from "./AuthLoginDetailsCtn";
 import AuthRegisterDetailsCtn from "./AuthRegisterDetailsCtn";
 
-const [displayLoginBtn, setDisplayLoginBtn]=useState("block");
-const [displayRegisterBtn, setDisplayRegisterBtn]=useState("none");
-const [displayLoginBtnDetails, setDisplayLoginBtnDetails]=useState("none");
-const [displayRegisterBtnDetails, setDisplayRegisterBtnDetails]=useState("block");
-
 const AuthHeader=()=>{
+    const [displayLoginBtn, setDisplayLoginBtn]=useState("block");
+    const [displayRegisterBtn, setDisplayRegisterBtn]=useState("none");
+    const [displayLoginBtnDetails, setDisplayLoginBtnDetails]=useState("none");
+    const [displayRegisterBtnDetails, setDisplayRegisterBtnDetails]=useState("block");
 
     return(
         <div className="auth-header-main-ctn">
