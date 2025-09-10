@@ -13,7 +13,6 @@ const AuthLoginAndRegisterBookBtn=({email, setEmail, password, setPassword, setI
                 }
             }}
         >
-            
         </div>
     )
 };
