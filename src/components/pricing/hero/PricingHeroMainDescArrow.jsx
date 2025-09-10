@@ -1,16 +1,17 @@
 import './PricingHeroMainDescArrow.css';
+const navToAboutComponent=()=>{
+    const target=document.getElementById('package');
+    if (!target) return;
+    target.scrollIntoView({ behavior: 'smooth' });
+}
 
 const PricingHeroMainDescArrow=()=>{
     return(
         <div 
-            className="nav-link-main-ctn"
+            className="home-hero-main-desc-paragraph-arrow-main-ctn"
+            onClick={navToAboutComponent}
         >
-            <div 
-                className="nav-link-main-ctn"
-            >
-            
-            </div>
-            
+            <img src="src/assets/hero-arrow.svg" alt="Hero ArrowDown"/>
         </div>
     );
 };
