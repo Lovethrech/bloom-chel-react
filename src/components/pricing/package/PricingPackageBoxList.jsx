@@ -1,6 +1,14 @@
+import {useState} from "react";
 import './PricingPackageBoxList.css';
 
 const PricingPackageBoxList=({mark, markName})=>{
+    const [nameTextDecoration, setNameTextDecoration]=useState("none");
+    const [listIconColor, setListIconColor]=useState("#614EDE");
+    if (mark==="<i class='bx bx-x' ></i>"){
+        setNameTextDecoration="line-through";
+        setListIconColor="red";
+    }
+
     return(
         <div 
             className="pricing-package-box-list-main-ctn"
@@ -10,14 +18,14 @@ const PricingPackageBoxList=({mark, markName})=>{
             >
                 <div 
                     className='pricing-package-box-list-mini-ctn-mark-ctn'
-
+                    style={{color: listIconColor}}
                     dangerouslySetInnerHTML={{ __html: mark }}
                 >
                 </div>
                 <div className='pricing-package-box-list-mini-ctn-mark-name-ctn'>
                     <p 
                         className="pricing-package-box-list-mini-ctn-mark-name" 
-                        style="{textDecoration:nameTextDecoration}"
+                        style={{textDecoration:nameTextDecoration}}
                     >
                         {markName}
                     </p>
