@@ -20,9 +20,23 @@ const AuthHeader=()=>{
                     <AuthLogo/>
                     <AuthLoginBtn
                         displayLoginBtn={displayLoginBtn}
+                        setDisplayLoginBtn={setDisplayLoginBtn}
+                        displayRegisterBtn={displayRegisterBtn}
+                        setDisplayRegisterBtn={setDisplayRegisterBtn}
+                        displayLoginBtnDetails={displayLoginBtnDetails}
+                        setDisplayLoginBtnDetails={setDisplayLoginBtnDetails}
+                        displayRegisterBtnDetails={displayRegisterBtnDetails}
+                        setDisplayRegisterBtnDetails={setDisplayRegisterBtnDetails}
                     />
                     <AuthRegisterBtn
+                        displayLoginBtn={displayLoginBtn}
+                        setDisplayLoginBtn={setDisplayLoginBtn}
                         displayRegisterBtn={displayRegisterBtn}
+                        setDisplayRegisterBtn={setDisplayRegisterBtn}
+                        displayLoginBtnDetails={displayLoginBtnDetails}
+                        setDisplayLoginBtnDetails={setDisplayLoginBtnDetails}
+                        displayRegisterBtnDetails={displayRegisterBtnDetails}
+                        setDisplayRegisterBtnDetails={setDisplayRegisterBtnDetails}
                     />
                 </header>
                 <div className="auth-header-mini-ctn-auth-content-ctn">
