@@ -1,5 +1,5 @@
 import PricingPackageBoxListDetails from "/src/data/pricing-package-box-list-details.json"
-
+console.log(PricingPackageBoxListDetails);
 import './PricingPackageMainBoxCtn.css';
 
 const PricingPackageMainBoxCtn=()=>{
