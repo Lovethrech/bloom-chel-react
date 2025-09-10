@@ -5,8 +5,8 @@ const PricingPackageBoxList=({mark, markName})=>{
     const [nameTextDecoration, setNameTextDecoration]=useState("none");
     const [listIconColor, setListIconColor]=useState("#614EDE");
     if (mark==="<i class='bx bx-x' ></i>"){
-        setNameTextDecoration="line-through";
-        setListIconColor="red";
+        setNameTextDecoration("line-through");
+        setListIconColor("red");
     }
 
     return(
