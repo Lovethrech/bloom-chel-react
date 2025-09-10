@@ -1,4 +1,5 @@
-import PricingPackageBoxListDetails from "/src/data/pricing-package-box-list-details.json"
+import PricingPackageBoxListDetails from "/src/data/pricing-package-box-list-details.json";
+import PricingPackageBox from "./PricingPackageBox";
 console.log(PricingPackageBoxListDetails);
 import './PricingPackageMainBoxCtn.css';
 
@@ -10,7 +11,16 @@ const PricingPackageMainBoxCtn=()=>{
             <div 
                 className="pricing-package-main-box-ctn-mini-ctn"
             >
-                
+                {PricingPackageBoxListDetails.map(PricingPackageBoxListDetail=>{
+                    return(
+                        <PricingPackageBox
+                            key={PricingPackageBoxListDetail.id}
+                            name={PricingPackageBoxListDetail.name}
+                            price={PricingPackageBoxListDetail.price}
+                            plans={PricingPackageBoxListDetail.plans}
+                        />
+                    )
+                })}
             </div>
         </div>
     );
