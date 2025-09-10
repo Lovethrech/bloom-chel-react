@@ -1,3 +1,4 @@
+import {useState} from "react";
 import AuthRegisterDetails from "/src/data/auth-register-details.json";
 import AuthBookAndSignDetails from "/src/data/auth-book-and-sign-details.json"; 
 import "./AuthRegisterDetailsCtn.css";
@@ -6,7 +7,7 @@ import AuthRegisterDetailsFormInput from "./AuthRegisterDetailsFormInput";
 import AuthLoginAndRegisterBookBtn  from "./AuthLoginAndRegisterBookBtn";
 
 const AuthRegisterDetailsCtn=()=>{
-
+    const [inputBoxBorder, setInputBoxBorder]=useState("0");
     return(
         <div className="auth-register-details-ctn-main-ctn">
             <div className="auth-register-details-ctn-mini-ctn">
@@ -38,7 +39,7 @@ const AuthRegisterDetailsCtn=()=>{
                     />
                     <br/>
                     <AuthLoginAndRegisterBookBtn
-                        btnDesc={AuthBookAndSignDetails[0].name}
+                        btnDesc={AuthBookAndSignDetails[].name}
                     />
                 </form>
             </div>
