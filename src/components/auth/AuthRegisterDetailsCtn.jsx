@@ -1,6 +1,6 @@
-import "./AuthLoginAndRegisterBookBtn.css";
+import "./AuthRegisterDetailsCtn.css";
 
-const AuthLoginAndRegisterBookBtn=()=>{
+const AuthRegisterDetailsCtn=()=>{
 
     return(
         <div className="footer-desc-main-ctn">
@@ -9,4 +9,4 @@ const AuthLoginAndRegisterBookBtn=()=>{
     )
 };
 
-export default AuthLoginAndRegisterBookBtn;
+export default AuthRegisterDetailsCtn;
