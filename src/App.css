@@ -64,6 +64,33 @@ img{
     }
 }
 
+/* AUTH LOGIN BTN AND REGISTER BTN  */
+.auth-login-ctn-main-ctn{
+    margin: auto 0;
+    background-color: #fff;
+    color: #000;
+    font-size: 1.8vh;
+    font-weight: 500;
+    padding: 0.9vh 2.3vh;
+    text-transform: capitalize;
+    border-radius: 2vh;
+}
+.auth-login-ctn-main-ctn-name{
+  background: linear-gradient(to bottom, #A54dea, #594edc);
+  background-clip:text;
+  color:transparent;
+}
+.auth-login-ctn-main-ctn:hover{
+  cursor: pointer;
+}
+@media screen and (max-width:850px) {
+  .auth-login-ctn-main-ctn{
+    padding: 1vh 4vw;
+    font-size:12px;
+    border-radius: 14px;
+  }
+}
+
 /* HOME-HERO-MAIN-DESC-PARAGRAPH-ARROW AND PRICING-HERO-MAIN-DESC-ARROW */
 .home-hero-main-desc-paragraph-arrow-main-ctn i{
     margin: auto 0;
