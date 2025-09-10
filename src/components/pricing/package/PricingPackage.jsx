@@ -2,11 +2,15 @@ import './PricingPackage.css';
 
 const PricingPackage=()=>{
     return(
-        <div 
+        <section 
             className="nav-link-main-ctn"
         >
-            
-        </div>
+            <div 
+                className="nav-link-main-ctn"
+            >
+                
+            </div>
+        </section>
     );
 };
 
