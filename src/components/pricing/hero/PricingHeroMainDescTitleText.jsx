@@ -3,13 +3,11 @@ import './PricingHeroMainDescTitleText.css';
 const PricingHeroMainDescTitleText=()=>{
     return(
         <div 
-            className="nav-link-main-ctn"
+            className="pricing-hero-main-desc-title-text-main-ctn"
         >
-            <div 
-                className="nav-link-main-ctn"
-            >
-            
-            </div>
+            <h1 className="pricing-hero-main-desc-title-text-main-ctn-name">
+                bloom <br/> packages
+            </h1>
             
         </div>
     );
