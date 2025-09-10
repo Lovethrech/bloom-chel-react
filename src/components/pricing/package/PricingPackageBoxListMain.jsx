@@ -19,8 +19,8 @@ const PricingPackageBoxListMain=({plans})=>{
                         return(
                             <PricingPackageBoxList
                                 key={plan.id}
-                                name={plan.name}
-                                link={plan.link}
+                                mark={plan.mark}
+                                markName={plan.markName}
                             />
                         )
                     })}
