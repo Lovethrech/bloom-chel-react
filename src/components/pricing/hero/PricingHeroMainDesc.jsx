@@ -1,14 +1,17 @@
 import './PricingHeroMainDesc.css';
+import PricingHeroMainDescTitleText from "./PricingHeroMainDescTitleText";
+import PricingHeroMainDescArrow from "./PricingHeroMainDescArrow";
 
 const PricingHeroMainDesc=()=>{
     return(
         <div 
-            className="nav-link-main-ctn"
+            className="pricing-hero-main-desc-main-ctn"
         >
             <div 
-                className="nav-link-main-ctn"
+                className="pricing-hero-main-desc-mini-ctn"
             >
-            
+                <PricingHeroMainDescTitleText/>
+                <PricingHeroMainDescArrow/>
             </div>
             
         </div>
