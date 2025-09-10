@@ -64,6 +64,29 @@ img{
     }
 }
 
+/* AUTH LOGIN AND REGISTER COMPONENTS  */
+/* AUTH LOGIN DETAILS AND REGISTER DETAILS  */
+.auth-register-details-ctn-main-ctn{
+    width: 38.5vh;
+    min-height: 30vh;
+    padding:4vh 1.5vw;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0.5vh 5.18vh 0 hsl(0, 0%, 28%, 25%);
+}
+.auth-register-details-ctn-mini-ctn-form{
+    margin-top: 3vh;
+    display:flex;
+    flex-direction: column;
+    gap: 0.9vh;
+}
+@media screen and (max-width:850px) {
+  .auth-register-details-ctn-main-ctn{
+    width:30.3vh;
+    padding: 4vh 2.4vw;
+    min-height: 40vh;
+  }
+}
+
 /* AUTH LOGIN BTN AND REGISTER BTN  */
 .auth-login-ctn-main-ctn{
     margin: auto 0;
