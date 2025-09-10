@@ -1,15 +1,19 @@
 import './PricingPackageBoxPrice.css';
 
-const PricingPackageBoxPrice=()=>{
+const PricingPackageBoxPrice=({price})=>{
     return(
         <div 
-            className="nav-link-main-ctn"
+            className="pricing-package-box-price-main-ctn"
         >
-            <div 
-                className="nav-link-main-ctn"
-            >
-                
-            </div>
+            <p className="pricing-package-box-price-main-ctn-name">
+                <sup className="pricing-package-box-price-main-ctn-name-sup">
+                    #
+                </sup>
+                { price }
+                <sub className="pricing-package-box-price-main-ctn-name-sub">
+                    /yr
+                </sub>
+            </p>
         </div>
     );
 };
