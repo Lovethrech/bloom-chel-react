@@ -1,6 +1,6 @@
-import './PricingHero.css';
+import './PricingHeroMainDesc.css';
 
-const PricingHero=()=>{
+const PricingHeroMainDesc=()=>{
     return(
         <div 
             className="nav-link-main-ctn"
@@ -15,4 +15,4 @@ const PricingHero=()=>{
     );
 };
 
-export default PricingHero;
+export default PricingHeroMainDesc;
