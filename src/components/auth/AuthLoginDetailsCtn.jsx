@@ -11,10 +11,16 @@ const AuthLoginDetailsCtn=()=>{
                 <AuthLoginAndRegisterHeader/>
                 <form action="" className="auth-register-details-ctn-mini-ctn-form">
                     <AuthRegisterDetailsFormInput
-                    
+                        name={AuthLoginDetails[0].name}
+                        placeholder={AuthLoginDetails[0].placeholder}
+                        nameFor={AuthLoginDetails[0].nameFor}
+                        nameType={AuthLoginDetails[0].nameType}
                     />
                     <AuthRegisterDetailsFormInput
-                    
+                        name={AuthLoginDetails[1].name}
+                        placeholder={AuthLoginDetails[1].placeholder}
+                        nameFor={AuthLoginDetails[1].nameFor}
+                        nameType={AuthLoginDetails[1].nameType}
                     />
                     <div className="auth-register-details-ctn-mini-ctn-form-forget-password-ctn">
                         <p className="auth-register-details-ctn-mini-ctn-form-forget-password">
