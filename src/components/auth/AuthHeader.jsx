@@ -26,13 +26,10 @@ const AuthHeader=()=>{
                         setDisplayRegisterBtnDetails={setDisplayRegisterBtnDetails}
                     />
                     <AuthRegisterBtn
-                        displayLoginBtn={displayLoginBtn}
                         setDisplayLoginBtn={setDisplayLoginBtn}
                         displayRegisterBtn={displayRegisterBtn}
                         setDisplayRegisterBtn={setDisplayRegisterBtn}
-                        displayLoginBtnDetails={displayLoginBtnDetails}
                         setDisplayLoginBtnDetails={setDisplayLoginBtnDetails}
-                        displayRegisterBtnDetails={displayRegisterBtnDetails}
                         setDisplayRegisterBtnDetails={setDisplayRegisterBtnDetails}
                     />
                 </header>
