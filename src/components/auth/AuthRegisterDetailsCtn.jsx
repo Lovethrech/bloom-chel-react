@@ -14,24 +14,28 @@ const AuthRegisterDetailsCtn=()=>{
                 <AuthLoginAndRegisterHeader/>
                 <form action="" className="auth-register-details-ctn-mini-ctn-form">
                     <AuthRegisterDetailsFormInput
+                        inputBoxBorder={inputBoxBorder}
                         name={AuthRegisterDetails[0].name}
                         placeholder={AuthRegisterDetails[0].placeholder}
                         nameFor={AuthRegisterDetails[0].nameFor}
                         nameType={AuthRegisterDetails[0].nameType}
                     />
                     <AuthRegisterDetailsFormInput
+                        inputBoxBorder={inputBoxBorder}
                         name={AuthRegisterDetails[1].name}
                         placeholder={AuthRegisterDetails[1].placeholder}
                         nameFor={AuthRegisterDetails[1].nameFor}
                         nameType={AuthRegisterDetails[1].nameType}
                     />
                     <AuthRegisterDetailsFormInput
+                        inputBoxBorder={inputBoxBorder}
                         name={AuthRegisterDetails[2].name}
                         placeholder={AuthRegisterDetails[2].placeholder}
                         nameFor={AuthRegisterDetails[2].nameFor}
                         nameType={AuthRegisterDetails[2].nameType}
                     />
                     <AuthRegisterDetailsFormInput
+                        inputBoxBorder={inputBoxBorder}
                         name={AuthRegisterDetails[3].name}
                         placeholder={AuthRegisterDetails[3].placeholder}
                         nameFor={AuthRegisterDetails[3].nameFor}
