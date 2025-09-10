@@ -2,6 +2,8 @@ import "./AuthHeader.css";
 import AuthLogo from "./AuthLogo";
 import AuthLoginBtn from "./AuthLoginBtn";
 import AuthRegisterBtn from "./AuthRegisterBtn";
+import AuthLoginDetailsCtn from "./AuthLoginDetailsCtn";
+import AuthRegisterDetailsCtn from "./AuthRegisterDetailsCtn";
 
 const AuthHeader=()=>{
 
@@ -14,7 +16,7 @@ const AuthHeader=()=>{
                     <AuthRegisterBtn/>
                 </header>
                 <div className="auth-header-mini-ctn-auth-content-ctn">
-                
+                    <AuthLoginDetailsCtn/>
                 </div>
             </div>
         </div>
