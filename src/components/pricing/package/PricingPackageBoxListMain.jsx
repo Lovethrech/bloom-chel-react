@@ -3,12 +3,20 @@ import './PricingPackageBoxListMain.css';
 const PricingPackageBoxListMain=()=>{
     return(
         <div 
-            className="nav-link-main-ctn"
+            className="pricing-package-box-list-main-main-ctn"
         >
             <div 
-                className="nav-link-main-ctn"
+                className="pricing-package-box-list-main-mini-ctn"
             >
-                
+                <p className="pricing-package-box-list-main-mini-ctn-title">
+                    plan includes:
+                </p>
+                <br/>
+                <div className='pricing-package-box-list-main-mini-ctn-list-content'>
+                    <div className='pricing-package-box-list-main-mini-ctn-list-content-mini-ctn'>
+                    
+                    </div>
+                </div>
             </div>
         </div>
     );
