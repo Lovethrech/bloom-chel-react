@@ -1,7 +1,6 @@
 import "./AuthLoginAndRegisterBookBtn.css";
 
 const AuthLoginAndRegisterBookBtn=({email, setEmail, password, setPassword, setInputBoxBorder})=>{
-
     return(
         <div 
             className="footer-desc-main-ctn"
