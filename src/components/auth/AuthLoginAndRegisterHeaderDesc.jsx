@@ -2,8 +2,10 @@ import "./AuthLoginAndRegisterHeaderDesc.css";
 
 const AuthLoginAndRegisterHeaderDesc=()=>{
     return(
-        <div className="footer-desc-main-ctn">
-            
+        <div className="auth-login-and-register-header-desc-main-ctn">
+            <p className="auth-login-and-register-header-desc-main-ctn-name">
+                Sign up for free demo
+            </p>
         </div>
     )
 };
