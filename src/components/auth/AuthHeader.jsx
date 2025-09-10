@@ -6,10 +6,10 @@ import AuthRegisterBtn from "./AuthRegisterBtn";
 import AuthLoginDetailsCtn from "./AuthLoginDetailsCtn";
 import AuthRegisterDetailsCtn from "./AuthRegisterDetailsCtn";
 
-// const [displayLoginBtn, setDisplayLoginBtn]=useState("block");
-// const [displayRegisterBtn, setDisplayRegisterBtn]=useState("none");
-// const [displayLoginBtnDetails, setDisplayLoginBtnDetails]=useState("none");
-// const [displayRegisterBtnDetails, setDisplayRegisterBtnDetails]=useState("block");
+const [displayLoginBtn, setDisplayLoginBtn]=useState("block");
+const [displayRegisterBtn, setDisplayRegisterBtn]=useState("none");
+const [displayLoginBtnDetails, setDisplayLoginBtnDetails]=useState("none");
+const [displayRegisterBtnDetails, setDisplayRegisterBtnDetails]=useState("block");
 
 const AuthHeader=()=>{
 
@@ -18,8 +18,12 @@ const AuthHeader=()=>{
             <div className="auth-header-mini-ctn">
                 <header className="auth-header-mini-ctn-header">
                     <AuthLogo/>
-                    <AuthLoginBtn/>
-                    <AuthRegisterBtn/>
+                    <AuthLoginBtn
+                        displayLoginBtn={displayLoginBtn}
+                    />
+                    <AuthRegisterBtn
+                        displayRegisterBtn={displayRegisterBtn}
+                    />
                 </header>
                 <div className="auth-header-mini-ctn-auth-content-ctn">
                     <AuthLoginDetailsCtn/>
