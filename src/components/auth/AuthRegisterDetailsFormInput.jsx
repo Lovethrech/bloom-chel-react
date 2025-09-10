@@ -2,7 +2,7 @@ import "./AuthRegisterDetailsFormInput.css";
 // :v-model="vModel" :style="{border:inputBoxBorder}" 
 
 
-const AuthRegisterDetailsFormInput=({name, placeholder, nameFor, nameType})=>{
+const AuthRegisterDetailsFormInput=({name, placeholder, nameFor, nameType, inputBoxBorder})=>{
     return(
         <div className="auth-register-details-form-input-main-ctn">
             <div className="auth-register-details-form-input-mini-ctn">
@@ -14,6 +14,7 @@ const AuthRegisterDetailsFormInput=({name, placeholder, nameFor, nameType})=>{
                     type={nameType }
                     placeholder={placeholder} 
                     className="auth-register-details-form-input-mini-ctn-input"
+                    style={{border:inputBoxBorder}}
                 />
             </div>
         </div>
