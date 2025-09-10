@@ -7,7 +7,7 @@ const NavMenuMobileListCtnTryFreeBtn=({tryFreeBtnBgColor,tryFreeBtnColor})=>{
             id="nav-menu-mobile-list-ctn-try-for-free-btn-main-ctn"
         >
             <Link 
-                to="/" 
+                to="/auth" 
                 className="link"
             >
                 <button 

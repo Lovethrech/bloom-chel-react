@@ -7,7 +7,7 @@ const NavTryFreeBtn=({tryFreeBtnBgColor,tryFreeBtnColor})=>{
             id="nav-try-for-free-btn-main-ctn"
         >
             <Link 
-                to="/" 
+                to="/auth" 
                 className="link"
             >
                 <button 

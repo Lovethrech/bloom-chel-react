@@ -4,7 +4,7 @@ import "./HomeAboutDesktopTryFreeBtn.css";
 const HomeAboutDesktopTryFreeBtn=({tryFreeBtnBgColor, tryFreeBtnColor})=>{
     return(
         <div id="desktop" className="try-for-free-btn-main-ctn">
-            <Link to="/">
+            <Link to="/auth">
                 <button 
                     className="try-for-free-btn"
                     style={{background:tryFreeBtnBgColor, color:tryFreeBtnColor}}

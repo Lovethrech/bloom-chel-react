@@ -7,7 +7,7 @@ const HomeHeroTryFreeBtn=({tryFreeBtnBgColor,tryFreeBtnColor})=>{
             id="home-hero-try-for-free-btn-main-ctn"
         >
             <Link 
-                to="/"
+                to="/auth"
             >
                 <button 
                     className="try-for-free-btn"
