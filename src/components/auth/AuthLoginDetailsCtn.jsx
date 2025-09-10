@@ -8,7 +8,13 @@ const AuthLoginDetailsCtn=()=>{
             <div className="auth-register-details-ctn-mini-ctn">
                 <AuthLoginAndRegisterHeader/>
                 <form action="" className="auth-register-details-ctn-mini-ctn-form">
-
+                    <AuthRegisterDetailsFormInput/>
+                    <AuthRegisterDetailsFormInput/>
+                    <div className="auth-register-details-ctn-mini-ctn-form-forget-password-ctn">
+                        <p className="auth-register-details-ctn-mini-ctn-form-forget-password">
+                            forget password?
+                        </p>
+                    </div>
                 </form>
             </div>
         </div>

@@ -1,0 +1,9 @@
+.auth-register-details-ctn-mini-ctn-form-forget-password-ctn{
+    width: 100%;
+}
+.auth-register-details-ctn-mini-ctn-form-forget-password{
+    text-transform: capitalize;
+    font-size: 1.2vh;
+    font-weight: 400;
+    color: #838383;
+}
