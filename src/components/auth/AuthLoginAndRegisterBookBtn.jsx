@@ -3,7 +3,12 @@ import "./AuthLoginAndRegisterBookBtn.css";
 const AuthLoginAndRegisterBookBtn=()=>{
 
     return(
-        <div className="footer-desc-main-ctn">
+        <div 
+            className="footer-desc-main-ctn"
+            onClick={()=>{
+                
+            }}
+        >
             
         </div>
     )

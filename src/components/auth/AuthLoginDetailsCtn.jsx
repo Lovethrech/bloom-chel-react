@@ -39,6 +39,12 @@ const AuthLoginDetailsCtn=({displayLoginBtnDetails})=>{
                     <br/>
                     <AuthLoginAndRegisterBookBtn
                         btnDesc={AuthBookAndSignDetails[1].name}
+                        email={email}
+                        setEmail={setEmail}
+                        password={password}
+                        setPassword={setPassword}
+                        inputBoxBorder={inputBoxBorder}
+                        setInputBoxBorder={setInputBoxBorder}
                     />
                 </form>
             </div>
