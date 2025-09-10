@@ -5,6 +5,11 @@ const PricingHero=()=>{
         <div 
             className="nav-link-main-ctn"
         >
+            <div 
+                className="nav-link-main-ctn"
+            >
+            
+            </div>
             
         </div>
     );
