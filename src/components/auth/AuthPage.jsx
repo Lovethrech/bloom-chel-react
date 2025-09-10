@@ -1,11 +1,10 @@
 import "./AuthPage.css";
-import Footer from "../footer/Footer";
-
+import Auth from "./Auth";
 
 const AuthPage=()=>{
     return(
         <main>
-            <Footer/>
+            <Auth/>
         </main>
     )
 };
