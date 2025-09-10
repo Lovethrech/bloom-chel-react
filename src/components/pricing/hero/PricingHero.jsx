@@ -3,10 +3,10 @@ import './PricingHero.css';
 const PricingHero=()=>{
     return(
         <section 
-            className="nav-link-main-ctn"
+            className="pricing-hero-main-ctn"
         >
             <div 
-                className="nav-link-main-ctn"
+                className="pricing-hero-mini-ctn"
             >
             
             </div>
