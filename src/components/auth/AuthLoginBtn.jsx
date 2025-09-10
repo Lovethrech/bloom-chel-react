@@ -5,6 +5,7 @@ const AuthLoginBtn=({displayLoginBtn, setDisplayLoginBtn, setDisplayLoginBtnDeta
     return(
         <div 
             className="auth-login-ctn-main-ctn"
+            style={{display:displayLoginBtn}}
             onClick={()=>{
                 if(displayLoginBtn==="block"){
                     setDisplayLoginBtn("none");

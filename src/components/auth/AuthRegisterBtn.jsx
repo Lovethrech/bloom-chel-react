@@ -4,6 +4,7 @@ const AuthRegisterBtn=({displayRegisterBtn, setDisplayLoginBtn, setDisplayLoginB
     return(
         <div 
             className="auth-login-ctn-main-ctn"
+            style={{display:displayRegisterBtn}}
             onClick={()=>{
                 if(displayRegisterBtn==="none"){
                     setDisplayLoginBtn("none");
