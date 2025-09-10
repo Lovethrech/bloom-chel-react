@@ -3,13 +3,11 @@ import './PricingPackageTitle.css';
 const PricingPackageTitle=()=>{
     return(
         <div 
-            className="nav-link-main-ctn"
+            className="pricing-package-title-main-ctn"
         >
-            <div 
-                className="nav-link-main-ctn"
-            >
-                
-            </div>
+            <h2 className="pricing-package-title-main-ctn-name">
+                our packages
+            </h2>
         </div>
     );
 };
