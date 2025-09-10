@@ -43,7 +43,6 @@ const AuthLoginDetailsCtn=({displayLoginBtnDetails})=>{
                         setEmail={setEmail}
                         password={password}
                         setPassword={setPassword}
-                        inputBoxBorder={inputBoxBorder}
                         setInputBoxBorder={setInputBoxBorder}
                     />
                 </form>
