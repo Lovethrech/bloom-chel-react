@@ -1,0 +1,12 @@
+.pricing-package-main-ctn{
+    width:100%;
+    min-height: 100vh;
+    padding: 10vh 6vw;
+    background-color: #ffffff;
+}
+
+@media screen and (max-width:850px) {
+    .pricing-package-main-ctn{
+        height: 100%;
+    }
+}

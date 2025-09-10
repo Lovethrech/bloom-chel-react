@@ -1,4 +1,7 @@
 import './PricingPackage.css';
+import PricingPackageTitle from "./PricingPackageTitle";
+import PricingPackageDesc from "./PricingPackageDesc";
+import PricingPackageMainBoxCtn from "./PricingPackageMainBoxCtn";
 
 const PricingPackage=()=>{
     return(
@@ -9,7 +12,9 @@ const PricingPackage=()=>{
             <div 
                 className="pricing-package-mini-ctn"
             >
-                
+                <PricingPackageTitle/>
+                <PricingPackageDesc/>
+                <PricingPackageMainBoxCtn/>
             </div>
         </section>
     );
