@@ -7,8 +7,8 @@ import AuthLoginDetailsCtn from "./AuthLoginDetailsCtn";
 import AuthRegisterDetailsCtn from "./AuthRegisterDetailsCtn";
 
 const [displayLoginBtn, setDisplayLoginBtn]=useState("block");
-const [displayLoginBtn, setDisplayLoginBtn]=useState("block");
-const [displayLoginBtn, setDisplayLoginBtn]=useState("block");
+const [displayRegisterBtn, setDisplayRegisterBtn]=useState("none");
+const [displayLoginBtnDetails, setDisplayLoginBtnDetails]=useState("none");
 const [displayLoginBtn, setDisplayLoginBtn]=useState("block");
 
 const AuthHeader=()=>{
