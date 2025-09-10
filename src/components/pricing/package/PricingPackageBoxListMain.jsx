@@ -1,7 +1,7 @@
 import './PricingPackageBoxListMain.css';
 import PricingPackageBoxList from "./PricingPackageBoxList";
 
-const PricingPackageBoxListMain=()=>{
+const PricingPackageBoxListMain=({plans})=>{
     return(
         <div 
             className="pricing-package-box-list-main-main-ctn"
@@ -15,7 +15,15 @@ const PricingPackageBoxListMain=()=>{
                 <br/>
                 <div className='pricing-package-box-list-main-mini-ctn-list-content'>
                     <div className='pricing-package-box-list-main-mini-ctn-list-content-mini-ctn'>
-                    
+                        {plans.map(plan=>{
+                        return(
+                            <PricingPackageBoxList
+                                key={plan.id}
+                                name={plan.name}
+                                link={plan.link}
+                            />
+                        )
+                    })}
                     </div>
                 </div>
             </div>
