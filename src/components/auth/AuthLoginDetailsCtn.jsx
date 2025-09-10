@@ -3,6 +3,7 @@ import AuthBookAndSignDetails from "/src/data/auth-book-and-sign-details.json";
 import "./AuthLoginDetailsCtn.css";
 import AuthLoginAndRegisterHeader from "./AuthLoginAndRegisterHeader";
 import AuthRegisterDetailsFormInput from "./AuthRegisterDetailsFormInput";
+import AuthLoginAndRegisterBookBtn from "./AuthLoginAndRegisterBookBtn";
 
 const AuthLoginDetailsCtn=()=>{
     return(
@@ -27,6 +28,10 @@ const AuthLoginDetailsCtn=()=>{
                             forget password?
                         </p>
                     </div>
+                    <br/>
+                    <AuthLoginAndRegisterBookBtn
+                        btnDesc={AuthBookAndSignDetails[1].name}
+                    />
                 </form>
             </div>
         </div>
