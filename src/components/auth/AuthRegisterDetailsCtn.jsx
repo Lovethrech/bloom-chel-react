@@ -18,22 +18,22 @@ const AuthRegisterDetailsCtn=()=>{
                         nameType={AuthRegisterDetails[0].nameType}
                     />
                     <AuthRegisterDetailsFormInput
-                        name={AuthRegisterDetails[0].name}
-                        placeholder={AuthRegisterDetails[0].placeholder}
-                        nameFor={AuthRegisterDetails[0].nameFor}
-                        nameType={AuthRegisterDetails[0].nameType}
+                        name={AuthRegisterDetails[1].name}
+                        placeholder={AuthRegisterDetails[1].placeholder}
+                        nameFor={AuthRegisterDetails[1].nameFor}
+                        nameType={AuthRegisterDetails[1].nameType}
                     />
                     <AuthRegisterDetailsFormInput
-                        name={AuthRegisterDetails[0].name}
-                        placeholder={AuthRegisterDetails[0].placeholder}
-                        nameFor={AuthRegisterDetails[0].nameFor}
-                        nameType={AuthRegisterDetails[0].nameType}
+                        name={AuthRegisterDetails[2].name}
+                        placeholder={AuthRegisterDetails[2].placeholder}
+                        nameFor={AuthRegisterDetails[2].nameFor}
+                        nameType={AuthRegisterDetails[2].nameType}
                     />
                     <AuthRegisterDetailsFormInput
-                        name={AuthRegisterDetails[0].name}
-                        placeholder={AuthRegisterDetails[0].placeholder}
-                        nameFor={AuthRegisterDetails[0].nameFor}
-                        nameType={AuthRegisterDetails[0].nameType}
+                        name={AuthRegisterDetails[3].name}
+                        placeholder={AuthRegisterDetails[3].placeholder}
+                        nameFor={AuthRegisterDetails[3].nameFor}
+                        nameType={AuthRegisterDetails[3].nameType}
                     />
                 </form>
             </div>
