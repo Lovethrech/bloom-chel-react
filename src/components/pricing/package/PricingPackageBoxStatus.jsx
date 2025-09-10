@@ -1,15 +1,13 @@
 import './PricingPackageBoxStatus.css';
 
-const PricingPackageBoxStatus=()=>{
+const PricingPackageBoxStatus=({name})=>{
     return(
         <div 
-            className="nav-link-main-ctn"
+            className="pricing-package-box-status-main-ctn"
         >
-            <div 
-                className="nav-link-main-ctn"
-            >
-                
-            </div>
+            <p className="pricing-package-box-status-main-ctn-name">
+                {name}
+            </p>
         </div>
     );
 };
