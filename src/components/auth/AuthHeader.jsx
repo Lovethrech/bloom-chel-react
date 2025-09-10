@@ -26,8 +26,12 @@ const AuthHeader=()=>{
                     />
                 </header>
                 <div className="auth-header-mini-ctn-auth-content-ctn">
-                    <AuthLoginDetailsCtn/>
-                    <AuthRegisterDetailsCtn/>
+                    <AuthLoginDetailsCtn
+                        displayLoginBtnDetails={displayLoginBtnDetails}
+                    />
+                    <AuthRegisterDetailsCtn
+                        displayRegisterBtnDetails={displayRegisterBtnDetails}
+                    />
                 </div>
             </div>
         </div>
