@@ -1,8 +1,9 @@
-import AuthRegisterDetails from "@/data/auth-register-details.json";
-import AuthBookAndSignDetails from "@/data/auth-book-and-sign-details.json"; 
+import AuthRegisterDetails from "/src/data/auth-register-details.json";
+import AuthBookAndSignDetails from "/src/data/auth-book-and-sign-details.json"; 
 import "./AuthRegisterDetailsCtn.css";
 import AuthLoginAndRegisterHeader from "./AuthLoginAndRegisterHeader";
 import AuthRegisterDetailsFormInput from "./AuthRegisterDetailsFormInput";
+import AuthLoginAndRegisterBookBtn  from "./AuthLoginAndRegisterBookBtn";
 
 const AuthRegisterDetailsCtn=()=>{
 
@@ -35,6 +36,8 @@ const AuthRegisterDetailsCtn=()=>{
                         nameFor={AuthRegisterDetails[3].nameFor}
                         nameType={AuthRegisterDetails[3].nameType}
                     />
+                    <br/>
+                    <AuthLoginAndRegisterBookBtn/>
                 </form>
             </div>
         </div>
