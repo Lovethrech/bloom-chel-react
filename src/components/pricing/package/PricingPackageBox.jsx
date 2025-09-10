@@ -3,8 +3,9 @@ import PricingPackageBoxStatus from "./PricingPackageBoxStatus";
 import PricingPackageBoxStatusDesc from "./PricingPackageBoxStatusDesc";
 import PricingPackageBoxPrice from "./PricingPackageBoxPrice";
 import PricingPackageBoxBuyBtn from "./PricingPackageBoxBuyBtn";
+import PricingPackageBoxListMain from "./PricingPackageBoxListMain";
 
-const PricingPackageBox=()=>{
+const PricingPackageBox=({name, price, plans})=>{
     return(
         <div 
             className="pricing-package-box-main-ctn"
@@ -12,12 +13,19 @@ const PricingPackageBox=()=>{
             <div 
                 className="pricing-package-box-mini-ctn"
             >
-                <PricingPackageBoxStatus/>
+                <PricingPackageBoxStatus
+                    name={name}
+                />
                 <PricingPackageBoxStatusDesc/>
                 <br/>
-                <PricingPackageBoxPrice/>
+                <PricingPackageBoxPrice
+                    price={price}
+                />
                 <br/>
                 <PricingPackageBoxBuyBtn/>
+                <PricingPackageBoxListMain
+                    plans={plans}
+                />
             </div>
         </div>
     );
