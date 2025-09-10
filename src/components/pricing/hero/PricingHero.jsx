@@ -2,7 +2,7 @@ import './PricingHero.css';
 
 const PricingHero=()=>{
     return(
-        <div 
+        <section 
             className="nav-link-main-ctn"
         >
             <div 
@@ -11,7 +11,7 @@ const PricingHero=()=>{
             
             </div>
             
-        </div>
+        </section>
     );
 };
 
