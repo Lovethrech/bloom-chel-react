@@ -1,6 +1,6 @@
 import "./AuthLoginBtn.css";
 
-const AuthLoginBtn=({displayLoginBtn, setDisplayLoginBtn, displayLoginBtnDetails, setDisplayLoginBtnDetails, displayRegisterBtn, setDisplayRegisterBtn, displayRegisterBtnDetails, setDisplayRegisterBtnDetails})=>{
+const AuthLoginBtn=({displayLoginBtn, setDisplayLoginBtn, setDisplayLoginBtnDetails, setDisplayRegisterBtn, setDisplayRegisterBtnDetails})=>{
 
     return(
         <div 
