@@ -1,10 +1,11 @@
 import "./Auth.css";
+import AuthHeader from "./AuthHeader";
 
 const Auth=()=>{
 
     return(
-        <section className="footer-desc-main-ctn">
-            
+        <section className="auth-main-ctn">
+            <AuthHeader/>
         </section>
     )
 };
