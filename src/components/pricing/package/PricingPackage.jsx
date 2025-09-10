@@ -3,10 +3,11 @@ import './PricingPackage.css';
 const PricingPackage=()=>{
     return(
         <section 
-            className="nav-link-main-ctn"
+            id="package" 
+            className="pricing-package-main-ctn"
         >
             <div 
-                className="nav-link-main-ctn"
+                className="pricing-package-mini-ctn"
             >
                 
             </div>
