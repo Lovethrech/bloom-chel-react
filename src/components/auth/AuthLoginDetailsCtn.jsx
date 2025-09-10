@@ -1,3 +1,5 @@
+import AuthLoginDetails from "/src/data/auth-login-details.json";
+import AuthBookAndSignDetails from "/src/data/auth-book-and-sign-details.json"; 
 import "./AuthLoginDetailsCtn.css";
 import AuthLoginAndRegisterHeader from "./AuthLoginAndRegisterHeader";
 import AuthRegisterDetailsFormInput from "./AuthRegisterDetailsFormInput";
