@@ -20,6 +20,8 @@ const PricingPackageBoxListMain=({plans})=>{
                                 key={plan.id}
                                 mark={plan.mark}
                                 markName={plan.markName}
+                                nameTextDecoration={plan.nameTextDecoration}
+                                listIconColor={plan.listIconColor}
                             />
                         )
                     })}
