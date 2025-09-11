@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./AuthRegisterDetailsFormInput.css";
 
 const AuthRegisterDetailsFormInput=({name, placeholder, nameFor, nameType, inputBoxBorder, value})=>{
