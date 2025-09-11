@@ -27,7 +27,6 @@ const PricingPackageBoxListMain=({plans})=>{
                     })}
                     </div>
                 </div>
-                
             </div>
         </div>
     );
