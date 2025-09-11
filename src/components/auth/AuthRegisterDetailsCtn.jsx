@@ -56,6 +56,7 @@ const AuthRegisterDetailsCtn=({displayRegisterBtnDetails})=>{
                         setEmail={setEmail}
                         phoneNumber={phoneNumber}
                         setPhoneNumber={setPhoneNumber}
+                        setInputBoxBorder={setInputBoxBorder}
                     />
                 </form>
             </div>
