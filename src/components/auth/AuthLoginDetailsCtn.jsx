@@ -7,9 +7,9 @@ import AuthRegisterDetailsFormInput from "./AuthRegisterDetailsFormInput";
 import AuthLoginBookBtn from "./AuthLoginBookBtn";
 
 const AuthLoginDetailsCtn=({displayLoginBtnDetails})=>{
+    const email="";
+    const password="";
     const [inputBoxBorder, setInputBoxBorder]=useState("0");
-    const [email, setEmail]=useState("");
-    const [password, setPassword]=useState("");
     return(
         <div className="auth-register-details-ctn-main-ctn" style={{display: displayLoginBtnDetails}}>
             <div className="auth-register-details-ctn-mini-ctn">
@@ -40,9 +40,7 @@ const AuthLoginDetailsCtn=({displayLoginBtnDetails})=>{
                     <AuthLoginBookBtn
                         btnDesc={AuthBookAndSignDetails[1].name}
                         email={email}
-                        setEmail={setEmail}
                         password={password}
-                        setPassword={setPassword}
                         setInputBoxBorder={setInputBoxBorder}
                     />
                 </form>
