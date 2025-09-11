@@ -3,7 +3,7 @@ import "./AuthRegisterDetailsGoogle.css";
 const AuthRegisterDetailsGoogle=()=>{
 
     return(
-        <div className="footer-desc-main-ctn">
+        <div className="auth-register-details-google-main-ctn">
             
         </div>
     )
