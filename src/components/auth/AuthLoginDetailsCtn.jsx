@@ -39,13 +39,11 @@ const AuthLoginDetailsCtn=({displayLoginBtnDetails})=>{
                     <br/>
                     <AuthLoginAndRegisterBookBtn
                         btnDesc={AuthBookAndSignDetails[1].name}
-                        onClick={()=>{
-                            if (((email==="")&&(password==="")) || ((email==="")||(password===""))){
-                                setEmail();
-                                setPassword();
-                                setInputBoxBorder("0.02vh solid red")
-                            }
-                        }}
+                        email={email}
+                        setEmail={setEmail}
+                        password={password}
+                        setPassword={setPassword}
+                        setInputBoxBorder={setInputBoxBorder}
                     />
                 </form>
             </div>
@@ -53,9 +51,4 @@ const AuthLoginDetailsCtn=({displayLoginBtnDetails})=>{
     )
 };
 
-                        // email={email}
-                        // setEmail={setEmail}
-                        // password={password}
-                        // setPassword={setPassword}
-                        // setInputBoxBorder={setInputBoxBorder}
 export default AuthLoginDetailsCtn;
