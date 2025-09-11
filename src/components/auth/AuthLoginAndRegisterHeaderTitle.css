@@ -1,0 +1,11 @@
+.auth-login-and-register-header-title-main-ctn{
+    text-align:center;
+}
+.auth-login-and-register-header-title-main-ctn-name{
+    font-size: 2vh;
+}
+.auth-login-and-register-header-title-main-ctn-name-coloured{
+    background: linear-gradient(to bottom, #A54dea, #594edc);
+    background-clip:text;
+    color:transparent;
+}
