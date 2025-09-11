@@ -48,6 +48,14 @@ const AuthRegisterDetailsCtn=({displayRegisterBtnDetails})=>{
                     <br/>
                     <AuthRegisterBookBtn
                         btnDesc={AuthBookAndSignDetails[0].name}
+                        name={name}
+                        setName={setName}
+                        clientName={clientName}
+                        setClientName={setClientName}
+                        email={email}
+                        setEmail={setEmail}
+                        phoneNumber={phoneNumber}
+                        setPhoneNumber={setPhoneNumber}
                     />
                 </form>
             </div>
