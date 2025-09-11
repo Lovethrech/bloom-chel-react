@@ -1,10 +1,12 @@
 import "./AuthLoginAndRegisterHeader.css";
-
+import AuthLoginAndRegisterHeaderTitle from "./AuthLoginAndRegisterHeaderTitle";
 const AuthLoginAndRegisterHeader=()=>{
 
     return(
-        <div className="footer-desc-main-ctn">
-            
+        <div className="auth-login-and-register-header-main-ctn">
+            <div className="auth-login-and-register-header-mini-ctn">
+                <AuthLoginAndRegisterHeaderTitle/>
+            </div>
         </div>
     )
 };
