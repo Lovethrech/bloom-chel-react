@@ -14,41 +14,57 @@
             {
                 "id":"2",
                 "mark":"<i class='bx bx-x' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "red",
                 "markName":"Inventory Management"
             },
             {
                 "id":"3",
                 "mark":"<i class='bx bx-x' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "red",
                 "markName":"Record Purchase Transactions"
             },
             {
                 "id":"4",
                 "mark":"<i class='bx bx-x' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "red",
                 "markName":"Record Expenses"
             },
             {
                 "id":"5",
                 "mark":"<i class='bx bx-x' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "red",
                 "markName":"Manage Suppliers"
             },
             {
                 "id":"6",
                 "mark":"<i class='bx bx-x' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "red",
                 "markName":"Generate HMO monthly bills"
             },
             {
                 "id":"7",
                 "mark":"<i class='bx bx-x' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "red",
                 "markName":"Record and Track HMo monthly bills"
             },
             {
                 "id":"8",
                 "mark":"<i class='bx bx-x' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "red",
                 "markName":"Access report of business performance"
             },
             {
                 "id":"9",
                 "mark":"<i class='bx bx-x' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "red",
                 "markName":"customization"
             }
         ]
@@ -82,11 +98,15 @@
             {
                 "id":"4",
                 "mark":"<i class='bx bx-x' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "red",
                 "markName":"Record Expenses"
             },
             {
                 "id":"5",
                 "mark":"<i class='bx bx-x' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "red",
                 "markName":"Manage Suppliers"
             },
             {
@@ -99,6 +119,8 @@
             {
                 "id":"7",
                 "mark":"<i class='bx bx-x' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "red",
                 "markName":"Record and Track HMo monthly bills"
             },
             {
@@ -111,6 +133,8 @@
             {
                 "id":"9",
                 "mark":"<i class='bx bx-x' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "red",
                 "markName":"customization"
             }
         ]
