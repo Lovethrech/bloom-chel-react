@@ -4,7 +4,7 @@ import AuthBookAndSignDetails from "/src/data/auth-book-and-sign-details.json";
 import "./AuthLoginDetailsCtn.css";
 import AuthLoginAndRegisterHeader from "./AuthLoginAndRegisterHeader";
 import AuthRegisterDetailsFormInput from "./AuthRegisterDetailsFormInput";
-import AuthLoginAndRegisterBookBtn from "./AuthLoginBookBtn";
+import AuthLoginBookBtn from "./AuthLoginBookBtn";
 
 const AuthLoginDetailsCtn=({displayLoginBtnDetails})=>{
     const [inputBoxBorder, setInputBoxBorder]=useState("0");
@@ -37,7 +37,7 @@ const AuthLoginDetailsCtn=({displayLoginBtnDetails})=>{
                         </p>
                     </div>
                     <br/>
-                    <AuthLoginAndRegisterBookBtn
+                    <AuthLoginBookBtn
                         btnDesc={AuthBookAndSignDetails[1].name}
                         email={email}
                         setEmail={setEmail}

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./AuthLoginBookBtn.css";
+import "./AuthLoginAndRegisterBookBtn.css";
 
 const AuthLoginBookBtn=({email, setEmail, password, setPassword, setInputBoxBorder, btnDesc})=>{
     return(
