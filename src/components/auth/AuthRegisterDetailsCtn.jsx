@@ -8,6 +8,7 @@ import AuthRegisterBookBtn from "./AuthRegisterBookBtn";
 
 const AuthRegisterDetailsCtn=({displayRegisterBtnDetails})=>{
     const [inputBoxBorder, setInputBoxBorder]=useState("0");
+    const [name, setName]=useState("");
     return(
         <div className="auth-register-details-ctn-main-ctn" style={{display:displayRegisterBtnDetails}}>
             <div className="auth-register-details-ctn-mini-ctn">
