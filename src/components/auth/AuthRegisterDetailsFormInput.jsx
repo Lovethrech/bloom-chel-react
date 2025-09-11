@@ -4,7 +4,7 @@ const AuthRegisterDetailsFormInput=({name, placeholder, nameFor, nameType, input
     return(
         <div className="auth-register-details-form-input-main-ctn">
             <div className="auth-register-details-form-input-mini-ctn">
-                <label for={nameFor} className="auth-register-details-form-input-mini-ctn-label">
+                <label htmlFor={nameFor} className="auth-register-details-form-input-mini-ctn-label">
                     { name }
                 </label>
                 <input 
