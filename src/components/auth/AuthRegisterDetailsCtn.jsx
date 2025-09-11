@@ -4,7 +4,7 @@ import AuthBookAndSignDetails from "/src/data/auth-book-and-sign-details.json";
 import "./AuthRegisterDetailsCtn.css";
 import AuthLoginAndRegisterHeader from "./AuthLoginAndRegisterHeader";
 import AuthRegisterDetailsFormInput from "./AuthRegisterDetailsFormInput";
-import AuthLoginAndRegisterBookBtn  from "./AuthLoginAndRegisterBookBtn";
+import AuthLoginAndRegisterBookBtn  from "./AuthLoginBookBtn";
 
 const AuthRegisterDetailsCtn=({displayRegisterBtnDetails})=>{
     const [inputBoxBorder, setInputBoxBorder]=useState("0");
