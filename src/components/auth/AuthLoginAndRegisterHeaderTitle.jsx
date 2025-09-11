@@ -3,8 +3,14 @@ import "./AuthLoginAndRegisterHeaderTitle.css";
 const AuthLoginAndRegisterHeaderTitle=()=>{
 
     return(
-        <div className="footer-desc-main-ctn">
-            
+        <div className="auth-login-and-register-header-title-main-ctn">
+            <p className="auth-login-and-register-header-title-main-ctn-name">
+                Welcome
+                to
+                <b className="auth-login-and-register-header-title-main-ctn-name-coloured">
+                    BLOOM
+                </b>
+            </p>
         </div>
     )
 };
