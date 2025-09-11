@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./AuthLoginAndRegisterBookBtn.css";
 
-const AuthLoginAndRegisterBookBtn=({name, setName, clientName, setClientName, email, setEmail, word, setInputBoxBorder, btnDesc})=>{
+const AuthLoginAndRegisterBookBtn=({name, setName, clientName, setClientName, email, setEmail, phoneNumber, setPhoneNumber, setInputBoxBorder, btnDesc})=>{
     return(
         <Link to="" className="link">
             <div 
