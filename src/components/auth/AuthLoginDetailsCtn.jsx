@@ -10,6 +10,7 @@ const AuthLoginDetailsCtn=({displayLoginBtnDetails})=>{
     const [inputBoxBorder, setInputBoxBorder]=useState("0");
     const [email, setEmail]=useState("");
     const [password, setPassword]=useState("");
+    console.log(email);
     return(
         <div className="auth-register-details-ctn-main-ctn" style={{display: displayLoginBtnDetails}}>
             <div className="auth-register-details-ctn-mini-ctn">
