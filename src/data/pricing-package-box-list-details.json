@@ -7,6 +7,8 @@
             {
                 "id":"1",
                 "mark":"<i class='bx bx-check' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "#614EDE",
                 "markName":"Manage Patients Records(1k patients)"
             },
             {
@@ -59,16 +61,22 @@
             {
                 "id":"1",
                 "mark":"<i class='bx bx-check' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "#614EDE",
                 "markName":"Manage Patients Records(1k patients)"
             },
             {
                 "id":"2",
                 "mark":"<i class='bx bx-check' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "#614EDE",
                 "markName":"Inventory Management"
             },
             {
                 "id":"3",
                 "mark":"<i class='bx bx-check' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "#614EDE",
                 "markName":"Record Purchase Transactions"
             },
             {
@@ -84,6 +92,8 @@
             {
                 "id":"6",
                 "mark":"<i class='bx bx-check' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "#614EDE",
                 "markName":"Generate HMO monthly bills"
             },
             {
@@ -94,6 +104,8 @@
             {
                 "id":"8",
                 "mark":"<i class='bx bx-check' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "#614EDE",
                 "markName":"Access report of business performance"
             },
             {
@@ -111,46 +123,64 @@
             {
                 "id":"1",
                 "mark":"<i class='bx bx-check' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "#614EDE",
                 "markName":"Manage Patients Records(1k patients)"
             },
             {
                 "id":"2",
                 "mark":"<i class='bx bx-check' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "#614EDE",
                 "markName":"Inventory Management"
             },
             {
                 "id":"3",
                 "mark":"<i class='bx bx-check' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "#614EDE",
                 "markName":"Record Purchase Transactions"
             },
             {
                 "id":"4",
                 "mark":"<i class='bx bx-check' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "#614EDE",
                 "markName":"Record Expenses"
             },
             {
                 "id":"5",
                 "mark":"<i class='bx bx-check' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "#614EDE",
                 "markName":"Manage Suppliers"
             },
             {
                 "id":"6",
                 "mark":"<i class='bx bx-check' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "#614EDE",
                 "markName":"Generate HMO monthly bills"
             },
             {
                 "id":"7",
                 "mark":"<i class='bx bx-check' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "#614EDE",
                 "markName":"Record and Track HMo monthly bills"
             },
             {
                 "id":"8",
                 "mark":"<i class='bx bx-check' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "#614EDE",
                 "markName":"Access report of business performance"
             },
             {
                 "id":"9",
                 "mark":"<i class='bx bx-check' ></i>",
+                "nameTextDecoration":"none",
+                "listIconColor": "#614EDE",
                 "markName":"customization"
             }
         ]

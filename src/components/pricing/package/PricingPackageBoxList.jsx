@@ -2,14 +2,9 @@ import {useState} from "react";
 import './PricingPackageBoxList.css';
 
 const PricingPackageBoxList=({mark, markName})=>{
-    const [nameTextDecoration, setNameTextDecoration]=useState("none");
-    const [listIconColor, setListIconColor]=useState("#614EDE");
-    console.log(mark);
-    if (mark==="<i class='bx bx-x' ></i>"){
-        setNameTextDecoration("line-through");
-        setListIconColor("red");
-    }
-
+    // const [nameTextDecoration, setNameTextDecoration]=useState("none");
+    // const [listIconColor, setListIconColor]=useState("#614EDE");
+    // console.log(mark);
     return(
         <div 
             className="pricing-package-box-list-main-ctn"
