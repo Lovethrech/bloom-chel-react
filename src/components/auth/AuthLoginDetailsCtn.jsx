@@ -10,7 +10,6 @@ const AuthLoginDetailsCtn=({displayLoginBtnDetails})=>{
     const [inputBoxBorder, setInputBoxBorder]=useState("0");
     const [email, setEmail]=useState("");
     const [password, setPassword]=useState("");
-    console.log(email);
     return(
         <div className="auth-register-details-ctn-main-ctn" style={{display: displayLoginBtnDetails}}>
             <div className="auth-register-details-ctn-mini-ctn">
@@ -40,11 +39,13 @@ const AuthLoginDetailsCtn=({displayLoginBtnDetails})=>{
                     <br/>
                     <AuthLoginAndRegisterBookBtn
                         btnDesc={AuthBookAndSignDetails[1].name}
-                        email={email}
-                        setEmail={setEmail}
-                        password={password}
-                        setPassword={setPassword}
-                        setInputBoxBorder={setInputBoxBorder}
+                        onClick={()=>{
+                            if (((email==="")&&(password==="")) || ((email==="")||(password===""))){
+                                setEmail();
+                                setPassword();
+                                setInputBoxBorder("0.02vh solid red")
+                            }
+                        }}
                     />
                 </form>
             </div>
@@ -52,4 +53,9 @@ const AuthLoginDetailsCtn=({displayLoginBtnDetails})=>{
     )
 };
 
+                        // email={email}
+                        // setEmail={setEmail}
+                        // password={password}
+                        // setPassword={setPassword}
+                        // setInputBoxBorder={setInputBoxBorder}
 export default AuthLoginDetailsCtn;
