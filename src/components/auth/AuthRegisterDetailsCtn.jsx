@@ -23,6 +23,8 @@ const AuthRegisterDetailsCtn=({displayRegisterBtnDetails})=>{
                         placeholder={AuthRegisterDetails[0].placeholder}
                         nameFor={AuthRegisterDetails[0].nameFor}
                         nameType={AuthRegisterDetails[0].nameType}
+                        value={name}
+                        setValue={setName}
                     />
                     <AuthRegisterDetailsFormInput
                         inputBoxBorder={inputBoxBorder}
@@ -30,6 +32,8 @@ const AuthRegisterDetailsCtn=({displayRegisterBtnDetails})=>{
                         placeholder={AuthRegisterDetails[1].placeholder}
                         nameFor={AuthRegisterDetails[1].nameFor}
                         nameType={AuthRegisterDetails[1].nameType}
+                        value={clientName}
+                        setValue={setClientName}
                     />
                     <AuthRegisterDetailsFormInput
                         inputBoxBorder={inputBoxBorder}
@@ -37,6 +41,8 @@ const AuthRegisterDetailsCtn=({displayRegisterBtnDetails})=>{
                         placeholder={AuthRegisterDetails[2].placeholder}
                         nameFor={AuthRegisterDetails[2].nameFor}
                         nameType={AuthRegisterDetails[2].nameType}
+                        value={email}
+                        setValue={setEmail}
                     />
                     <AuthRegisterDetailsFormInput
                         inputBoxBorder={inputBoxBorder}
@@ -44,6 +50,8 @@ const AuthRegisterDetailsCtn=({displayRegisterBtnDetails})=>{
                         placeholder={AuthRegisterDetails[3].placeholder}
                         nameFor={AuthRegisterDetails[3].nameFor}
                         nameType={AuthRegisterDetails[3].nameType}
+                        value={phoneNumber}
+                        setValue={setPhoneNumber}
                     />
                     <br/>
                     <AuthRegisterBookBtn
