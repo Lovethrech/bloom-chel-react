@@ -8,7 +8,6 @@ const AuthLoginAndRegisterBookBtn=({name, setName, clientName, setClientName, em
                 className="auth-login-and-register-book-btn-main-ctn"
                 onClick={()=>{
                     if (((name==="")&&(clientName==="")&&(email==="")&&(phoneNumber==="")) || ((name==="")||(clientName==="")||(email==="")||(phoneNumber===""))){
-                        e.preventDefault();
                         setName();
                         setClientName();
                         setEmail();
