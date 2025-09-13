@@ -1,6 +1,6 @@
 import "./AuthRegisterDetailsFormInput.css";
 
-const AuthRegisterDetailsFormInput=({name, placeholder, nameFor, nameType, inputBoxBorder, value})=>{
+const AuthRegisterDetailsFormInput=({name, placeholder, nameFor, nameType, inputBoxBorder, value, setValue})=>{
     return(
         <div className="auth-register-details-form-input-main-ctn">
             <div className="auth-register-details-form-input-mini-ctn">
@@ -14,6 +14,9 @@ const AuthRegisterDetailsFormInput=({name, placeholder, nameFor, nameType, input
                     placeholder={placeholder} 
                     className="auth-register-details-form-input-mini-ctn-input"
                     style={{border:inputBoxBorder}}
+                    onChange={(e)=>{
+                        setValue(e.target.value);
+                    }}
                 />
             </div>
         </div>

@@ -22,6 +22,7 @@ const AuthLoginDetailsCtn=({displayLoginBtnDetails})=>{
                         nameFor={AuthLoginDetails[0].nameFor}
                         nameType={AuthLoginDetails[0].nameType}
                         value={email}
+                        setValue={setEmail}
                     />
                     <AuthRegisterDetailsFormInput
                         inputBoxBorder={inputBoxBorder}
@@ -30,6 +31,7 @@ const AuthLoginDetailsCtn=({displayLoginBtnDetails})=>{
                         nameFor={AuthLoginDetails[1].nameFor}
                         nameType={AuthLoginDetails[1].nameType}
                         value={password}
+                        setValue={setPassword}
                     />
                     <div className="auth-register-details-ctn-mini-ctn-form-forget-password-ctn">
                         <p className="auth-register-details-ctn-mini-ctn-form-forget-password">
