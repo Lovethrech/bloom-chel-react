@@ -1,4 +1,5 @@
 import "./HomeAttribute.css";
+import HomeAttributeDetails from "./"
 import HomeAttributeBox from "./HomeAttributeBox";
 
 const HomeAttributeDetails=[
