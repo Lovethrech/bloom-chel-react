@@ -6,7 +6,7 @@
     },
     {
         "id":"2",
-        "bgImgSrc":"src/assets/home-blog-img-two.svg",
+        "bgImgSrc":"<img src='src/assets/home-blog-img-one.svg' alt='Blog Image'/>",
         "boxDesc":"Check out our latest news and articles about the use of technology in the medical field"
     },
     {
