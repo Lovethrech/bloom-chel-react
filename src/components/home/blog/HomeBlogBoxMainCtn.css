@@ -13,6 +13,7 @@
 @media screen and (max-width:900px) {
     .home-bog-box-main-ctn-main-ctn{
         margin-top:4vh;
+        height: 100%;
     }
     .home-bog-box-main-ctn-mini-ctn{
         flex-direction: column;
