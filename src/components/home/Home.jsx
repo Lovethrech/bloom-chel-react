@@ -10,7 +10,6 @@ import HomeTeam from "./team/HomeTeam";
 import HomePartner from "./partner/HomePartner";
 import Footer from "../footer/Footer";
 
-            // <HomeTeam/>
 
 const Home=()=>{
     return(
@@ -22,6 +21,7 @@ const Home=()=>{
             <HomeAchieved/>
             <HomeCustomerReview/>
             <HomeBlog/>
+            <HomeTeam/>
             <HomePartner/>
             <Footer/>
         </main>
