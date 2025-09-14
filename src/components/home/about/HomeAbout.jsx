@@ -15,9 +15,13 @@ const HomeAbout=()=>{
             id="about" 
             className="home-about-main-ctn"
         >
-            <div className="home-about-mini-ctn">
+            <div 
+                className="home-about-mini-ctn"
+            >
                 <HomeAboutMobileTitle/>
-                <div className='home-about-mini-ctn-desktop-view'>
+                <div 
+                    className='home-about-mini-ctn-desktop-view'
+                >
                     <HomeAboutTitle/>
                     <HomeAboutDesc/>
                     <HomeAboutDesktopTryFreeBtn
