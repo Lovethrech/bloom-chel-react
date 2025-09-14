@@ -17,6 +17,6 @@
     }
     .home-bog-box-main-ctn-mini-ctn{
         flex-direction: column;
-        gap: 2vh
+        gap: 2vh;
     }
 }
