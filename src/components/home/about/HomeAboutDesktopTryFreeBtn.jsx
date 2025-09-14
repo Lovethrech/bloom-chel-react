@@ -12,7 +12,12 @@ const HomeAboutDesktopTryFreeBtn=({tryFreeBtnBgColor, tryFreeBtnColor})=>{
             >
                 <button 
                     className="try-for-free-btn"
-                    style={{background:tryFreeBtnBgColor, color:tryFreeBtnColor}}
+                    style={
+                        {
+                            background:tryFreeBtnBgColor, 
+                            color:tryFreeBtnColor
+                        }
+                    }
                 >
                     Try for free
                 </button>
