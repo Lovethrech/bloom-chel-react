@@ -11,7 +11,10 @@ const tryFreeBtnBgColor="linear-gradient(to bottom, #A54dea, #594edc)";
 const tryFreeBtnColor="#ffffff";
 const HomeAbout=()=>{
     return(
-        <section id="about" className="home-about-main-ctn">
+        <section 
+            id="about" 
+            className="home-about-main-ctn"
+        >
             <div className="home-about-mini-ctn">
                 <HomeAboutMobileTitle/>
                 <div className='home-about-mini-ctn-desktop-view'>
