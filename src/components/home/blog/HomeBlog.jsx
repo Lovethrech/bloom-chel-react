@@ -8,7 +8,9 @@ const HomeBlog=()=>{
         <section 
             className="home-blog-main-ctn"
         >
-            <div className="home-blog-mini-ctn">
+            <div 
+                className="home-blog-mini-ctn"
+            >
                 <HomeBlogTitle/>
                 <HomeBlogDesc/>
                 <br/>
