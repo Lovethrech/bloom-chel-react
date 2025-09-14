@@ -1,4 +1,5 @@
 import HomeBlogBox from './HomeBlogBox.jsx';
+import HomeBlogDetails from  "/src/data/home-blog-details.json";
 import "./HomeBlogBoxMainCtn.css";
 
 const HomeBlogDetails=[
