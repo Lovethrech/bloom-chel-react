@@ -1,12 +1,12 @@
 [
     {
         "id":"1",
-        "bgImgSrc":"@/assets/home-blog-img-one.svg",
+        "bgImgSrc":"src/assets/home-blog-img-one.svg",
         "boxDesc":"Check out our latest news and articles about the use of technology in the medical field"
     },
     {
         "id":"2",
-        "bgImgSrc":"@/assets/home-blog-img-two.svg",
+        "bgImgSrc":"src/assets/home-blog-img-two.svg",
         "boxDesc":"Check out our latest news and articles about the use of technology in the medical field"
     },
     {
