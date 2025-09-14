@@ -4,9 +4,14 @@ import HomeAttributeBox from "./HomeAttributeBox";
 
 const HomeAttribute=()=>{
     return(
-        <section className="home-attribute-main-ctn">
-            <div className="home-attribute-mini-ctn">
-                {HomeAttributeDetails.map(HomeAttributeDetail=>{
+        <section 
+            className="home-attribute-main-ctn"
+        >
+            <div 
+                className="home-attribute-mini-ctn"
+            >
+                {
+                    HomeAttributeDetails.map(HomeAttributeDetail=>{
                     return(
                         <HomeAttributeBox
                             key={HomeAttributeDetail.id}
