@@ -11,7 +11,7 @@ const HomeHeroMainParagraphArrow=()=>{
             onClick={navToAboutComponent}
         >
             <img 
-                src="src/assets/her"
+                src="src/aset/h"
                 alt="Hero ArrowDown"
             /> 
         </div>
