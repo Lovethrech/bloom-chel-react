@@ -6,7 +6,7 @@ const HomeAboutImg=()=>{
             className="home-about-img-main-ctn"
         >
             <img 
-                src="src/assets/ho"
+                src="src/assets/h"
                 alt="Home About Section Image"
             />
         </div>
