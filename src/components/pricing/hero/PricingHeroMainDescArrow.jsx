@@ -11,7 +11,7 @@ const PricingHeroMainDescArrow=()=>{
             className="home-hero-main-desc-paragraph-arrow-main-ctn"
             onClick={navToAboutComponent}
         >
-            <img src="src/assets/hero-arrow.svg" alt="Hero ArrowDown"/>
+            <img src="/hero-arrow.svg" alt="Hero ArrowDown"/>
         </div>
     );
 };
