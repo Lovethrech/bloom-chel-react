@@ -11,8 +11,9 @@
     transition: all .8s;
 }
 .footer-link-mail-main-content-link-mini-ctn{
+    background-color: red;
     border-bottom: 2px solid #fff;
-    width: 19vw;
+    width: 29vw;
     flex-direction: row;
     gap:1vw;
 }
