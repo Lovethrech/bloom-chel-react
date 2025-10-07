@@ -10,7 +10,7 @@ const FooterLinkMail=()=>{
                     Send us an email
                 </p>
                 <div className="footer-link-mail-main-content-link-mini-ctn-arrow-ctn">
-                    <img src="src/assets/footer-mail.svg" alt="Footer link Mail Icon"/>
+                    <img src="/footer-mail.svg" alt="Footer link Mail Icon"/>
                 </div>
             </Link>
         </div>
