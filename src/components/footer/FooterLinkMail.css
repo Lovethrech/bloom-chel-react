@@ -12,14 +12,14 @@
 }
 .footer-link-mail-main-content-link-mini-ctn{
     border-bottom: 2px solid #fff;
-    width: 18vw;
+    width: 19vw;
     flex-direction: row;
     gap:1vw;
 }
 
 .footer-link-mail-main-content-link-mini-ctn-name{
     color: #fff;
-    font-size: 6.1vh;
+    font-size: 6vh;
     font-weight: 400;
     letter-spacing: -4px;
 }
