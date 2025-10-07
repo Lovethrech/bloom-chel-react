@@ -3,7 +3,6 @@
 }
 .footer-link-mail-main-content-link-main-ctn{
     justify-content: center;
-    background-color: orange;
 }
 
 .footer-link-mail-main-content-link-main-ctn:hover{
@@ -12,7 +11,6 @@
     transition: all .8s;
 }
 .footer-link-mail-main-content-link-mini-ctn{
-    background-color: red;
     border-bottom: 2px solid #fff;
     width: 29vw;
     flex-direction: row;
