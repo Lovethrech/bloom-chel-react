@@ -11,7 +11,7 @@ const HomeHeroMainParagraphArrow=()=>{
             onClick={navToAboutComponent}
         >
             <img 
-                src="https://github.com/Lovethrech/bloom-chel-react/blob/main/src/assets/hero-arrow.svg"
+                src="/public/hero-arrow.svg"
                 alt="Hero ArrowDown"
             /> 
         </div>
