@@ -4,7 +4,7 @@ const FooterLogo=()=>{
 
     return(
         <div className="footer-logo-main-ctn">
-            <img src="src/assets/bloom.svg" alt="Bloom Logo"/>
+            <img src="/bloom.svg" alt="Bloom Logo"/>
         </div>
     )
 };
